@@ -11,7 +11,7 @@
 
 ### Table of Contents
 [Class Work](#section-a)  
-[Project Descriptions](#section-b)  
+[Projects](#section-b)  
 [Challenges](#section-c)  
 [Blogs](#section-d)  
 [Investigations](#section-e)  
@@ -31,7 +31,7 @@
 
 ---
 
-### <a name="section-b"></a>[Project Descriptions](/projects)
+### <a name="section-b"></a>[Projects](/projects)
 
 | Project | Duration | Topics                 |  Due 
 |----|-------|-------------------------|--------|
