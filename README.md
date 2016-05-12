@@ -46,21 +46,21 @@
 
 | Challenge Set  | Topic                 | Date Assigned | Date Due   | Note *      |
 |----------------|-----------------------|---------------|------------|-------------|
-| 1              | [Explore MTA data](/challenges/01-benson)      | Mon Apr  4    | Mon Apr 18 | required    |
-| 2              | [Pandas movies](/challenges/02-luther1)                | Mon Apr 11    | Mon Apr 25 | required    |
-| 3              | [Linear Splitting](/challenges/03-linear_splitting)      | Mon Apr 18    | Mon May 2  | required    |
-| 4              | [Linear Learning](/challenges/04-linear_learning)       | Mon Apr 18    | Mon May 2  | required    |
-| 5              | [Classification](/challenges/05-classification)        | Mon Apr 25    | Mon May  9 | required    |
-| 6              | [Classification Errors](/challenges/06-classification_errors) | Mon Apr 25    | Mon May  9 | required    |
-| 7              | [SQL](/challenges/07-sql)                   | Mon Apr 25    | Mon May  9 | required    |
-| 8              | [Decision Tree](/challenges/08-decision_tree)         | Mon May 2     | Mon May 16 | recommended |
-| 9              | [Poisson GLM](/challenges/09-poisson_glm)           | Mon May 2     | Mon May 16 | required    |
-| 10             | [D3](/challenges/10-d3)                    | Mon May  9    | Mon May 23 | recommended |
-| 11             | [Flask](/challenges/11-flask)                 | Mon May  9    | Mon May 23 | recommended |
-| 12             | [Mongo Twitter](/challenges/12-mongo_twitter)         | Mon May 16    | Mon May 30 | recommended |
-| 13             | [NLP Unsupervised](/challenges/13-nlp_unsupervised)      | Mon May 16    | Mon May 30 | recommended |
-| 14             | [Hadoop](/challenges/14-hadoop)                | Mon May 30    | Mon Jun  6 | recommended |
-| 15             | [Hive](/challenges/15-hive)                  | Mon May 30    | Mon Jun  6 | recommended |
+| 1              | [Explore MTA data](/challenges/01-benson)      |      |  | required    |
+| 2              | [Pandas movies](/challenges/02-luther1)                |     |  | required    |
+| 3              | [Linear Splitting](/challenges/03-linear_splitting)      |     |   | required    |
+| 4              | [Linear Learning](/challenges/04-linear_learning)       |     |   | required    |
+| 5              | [Classification](/challenges/05-classification)        |     |  | required    |
+| 6              | [Classification Errors](/challenges/06-classification_errors) |     |  | required    |
+| 7              | [SQL](/challenges/07-sql)                   |     |  | required    |
+| 8              | [Decision Tree](/challenges/08-decision_tree)         |      |  | recommended |
+| 9              | [Poisson GLM](/challenges/09-poisson_glm)           |      |  | required    |
+| 10             | [D3](/challenges/10-d3)                    |     |  | recommended |
+| 11             | [Flask](/challenges/11-flask)                 |     |  | recommended |
+| 12             | [Mongo Twitter](/challenges/12-mongo_twitter)         |     |  | recommended |
+| 13             | [NLP Unsupervised](/challenges/13-nlp_unsupervised)      |     |  | recommended |
+| 14             | [Hadoop](/challenges/14-hadoop)                |     |  | recommended |
+| 15             | [Hive](/challenges/15-hive)                  |     |  | recommended |
 
 *Full submission of challenge sets is encouraged, but partial submissions are ok. 
 
