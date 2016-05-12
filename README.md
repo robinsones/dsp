@@ -77,8 +77,8 @@
 | 5 | 7/25 | McNulty   | [Naive Bayes Classification, Distributions, MLE, GLM, SGD, Deep Learning and Neural Networks, PostgreSQL, SQLAlchemy & Psycopg](/class_lectures/week05-mcnulty2/) |  
 | 6  | 8/1 | McNulty | [D3, Javascript](/class_lectures/week06-mcnulty3/)      |      |  
 | 7  | 8/8 | Fletcher     | [Flask, MongoDB, Twitter API, Unsupervised](/class_lectures/week07-fletcher1/) |  
-| 8  | 8/15 | Fletcher     | [Hadoop, Hive, Spark](/class_lectures/week09-kojak1/)      |  
-| 9  | 8/22 | Kojak | [Topic Modeling, Clustering](/class_lectures/week08-fletcher2/) |     
+| 8  | 8/15 | Fletcher     | [Topic Modeling, Clustering](/class_lectures/week08-fletcher2/)      |  
+| 9  | 8/22 | Kojak |  [Hadoop, Hive, Spark](/class_lectures/week09-kojak1/) |     
 | 10 | 8/29     | Kojak | Final Project Work        |  
 | 11 | **9/6**    | Kojak | Final Project Work |    
 | 12 | 9/12    | Kojak | Final Project Work |  
