@@ -1,5 +1,5 @@
 **Course:**    [Metis Data Science Bootcamp](http://www.thisismetis.com/data-science) Summer 2016 - Cohort 8  
-**Course ID:** nyc16_ds8
+**Course ID:** nyc16_ds8  
 **City:**      New York, NY  
 **Dates:**     6/27/16 - 9/16/16  
 [Slack team](https://summer-nyc16-metis.slack.com/) (use the [app](https://slack.com/downloads)!)  
