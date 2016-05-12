@@ -12,8 +12,8 @@
 #### Table of Contents
 [Class Work](#section-a)  
 [Project Descriptions](#section-b)  
-[Blogs](#section-c)  
-[Challenges](#section-d)  
+[Challenges](#section-c)  
+[Blogs](#section-d)  
 [Investigations](#section-e)  
 [Weekly Topics](#section-f)  
 
@@ -39,15 +39,7 @@
 * [Project 4: Fletcher (unsupervised NLP)](/projects/04-fletcher/README.md) on Fri, mmm dd, 2016
 * Project 5: Kojak Final Project Presentation on Thurs, mmm dd, 2016
 
-### <a name="section-c"></a>Blogs
- 
-* Required:  3 blogs
-* Blog 1:  due day, mmm dd
-* Blog 2:  due day, mmm dd
-* Blog 3:  due day, mmm dd
-* Recommended:  4-6 blogs
-
-### <a name="section-d"></a>[Challenges](/challenges)
+### <a name="section-c"></a>[Challenges](/challenges)
  
 * [Instructions](/challenges/README.md)
 * [Questions](/challenges/challenges_questions)
@@ -73,6 +65,16 @@
 | 15             | [Hive](/challenges/15-hive)                  |     |  | recommended |
 
 *Full submission of challenge sets is encouraged, but partial submissions are ok. 
+
+---
+
+### <a name="section-d"></a>Blogs
+ 
+* Required:  3 blogs
+* Blog 1:  due day, mmm dd
+* Blog 2:  due day, mmm dd
+* Blog 3:  due day, mmm dd
+* Recommended:  4-6 blogs
 
 ---
 
