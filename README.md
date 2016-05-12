@@ -9,7 +9,7 @@
 
 ---
 
-#### Table of Contents
+### Table of Contents
 [Class Work](#section-a)  
 [Project Descriptions](#section-b)  
 [Challenges](#section-c)  
