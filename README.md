@@ -75,10 +75,13 @@
 ### <a name="section-d"></a>Blogs
  
 * Required:  3 blogs
-* Blog 1:  due day, mmm dd
-* Blog 2:  due day, mmm dd
-* Blog 3:  due day, mmm dd
 * Recommended:  4-6 blogs
+
+| Blog | Due |  
+|----|-------|
+| 1  |        |   
+| 2  |        |  
+| 3 |         |
 
 ---
 
