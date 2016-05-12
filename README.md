@@ -33,13 +33,6 @@
 
 ### <a name="section-b"></a>[Project Descriptions](/projects)
 
-* [Project 1: Benson (MTA turnstile)](/projects/01-benson/README.md) on Fri, mmm dd, 2016
-  * [Project 1 Sign-up Sheet]()
-* [Project 2: Luther (movies regression)](/projects/02-luther/README.md) on Fri, mmm dd, 2016
-* [Project 3: McNulty (supervised, D3)](/projects/03-mcnulty/README.md) on Fri, mmm dd, 2016
-* [Project 4: Fletcher (unsupervised NLP)](/projects/04-fletcher/README.md) on Fri, mmm dd, 2016
-* Project 5: Kojak Final Project Presentation on Thurs, mmm dd, 2016
-
 | Project | Duration | Topics                 |  Due 
 |----|-------|-------------------------|--------|
 | 1 - Benson  | 1 week |  [MTA turnstile](/projects/01-benson/README.md) | xxx   
