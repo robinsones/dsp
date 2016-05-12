@@ -7,7 +7,7 @@
 **Instructors:**  [Julia Lintern](https://www.linkedin.com/in/julia-lintern-a5141384), [Mike Galvin](https://www.linkedin.com/in/mikejgalvin)  
 **Teaching Assistants:**  [Reshama Shaikh](https://www.linkedin.com/in/reshamas), [Gina Soileau](https://www.linkedin.com/in/gfsoileau), [Justin Stewart](https://www.linkedin.com/in/jstnstwrt)
 
----
+-
 
 ### Table of Contents
 [Class Work](#section-a)  
@@ -29,6 +29,7 @@
 * [Pairs](/pair_programming/student_pairs.md)
 * [Class Roster]( )
 
+---
 
 ### <a name="section-b"></a>[Project Descriptions](/projects)
 
@@ -38,6 +39,8 @@
 * [Project 3: McNulty (supervised, D3)](/projects/03-mcnulty/README.md) on Fri, mmm dd, 2016
 * [Project 4: Fletcher (unsupervised NLP)](/projects/04-fletcher/README.md) on Fri, mmm dd, 2016
 * Project 5: Kojak Final Project Presentation on Thurs, mmm dd, 2016
+
+---
 
 ### <a name="section-c"></a>[Challenges](/challenges)
  
