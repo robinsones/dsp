@@ -13,7 +13,7 @@
 [Class Work](#section-a)  
 [Project Descriptions](#section-b)  
 [Blogs](#section-c)  
-[Challenges](#section-d) 
+[Challenges](#section-d)  
 [Investigations](#section-e)  
 [Weekly Topics](#section-f)  
 
