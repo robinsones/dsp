@@ -31,11 +31,11 @@
 
 ### <a name="section-b"></a>[Investigations](/investigations)
 
-####[Investigations](/investigations) 
 * Required:  2 presentations
 * [Investigation Signups]()
 
-####[Project Descriptions](/projects)
+### <a name="section-c"></a>[Project Descriptions](/projects)
+
 * [Project 1: Benson (MTA turnstile)](/projects/01-benson/README.md) on Fri, mmm dd, 2016
   * [Project 1 Sign-up Sheet]()
 * [Project 2: Luther (movies regression)](/projects/02-luther/README.md) on Fri, mmm dd, 2016
@@ -43,15 +43,16 @@
 * [Project 4: Fletcher (unsupervised NLP)](/projects/04-fletcher/README.md) on Fri, mmm dd, 2016
 * Project 5: Kojak Final Project Presentation on Thurs, mmm dd, 2016
 
-####[Track Blogs]()
+### <a name="section-d"></a>Blogs
+ 
 * Required:  3 blogs
 * Blog 1:  due day, mmm dd
 * Blog 2:  due day, mmm dd
 * Blog 3:  due day, mmm dd
 * Recommended:  4-6 blogs
 
-
-####[Challenges](/challenges)
+### <a name="section-e"></a>[Challenges](/challenges)
+ 
 * [Instructions](/challenges/README.md)
 * [Questions](/challenges/challenges_questions)
 * [Data](challenges/challenges_data)
@@ -79,7 +80,7 @@
 
 ---
 
-### Weekly Topics
+### <a name="section-f"></a>Weekly Topics
 
 | Wk |   | Project | Topics                 |  
 |----|-------|---------|-------------------------|
