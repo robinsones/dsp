@@ -35,11 +35,11 @@
 
 | Project | Duration | Topics                 |  Due 
 |----|-------|-------------------------|--------|
-| 1 - Benson  | 1 week |  [MTA turnstile](/projects/01-benson/README.md) | xxx   
-| 2 - Luther  | 2 weeks |  [movies regression](/projects/02-luther/README.md)  | xxx 
-| 3 - McNulty | 3 weeks |  [supervised, D3](/projects/03-mcnulty/README.md)        |  xxx 
-| 4 - Fletcher | 2 weeks  |  [unsupervised NLP](/projects/04-fletcher/README.md) | xxx   
-| 5 - Kojak | 4 weeks |  Final |  xxx
+| 1 - Benson  | 1 week |  [MTA turnstile](/projects/01-benson/README.md) |    
+| 2 - Luther  | 2 weeks |  [movies regression](/projects/02-luther/README.md)  | 
+| 3 - McNulty | 3 weeks |  [supervised, D3](/projects/03-mcnulty/README.md)        |  
+| 4 - Fletcher | 2 weeks  |  [unsupervised NLP](/projects/04-fletcher/README.md) |  
+| 5 - Kojak | 4 weeks |  Final |  
 
 ---
 
