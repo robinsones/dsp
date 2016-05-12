@@ -40,6 +40,14 @@
 * [Project 4: Fletcher (unsupervised NLP)](/projects/04-fletcher/README.md) on Fri, mmm dd, 2016
 * Project 5: Kojak Final Project Presentation on Thurs, mmm dd, 2016
 
+| Project | Duration | Topics                 |  Due 
+|----|-------|-------------------------|--------|
+| 1 - Benson  | 1 week |  [MTA turnstile](/projects/01-benson/README.md) | xxx   
+| 2 - Luther  | 2 weeks |  [movies regression](/projects/02-luther/README.md)  | xxx 
+| 3 - McNulty | 3 weeks |  [supervised, D3](/projects/03-mcnulty/README.md)        |  xxx 
+| 4 - Fletcher | 2 weeks  |  [unsupervised NLP](/projects/04-fletcher/README.md) | xxx   
+| 5 - Kojak | 4 weeks |  Final |  xxx
+
 ---
 
 ### <a name="section-c"></a>[Challenges](/challenges)
