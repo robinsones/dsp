@@ -7,18 +7,6 @@
 **Instructors:**  [Julia Lintern](https://www.linkedin.com/in/julia-lintern-a5141384), [Mike Galvin](https://www.linkedin.com/in/mikejgalvin)  
 **Teaching Assistants:**  [Reshama Shaikh](https://www.linkedin.com/in/reshamas), [Gina Soileau](https://www.linkedin.com/in/gfsoileau), [Justin Stewart](https://www.linkedin.com/in/jstnstwrt)
 
-**Teaching Schedule for Weeks 6 to 12**
-
-| Wk | Date  | Topics                 | Instructor 2 |  |
-|----|-------|-------------------------|---------------|-----------|
-| 6  | May 9      | D3, Flask      | TAs, [Julia Lintern](https://www.linkedin.com/in/julia-lintern-a5141384) (Friday)   | Project 3 |
-| 7  | May 16     | MongoDB, Twitter API, Unsupervised | [Mike Galvin](https://www.linkedin.com/in/mikejgalvin) (M-W), Julia Lintern (Th-Fr)   | |
-| 8  | May 23     | Hadoop, Hive, Spark      | [Paul Burkard](https://www.linkedin.com/in/paulburkard)    | Project 4  |
-| 9  | **May 31** | Topic Modeling, Clustering | Mike Galvin    |   |
-| 10 | Jun 6     | Final Project Work        | [Andrew Blevins](https://www.linkedin.com/in/andrewdblevins)    | |
-| 11 | Jun 13    | Final Project Work | Andrew Blevins    |  |
-| 12 | Jun 20    | Final Project Work | Andrew Blevins    | Final  |
-
 ---
 
 ####Class Work
@@ -28,32 +16,33 @@
   * Blog Examples
   * etc
 * [Pairs](student_pairs.md)
-* [Class Roster](https://docs.google.com/spreadsheets/d/1q2OQJvZEWtqhgc9UKYXe72WlizO51euFadsaLhi6zDI/edit?usp=sharing)
+* [Class Roster]( )
 
-####[Investigations](https://github.com/thisismetis/nyc16_ds7/tree/master/investigations) 
+####[Investigations](/investigations) 
 * Required:  2 presentations
-* [Investigation Signups](https://docs.google.com/spreadsheets/d/17Ca2N8v9x--rMynU4khw87uSBYmlJMKi_keqBJdyBGc/edit#gid=0)
+* [Investigation Signups]()
 
-####[Project Descriptions](https://github.com/thisismetis/nyc16_ds7/tree/master/projects)
-* [Project 1: Benson (MTA turnstile)](/projects/01-benson/README.md) on Fri, Apr 8, 2016
-  * [Project 1 Sign-up Sheet](https://docs.google.com/spreadsheets/d/1_hOfkstAExXkC4b-nqFoIdtKnAVhRFVrtPjOgFiqNq4/edit?usp=sharing)
-* [Project 2: Luther (movies regression)](/projects/02-luther/README.md) on Fri, Apr 22, 2016
-* [Project 3: McNulty (supervised, D3)](/projects/03-mcnulty/README.md) on Fri, May 13, 2016
-* Project 4: Fletcher (unsupervised NLP) on Fri, May 27, 2016
-* Project 5: Kojak Final Project Presentation on Thurs, Jun 23, 2016
+####[Project Descriptions](/projects)
+* [Project 1: Benson (MTA turnstile)](/projects/01-benson/README.md) on Fri, mmm dd, 2016
+  * [Project 1 Sign-up Sheet]()
+* [Project 2: Luther (movies regression)](/projects/02-luther/README.md) on Fri, mmm dd, 2016
+* [Project 3: McNulty (supervised, D3)](/projects/03-mcnulty/README.md) on Fri, mmm dd, 2016
+* Project 4: Fletcher (unsupervised NLP) on Fri, mmm dd, 2016
+* Project 5: Kojak Final Project Presentation on Thurs, mmm dd, 2016
 
-####[Track Blogs](https://docs.google.com/spreadsheets/d/1ZVjeC_jG1Q4uMC3XI8H1Ih-Ub5PjnrmlJcBaa061aAs/edit?usp=sharing)
+####[Track Blogs]()
 * Required:  3 blogs
-* Blog 1:  due Friday Apr 15
-* Blog 2:  due Thursday April 28
-* Blog 3:  due Thursday May 19
+* Blog 1:  due day, mmm dd
+* Blog 2:  due day, mmm dd
+* Blog 3:  due day, mmm dd
 * Recommended:  4-6 blogs
 
 
-####[Challenges](https://github.com/thisismetis/nyc16_ds7/tree/master/challenges)
-* [Instructions](https://github.com/thisismetis/nyc16_ds7/blob/master/challenges/README.md)
-* [Data](https://github.com/thisismetis/nyc16_ds7/tree/master/challenges/challenges_data)
-* [Solutions](https://github.com/thisismetis/nyc16_ds7/tree/master/challenges/challenges_solutions)
+####[Challenges](/challenges)
+* [Instructions](/challenges/README.md)
+* [Questions](/challenges/challenges_questions)
+* [Data](challenges/challenges_data)
+* [Solutions](challenges/challenges_solutions)
 
 | Challenge Set  | Topic                 | Date Assigned | Date Due   | Note *      |
 |----------------|-----------------------|---------------|------------|-------------|
