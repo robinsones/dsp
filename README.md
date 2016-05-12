@@ -15,7 +15,7 @@
   * Git Notes
   * Blog Examples
   * etc
-* [Pairs](student_pairs.md)
+* [Pairs](/pair_programming/student_pairs.md)
 * [Class Roster]( )
 
 ####[Investigations](/investigations) 
@@ -27,7 +27,7 @@
   * [Project 1 Sign-up Sheet]()
 * [Project 2: Luther (movies regression)](/projects/02-luther/README.md) on Fri, mmm dd, 2016
 * [Project 3: McNulty (supervised, D3)](/projects/03-mcnulty/README.md) on Fri, mmm dd, 2016
-* Project 4: Fletcher (unsupervised NLP) on Fri, mmm dd, 2016
+* [Project 4: Fletcher (unsupervised NLP)](/projects/04-fletcher/README.md) on Fri, mmm dd, 2016
 * Project 5: Kojak Final Project Presentation on Thurs, mmm dd, 2016
 
 ####[Track Blogs]()
@@ -70,15 +70,15 @@
 
 | Wk |   | Project | Topics                 |  
 |----|-------|---------|-------------------------|
-| 1  | 4/4 | Benson | [GitHub, MTA Turnstile, Pandas](/class_lectures/week01-benson/) |   
-| 2  | 4/11 | Luther | [Webscraping, Probability, Pickling, Linear Regression, Null Hypothesis](/class_lectures/week02-luther1/)  |  
-| 3 |  4/18 | Luther  | [Train & Test, Linear Regression, Regularization, Bayes, Visulization with Matplotlib](/class_lectures/week03-luther2/)        |   
-| 4 | 4/25 | McNulty  | [Supervised Learning, K-Nearest Neighbors, Logistic Regression, Amazon AWS, PostgreSQL, Support Vector Machine, Decision Trees and Random Forests](/class_lectures/week04-mcnulty1/) |    
-| 5 | 5/2 | McNulty   | [Naive Bayes Classification, Distributions, MLE, GLM, SGD, Deep Learning and Neural Networks, PostgreSQL, SQLAlchemy & Psycopg](/class_lectures/week05-mcnulty2/) |  
-| 6  | 5/9 | McNulty | [D3, Javascript](/class_lectures/week06-mcnulty3/)      |      |  
-| 7  | 5/16 | Fletcher     | [Flask, MongoDB, Twitter API, Unsupervised](/class_lectures/week07-fletcher1/) |  
-| 8  | 5/23 | Fletcher     | [Hadoop, Hive, Spark](/class_lectures/week09-kojak1/)      |  
-| 9  | **5/31** | Kojak | [Topic Modeling, Clustering](/class_lectures/week08-fletcher2/) |     
-| 10 | 6/6     | Kojak | Final Project Work        |  
-| 11 | 6/13    | Kojak | Final Project Work |    
-| 12 | 6/20    | Kojak | Final Project Work |  
+| 1  | 6/27 | Benson | [GitHub, MTA Turnstile, Pandas](/class_lectures/week01-benson/) |   
+| 2  | **7/5** | Luther | [Webscraping, Probability, Pickling, Linear Regression, Null Hypothesis](/class_lectures/week02-luther1/)  |  
+| 3 |  7/11 | Luther  | [Train & Test, Linear Regression, Regularization, Bayes, Visulization with Matplotlib](/class_lectures/week03-luther2/)        |   
+| 4 | 7/18 | McNulty  | [Supervised Learning, K-Nearest Neighbors, Logistic Regression, Amazon AWS, PostgreSQL, Support Vector Machine, Decision Trees and Random Forests](/class_lectures/week04-mcnulty1/) |    
+| 5 | 7/25 | McNulty   | [Naive Bayes Classification, Distributions, MLE, GLM, SGD, Deep Learning and Neural Networks, PostgreSQL, SQLAlchemy & Psycopg](/class_lectures/week05-mcnulty2/) |  
+| 6  | 8/1 | McNulty | [D3, Javascript](/class_lectures/week06-mcnulty3/)      |      |  
+| 7  | 8/8 | Fletcher     | [Flask, MongoDB, Twitter API, Unsupervised](/class_lectures/week07-fletcher1/) |  
+| 8  | 8/15 | Fletcher     | [Hadoop, Hive, Spark](/class_lectures/week09-kojak1/)      |  
+| 9  | 8/22 | Kojak | [Topic Modeling, Clustering](/class_lectures/week08-fletcher2/) |     
+| 10 | 8/29     | Kojak | Final Project Work        |  
+| 11 | **9/6**    | Kojak | Final Project Work |    
+| 12 | 9/12    | Kojak | Final Project Work |  
