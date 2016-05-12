@@ -9,7 +9,18 @@
 
 ---
 
-####Class Work
+#### Table of Contents
+[Class Work](#section-a)  
+[Investigations](#section-b)  
+[Project Descriptions](#section-c)  
+[Blogs](#section-d) 
+[Challenges](#section-e) 
+[Weekly Topics](#section-f) 
+
+---
+
+### <a name="section-a"></a>Class Work
+
 * [Class Lectures](/class_lectures/)
 * [Resources](resources/)
   * Git Notes
