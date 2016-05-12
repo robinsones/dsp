@@ -87,12 +87,11 @@
 * Required:  2 presentations
 * [Investigation Signups]()
 
-
 ---
 
 ### <a name="section-f"></a>Weekly Topics
 
-| Wk |   | Project | Topics                 |  
+| Wk | Date  | Project | Topics                 |  
 |----|-------|---------|-------------------------|
 | 1  | 6/27 | Benson | [GitHub, MTA Turnstile, Pandas](/class_lectures/week01-benson/) |   
 | 2  | **7/5** | Luther | [Webscraping, Probability, Pickling, Linear Regression, Null Hypothesis](/class_lectures/week02-luther1/)  |  
