@@ -13,9 +13,9 @@
 [Class Work](#section-a)  
 [Investigations](#section-b)  
 [Project Descriptions](#section-c)  
-[Blogs](#section-d) 
-[Challenges](#section-e) 
-[Weekly Topics](#section-f) 
+[Blogs](#section-d)  
+[Challenges](#section-e)  
+[Weekly Topics](#section-f)  
 
 ---
 
@@ -28,6 +28,8 @@
   * etc
 * [Pairs](/pair_programming/student_pairs.md)
 * [Class Roster]( )
+
+### <a name="section-b"></a>[Investigations](/investigations)
 
 ####[Investigations](/investigations) 
 * Required:  2 presentations
