@@ -110,4 +110,4 @@
 | 11 | **9/6***    | Kojak | Final Project Work |    
 | 12 | 9/12    | Kojak | Final Project Work |  
 
-* Metis is closed on 04-Jul and 05-Sep (4th of July and Labor Day holidays)
+*Metis is closed on 04-Jul and 05-Sep (4th of July and Labor Day holidays)
