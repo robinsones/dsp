@@ -2,7 +2,7 @@
 **Section:**   Summer 2016 - Cohort 8  
 **Course ID:** nyc16_ds8  
 **City:**      New York, NY  
-**Dates:**     6/27/16 - 9/16/16  
+**Dates:**     27-Jun-2016 to 16-Sep-2016  
 **Slack:**     [ds8 team](https://summer-nyc16-metis.slack.com/) (use the [app](https://slack.com/downloads))  
 
 **Instructors:**  [Julia Lintern](https://www.linkedin.com/in/julia-lintern-a5141384), [Mike Galvin](https://www.linkedin.com/in/mikejgalvin)  
