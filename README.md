@@ -3,7 +3,7 @@
 **Course ID:** nyc16_ds8  
 **City:**      New York, NY  
 **Dates:**     6/27/16 - 9/16/16  
-[ds8 Slack team](https://summer-nyc16-metis.slack.com/) (use the [app](https://slack.com/downloads))  
+**Slack:**     [ds8 team](https://summer-nyc16-metis.slack.com/) (use the [app](https://slack.com/downloads))  
 
 **Instructors:**  [Julia Lintern](https://www.linkedin.com/in/julia-lintern-a5141384), [Mike Galvin](https://www.linkedin.com/in/mikejgalvin)  
 **Teaching Assistants:**  [Reshama Shaikh](https://www.linkedin.com/in/reshamas), [Gina Soileau](https://www.linkedin.com/in/gfsoileau), [Justin Stewart](https://www.linkedin.com/in/jstnstwrt)
