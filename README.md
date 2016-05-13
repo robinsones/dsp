@@ -11,16 +11,16 @@
 -
 
 ### Table of Contents
-[Class Work](#section-a)  
-[Projects](#section-b)  
-[Challenges](#section-c)  
-[Blogs](#section-d)  
-[Investigations](#section-e)  
-[Weekly Topics](#section-f)  
+[1. Class Work](#section-a)  
+[2. Projects](#section-b)  
+[3. Challenges](#section-c)  
+[4. Blogs](#section-d)  
+[5. Investigations](#section-e)  
+[6. Weekly Topics](#section-f)  
 
 ---
 
-### <a name="section-a"></a>Class Work
+### <a name="section-a"></a>1. Class Work
 
 * [Class Lectures](/class_lectures/)
 * [Resources](resources/)
@@ -32,7 +32,7 @@
 
 ---
 
-### <a name="section-b"></a>[Projects](/projects)
+### <a name="section-b"></a>[2. Projects](/projects)
 
 | Project | Duration | Topics                 |  Due 
 |----|-------|-------------------------|--------|
@@ -44,7 +44,7 @@
 
 ---
 
-### <a name="section-c"></a>[Challenges](/challenges)
+### <a name="section-c"></a>[3. Challenges](/challenges)
  
 * [Instructions](/challenges/README.md)
 * [Questions](/challenges/challenges_questions)
@@ -73,7 +73,7 @@
 
 ---
 
-### <a name="section-d"></a>Blogs
+### <a name="section-d"></a>4. Blogs
  
 * Required:  3 blogs
 * Recommended:  4-6 blogs
@@ -86,14 +86,14 @@
 
 ---
 
-### <a name="section-e"></a>[Investigations](/investigations)
+### <a name="section-e"></a>[5. Investigations](/investigations)
 
 * Required:  2 presentations
 * [Investigation Signups]()
 
 ---
 
-### <a name="section-f"></a>Weekly Topics
+### <a name="section-f"></a>[6. Weekly Topics](/class_lectures/)
 
 | Wk | Date  | Project | Topics                 |  
 |----|-------|---------|-------------------------|
