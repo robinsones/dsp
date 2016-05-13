@@ -34,13 +34,13 @@
 
 ### <a name="section-b"></a>[2. Projects](/projects)
 
-| Project | Duration (weeks) | Weeks | Topics                 |  Due |
-|----|-------|---------------|-------|----------|------------|
-| 1 - Benson  | 1 |  1 | [mta turnstile](/projects/01-benson/README.md) |    |
-| 2 - Luther  | 2 | 2, 3|  [movies, webscraping, regression](/projects/02-luther/README.md)  |  |
-| 3 - McNulty | 3 | 4, 5, 6|  [supervised, D3](/projects/03-mcnulty/README.md)        |  |
-| 4 - Fletcher | 2 |7, 8|  [unsupervised, NLP](/projects/04-fletcher/README.md) |    |
-| 5 - Kojak | 4 |  9, 10, 11, 12| Final |  |
+| Project | Weeks | Topics                 |  Due |
+|----|-------|-------|----------|------------|
+| 1 - Benson  | 1 | [mta turnstile](/projects/01-benson/README.md) |    |
+| 2 - Luther  | 2, 3|  [movies, webscraping, regression](/projects/02-luther/README.md)  |  |
+| 3 - McNulty | 4, 5, 6|  [supervised, D3](/projects/03-mcnulty/README.md)        |  |
+| 4 - Fletcher | 7, 8|  [unsupervised, NLP](/projects/04-fletcher/README.md) |    |
+| 5 - Kojak | 9, 10, 11, 12| Final |  |
 
 ---
 
