@@ -23,11 +23,11 @@
 ### <a name="section-a"></a>1. Class Work
 
 * [Class Lectures](/class_lectures/)
+* [Pairs](/pair_programming/student_pairs.md)
 * [Resources](resources/)
   * Git Notes
   * Blog Examples
   * etc
-* [Pairs](/pair_programming/student_pairs.md)
 * [Class Roster]( )
 
 ---
