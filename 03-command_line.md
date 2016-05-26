@@ -28,16 +28,24 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+`ls`  lists all the files in the current directory
+`ls -a` displays all the files 
+`ls -l`  displays the long format listing 
+`ls -lh`  displays long format listing with Human readable file sizes
+`ls -lah`  list in long format including directory entires whose names begin with a dot and using unit suffixes
+`ls -t`  displays files in order of creation (showing newest files first)
+`ls -Glp` list in long format with colorized output and writing a slash after a filename if it's a directory
 ---
 
 ###Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+ls -R
+ls -m
+ls -d
+ls -u 
+ls -1
 ---
 
 ###Q4.  Xargs   
