@@ -35,6 +35,7 @@ What do the following commands do:
 `ls -lah`  list in long format including directory entires whose names begin with a dot and using unit suffixes
 `ls -t`  displays files in order of creation (showing newest files first)
 `ls -Glp` list in long format with colorized output and writing a slash after a filename if it's a directory
+
 ---
 
 ###Q3.  More List Files in Unix  
@@ -46,6 +47,7 @@ ls -m
 ls -d
 ls -u 
 ls -1
+
 ---
 
 ###Q4.  Xargs   
