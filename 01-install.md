@@ -46,13 +46,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
-I already had Python 2 installed. I chose Python 2 because some of the software developed for Python still doesn't work in Python 3. 
+> I already had Python 2 installed. I chose Python 2 because some of the software developed for Python still doesn't work in Python 3. 
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-Run python --version and look at the output. 
+> Run `python --version` and look at the output. 
  
 
 
