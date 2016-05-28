@@ -63,7 +63,6 @@ ls -1
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> `xargs` reads delimited strings and executes a commmand with each of those strings as an input. One example of when this is useful is when you want to copy a couple of files but you get an error because the argument list is too long. The xargs command allows you to still execute your desired command (copy files) in one line
  
 
