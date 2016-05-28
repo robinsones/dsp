@@ -59,12 +59,12 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
-I chose to use nano since that is the simplest one. I went through this how-to guide which was very helpful: http://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/. 
+> I chose to use nano since that is the simplest one. I went through this how-to guide which was very helpful: http://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/. 
 --
 
 ###Q2. Graphical Editor
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-I had already been using Spyder as that was the graphical editor taught in a workshop I used. I also lie it because it has the fully configured setup. What I like about it is the debugging help and also its similarity to RStudio, which I have been using as a user interface for R for about four years now. A lot of the useful keyboard shortcuts are the same as the ones I use working in programs like word: Command+s for saving, Command+f for finding, Command+c for copying, etc. I also use Command+enter for running highlighted code. I haven't customized it yet, but I hope to learn more about customizing at Metis. 
+> I had already been using Spyder as that was the graphical editor taught in a workshop I used. I also prefer it because it has the fully configured setup. What I like about it is the debugging help and also its similarity to RStudio, which I have been using as a user interface for R for about four years now. A lot of the useful keyboard shortcuts are the same as the ones I use working in programs like Word: Command+s for saving, Command+f for finding, Command+c for copying, etc. I also use Command+enter for running highlighted code. I haven't customized it yet, but I hope to learn more about customizing at Metis. 
  
