@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+> Tuples and lists are similar because both are sequences of values indexed by integers. The big difference between lists and tuples is that tuples are immutable. This means that you can't modify elements of a tuple. Only tuples will work as keys in dictionaries, because lists are mutable. 
 
 ---
 
@@ -20,7 +20,17 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+> Both sets and lists are collections of elements, but sets cannot contain duplicate elements and are unordered, while lists can have duplicates are ordered. 
+
+``` 
+S_NYC16_Metis_Staff = set(['Julia', 'Michael', 'Reshama', 'Megan', 'Jennifer', 'Leah'])
+'Jason' not in  S_NYC16_Metis_Staff
+S_NYC16_Metis_Students = ['Emily', 'Adam', 'Michelle']
+S_NYC16_Metis_Students.append('Max')
+print S_NYC16_Metis_Students
+```
+
+> Checking for the existence of an item is significantly faster in sets than lists. This is because the whole list needs to be searched for the item, so as the list size increases so does the serach time. On the other hand, for checking if an item is in a set, because sets are implemented using hash tables, the operation checks if the object is in the position determined by its hash, and thus does not depend on the size of the set. 
 
 ---
 
@@ -28,7 +38,21 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+> `lambda` generates a (temporary) anonymous function, meaning a function without a name. It's useful for creating simple functions that we only need to use once, as it makes the code more readable. It's very helpful used in combination with `map`, `reduce`, and `filter`, which all take a list and a function. For example: 
+
+```
+li = [2, 4, 5, 10, 25, 60]
+print filter(lambda x: x % 2 == 0, li) 
+``` 
+
+will print [2, 4, 10, 60], all the elements of the list divisable by 2. 
+
+Another example, where I sort a list of fast food places and their menu items and price:
+
+```
+fast_food_tuples = [('Chick-Fil-A', 'Chicken Sandwich', 3.3), ('McDonalds', 'Fries', 1.4), ('Dairy Queen', 'Blizzard', 3.7),]
+sorted(fast_food_tuples, key = lambda fast_food: fast_food[2]) # sort by price
+```
 
 ---
 
