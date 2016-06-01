@@ -60,8 +60,36 @@ sorted(fast_food_tuples, key = lambda fast_food: fast_food[2]) # sort by price
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+> List comprehensions are a way to transform any iterable (list, string, etc.) into a list. List comprehensions allow you to include an element from the old object in the new list based on conditions and also to transform each element. For example, I want to take a list of the numbers from 1 to 14 and create a new list with the squares of all the even numbers in the original list. 
 
+```
+numbers = range(1, 15)
+even_numbers_squared = [i*2 for i in numbers if i % 2 == 0]
+```
+
+> I can do this with maps and filters like so:   
+
+```
+even_numbers_squared = map(lambda i: i*2, filter(lambda i: i % 2 == 0, numbers))
+```
+
+> Dictionary comprehension is similar to list comprehension, but it constructs a dictionary instead of a list. For example, we can change a list of tuples into a dictionary. I could have tuples where the first element was my grade in a class and the second element is a string of letters, where each letter stands for one class.
+
+```
+ gTupples = [("A", "SGU"), ("A-", "KIP"), ("B+","J"), ("B", "O")]
+ gDict = {classes: grade
+          for grade, classesList in gTupples
+          for classes in classesList}
+ gDict["I"]
+```
+> Now for each class I can check my grade
+ 
+> Set comprehensions is like dictionary and list comprehensions but it constructs a set. For example, the same structure of the list comprehensions can be a set comprehension by simply changing the brackets. 
+
+`even_numbers_squared = {i*2 for i in numbers if i % 2 == 0}`
+
+ 
+ 
 ---
 
 ###Complete the following problems by editing the files below:
