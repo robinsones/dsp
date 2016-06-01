@@ -18,4 +18,27 @@ degrees_onelist = [item for sublist in degrees_split for item in sublist]
 from collections import Counter
 Counter(degrees_onelist)
 
+### Q2
+
+# make a list of all titles
+titles = faculty[' title'].tolist()
+Counter(titles)
+# there's a typo, so there's only three types, icluding additional assistant
+
+### Q3
+# make a list of all titles
+emails = faculty[' email'].tolist()
+print emails
+
+### Q4 
+
+# retrieve domain for each email
+domains = []
+for email in emails: 
+    match = re.search('([\w.-]+)@([\w.-]+)', email)
+    domains.append(match.group(2) ) 
+
+# print list of unique emails
+print list(set(domains))
+
 
