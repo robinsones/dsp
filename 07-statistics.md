@@ -70,15 +70,23 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
-> Baye's Theorem tells us that P(A|B) = P(B|A)P(A)/P(B). In this case, that means what we want to calculate, P(Elvis had identical twin | Elvis had a twin), is equal to  
-(P(Elvis had a twin | Elvis had identical twin)*P(Elvis had identical twin))/P(Elvis had a twin)  
-the probability that Elvis had a twin, given he had an identical twin, is of course 1. The probability Elvis had an identical twin is 1/300 (as given in the problem).   
-The probability that Elvis had a twin is equal to the probability that Elvis had a fraternal twin OR had an identical twin. This equals to the sum of the two probabilities minus the probability of both events. The probability he had both a fraternal and an identical twin is zero, since having two twins is impossible (in that case they would be triplets). Therefore, we sum the probabilities:
+> Baye's Theorem tells us that P(A|B) = P(B|A)P(A)/P(B). We want to calculate P(Elvis had identical twin | Elvis had a twin). So this is equal to:  
+
+> P(Elvis had a twin | Elvis had identical twin)\*P(Elvis had identical twin))/P(Elvis had a twin) 
+
+> The probability that Elvis had a twin, given he had an identical twin, is of course 1. The probability Elvis had an identical twin is 1/300 (as given in the problem).  
+
+> The probability that Elvis had a twin is equal to the probability that Elvis had a fraternal twin OR had an identical twin. This equals to the sum of the two probabilities minus the probability of both events. The probability he had both a fraternal and an identical twin is zero, since having two twins is impossible (in that case they would be triplets). 
+
+> Therefore, we sum the probabilities:
 `A = Fraction(1, 300) + Fraction(1, 125)`  
-This is equal to 17/1500.   
-Therefore, we solve the following equation:
+> This is equal to 17/1500.   
+
+> We then solve the following equation:
 `1*Fraction(1/300)/A`  
-And we get the probability that Elvis was an identical twin is 5/17. 
+
+> And we get the probability that Elvis was an identical twin is 5/17. 
+
 ---
 
 ###Q6. Bayesian &amp; Frequentist Comparison  
