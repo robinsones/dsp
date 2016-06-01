@@ -4,8 +4,6 @@
 # against opponents, and had 36 goals scored against them). Write a program to read the file, 
 # then print the name of the team with the smallest difference in ‘for’ and ‘against’ goals.
 
-import csv
-
 import pandas as pd
 
 # read file as dataframe
