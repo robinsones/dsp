@@ -1,3 +1,5 @@
+[bootcamp info home](../README.md)
+
 ## [PROJECT 1: BENSON](/projects/01-benson/)
 
 > Week 1
