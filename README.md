@@ -81,15 +81,15 @@
 * Recommended:  4-6 blogs
 
 | Blog | Due |  
-|----|-------|
-| 1  |        |   
-| 2  |        |  
-| 3 |         |
+|------|-------|
+| 1    |        |   
+| 2    |        |  
+| 3    |        |
 
 ---
 
 ### <a name="section-e"></a>[5. Investigations](/investigations)
-Investigation presentation should be 5 to 15 minutes. **???? FILL IN HOW MUCH TIME**
+
 * Required:  2 presentations
 * [Investigation Signups]()
 
