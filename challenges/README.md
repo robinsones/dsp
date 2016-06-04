@@ -1,3 +1,5 @@
+[bootcamp info home](../README.md)
+
 ## Instructions for Submitting Challenges
 
 #### 1.  GitHub - notices
