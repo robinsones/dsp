@@ -23,6 +23,8 @@
 ### <a name="section-a"></a>1. Class Work
 
 * [Class Lectures](/class_lectures/)
+   * [List of All IPython Notebooks in /class_lectures/ folder](links/links_ipynb.md)  
+   * [List of All PDF Files in /class_lectures/ folder](links/links_pdf.md)
 * [Pairs](/pair_programming/student_pairs.md)
 * [Resources](resources/)
   * Git Notes
