@@ -38,11 +38,11 @@
 
 |    |Project | Week | Topics                 |  Due |
 |----|----|-------|-------|----------|------------|
-| 1  | Benson  | 1 | [mta turnstile](/projects/01-benson/README.md) |    |
-| 2  | Luther  | 2, 3|  [movies, webscraping, regression](/projects/02-luther/README.md)  |  |
-| 3  | McNulty | 4, 5, 6|  [supervised, D3](/projects/03-mcnulty/README.md)        |  |
-| 4  | Fletcher | 7, 8|  [unsupervised, NLP](/projects/04-fletcher/README.md) |    |
-| 5  | Kojak | 9, 10, 11, 12| Final |  |
+| 1  | Benson  | 1 | [mta turnstile](/projects/01-benson/README.md) | Fri, July 1, 2016  |
+| 2  | Luther  | 2, 3|  [movies, webscraping, regression](/projects/02-luther/README.md)  | Fri, July 15, 2016 |
+| 3  | McNulty | 4, 5, 6|  [supervised, D3](/projects/03-mcnulty/README.md)        | Fri, Aug 5, 2016 |
+| 4  | Fletcher | 7, 8|  [unsupervised, NLP](/projects/04-fletcher/README.md) | Fri, Aug 19, 2016  |
+| 5  | Kojak | 9, 10, 11, 12| Final | Thurs, Sep 15, 2016 |
 
 ---
 
