@@ -86,7 +86,7 @@
 
 ---
 
-### <a name="section-d"></a>4. [Blogs](https://docs.google.com/a/thisismetis.com/spreadsheets/d/1ySIw5LPbZqRVbBOOGH2F-n_YsFMwmmMR9jFXCAhU2gQ/edit?usp=sharing)
+### <a name="section-d"></a>[4. Blogs](https://docs.google.com/a/thisismetis.com/spreadsheets/d/1ySIw5LPbZqRVbBOOGH2F-n_YsFMwmmMR9jFXCAhU2gQ/edit?usp=sharing)
  
 * Required:  3 blogs
 * Recommended:  4-6 blogs
