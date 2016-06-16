@@ -101,7 +101,7 @@
 ### <a name="section-e"></a>[5. Investigations (~ 5 minutes long)](/investigations)
 
 * Required:  2 presentations
-* [Investigation Signups]()
+* [Investigation Signups](https://docs.google.com/spreadsheets/d/11V7mTL_B249ZjofnzJQNyII_BbqCTknPMclIaWJH2Dg/edit?usp=sharing)
 
 ---
 
