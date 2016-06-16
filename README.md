@@ -11,12 +11,20 @@
 -
 
 ### Table of Contents
+[i. Administrative](#section-i)  
 [1. Class Work](#section-a)  
 [2. Projects](#section-b)  
 [3. Challenges](#section-c)  
 [4. Blogs](#section-d)  
 [5. Investigations](#section-e)  
 [6. Weekly Topics](#section-f)  
+
+---
+
+### <a name="section-i"></a>i. Administrative
+
+* [Class Roster](https://docs.google.com/spreadsheets/d/1YXFJNdQgy2EkrWzku2r8a7Mo_2b1wJlj30ZRhf8a58A/edit?usp=sharing)
+* [Feedback Form](http://goo.gl/forms/49A7YAm0UXKFlLwz1)
 
 ---
 
@@ -30,7 +38,8 @@
   * Git Notes
   * Blog Examples
   * etc
-* [Class Roster]( )
+
+
 
 ---
 
