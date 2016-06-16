@@ -62,6 +62,7 @@
 * [Questions](/challenges/challenges_questions)
 * [Data](challenges/challenges_data)
 * [Solutions](challenges/challenges_solutions)
+* [Student Submissions](challenges/submissions)
 
 | Challenge Set  | Project Group | Topic                 | Note * | Date Assigned   | Date Due      |
 |----------------|---------------|-----------------------|---------------|------------|-------------|
