@@ -88,7 +88,7 @@
 
 ---
 
-### <a name="section-e"></a>[5. Investigations](/investigations)
+### <a name="section-e"></a>[5. Investigations (~ 5 minutes long)](/investigations)
 
 * Required:  2 presentations
 * [Investigation Signups]()
