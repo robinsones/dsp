@@ -38,11 +38,11 @@
 
 |    |Project | Week | Topics                 |  Due |
 |----|----|-------|-------|----------|------------|
-| 1  | Benson  | 1 | [mta turnstile](/projects/01-benson/README.md) | Fri, July 1, 2016  |
-| 2  | Luther  | 2, 3|  [movies, webscraping, regression](/projects/02-luther/README.md)  | Fri, July 15, 2016 |
-| 3  | McNulty | 4, 5, 6|  [supervised, D3](/projects/03-mcnulty/README.md)        | Fri, Aug 5, 2016 |
-| 4  | Fletcher | 7, 8|  [unsupervised, NLP](/projects/04-fletcher/README.md) | Fri, Aug 19, 2016  |
-| 5  | Kojak | 9, 10, 11, 12| Final | Thurs, Sep 15, 2016 |
+| 1  | Benson  | 1 | [mta turnstile](/projects/01-benson/README.md) | Fri, July 1  |
+| 2  | Luther  | 2, 3|  [movies, webscraping, regression](/projects/02-luther/README.md)  | Fri, July 15 |
+| 3  | McNulty | 4, 5, 6|  [supervised, D3](/projects/03-mcnulty/README.md)        | Fri, Aug 5 |
+| 4  | Fletcher | 7, 8|  [unsupervised, NLP](/projects/04-fletcher/README.md) | Fri, Aug 19  |
+| 5  | Kojak | 9, 10, 11, 12| Final | Thurs, Sep 15 |
 
 ---
 
@@ -55,21 +55,21 @@
 
 | Challenge Set  | Project Group | Topic                 | Note * | Date Assigned   | Date Due      |
 |----------------|---------------|-----------------------|---------------|------------|-------------|
-| 1              | Benson        | [Explore MTA data](/challenges/01-benson)      | required     | Mon, June 27, 2016 | Mon, July 11  |
-| 2              | Benson        | [Pandas movies](/challenges/02-luther1)                | required    |Tues, July 5, 2016  |  Mon, July 18   |
-| 3              | Luther        | [Linear Splitting](/challenges/03-linear_splitting)      | required    | Mon, July 11, 2016 | Mon, July 25   |
-| 4              | Luther        | [Linear Learning](/challenges/04-linear_learning)       | required    | Mon, July 11, 2016  |  Mon, July 25    |
-| 5              | McNulty       | [Classification](/challenges/05-classification)        | required    | Mon, July 18, 2016 |   Mon, Aug 1  |
-| 6              | McNulty       | [Classification Errors](/challenges/06-classification_errors) | required    | Mon, July 18, 2016 |     Mon, Aug 1 |
-| 7              | McNulty       | [SQL](/challenges/07-sql)                   | required    | Mon, July 18, 2016 | Mon, Aug 1|
-| 8              | McNulty       | [Decision Tree](/challenges/08-decision_tree)         |  required    | Mon, July 25, 2016  | Mon, Aug 8  |
-| 9              | McNulty  | [Poisson GLM](/challenges/09-poisson_glm)           | required     | Mon, July 25, 2016 |  Mon, Aug 8    |
-| 10             | McNulty  | [D3](/challenges/10-d3)                    | recommended    | Mon, Aug 1, 2016 | Mon, Aug 15  |
-| 11             | Fletcher | [Flask](/challenges/11-flask)                 | recommended    | Mon, Aug 1, 2016  | Mon, Aug 15  |
-| 12             | Fletcher | [Mongo Twitter](/challenges/12-mongo_twitter)         | recommended    | Mon, Aug 8, 2016 | Mon, Aug 22 |
-| 13             | Fletcher | [NLP Unsupervised](/challenges/13-nlp_unsupervised)      | recommended    | Mon, Aug 8, 2016 | Mon, Aug 22  |
-| 14             | Kojak    | [Hadoop](/challenges/14-hadoop)                | recommended    | Mon, Aug 22, 2016 | Tues, Sep 5 |
-| 15             | Kojak    | [Hive](/challenges/15-hive)                  | recommended    | Mon, Aug 22, 2016 | Tues, Sep 5 |
+| 1              | Benson        | [Explore MTA data](/challenges/01-benson)      | required     | Mon, June 27 | Mon, July 11  |
+| 2              | Benson        | [Pandas movies](/challenges/02-luther1)                | required    |Tues, July 5  |  Mon, July 18   |
+| 3              | Luther        | [Linear Splitting](/challenges/03-linear_splitting)      | required    | Mon, July 11 | Mon, July 25   |
+| 4              | Luther        | [Linear Learning](/challenges/04-linear_learning)       | required    | Mon, July 11  |  Mon, July 25    |
+| 5              | McNulty       | [Classification](/challenges/05-classification)        | required    | Mon, July 18 |   Mon, Aug 1  |
+| 6              | McNulty       | [Classification Errors](/challenges/06-classification_errors) | required    | Mon, July 18 |     Mon, Aug 1 |
+| 7              | McNulty       | [SQL](/challenges/07-sql)                   | required    | Mon, July 18 | Mon, Aug 1|
+| 8              | McNulty       | [Decision Tree](/challenges/08-decision_tree)         |  required    | Mon, July 25  | Mon, Aug 8  |
+| 9              | McNulty  | [Poisson GLM](/challenges/09-poisson_glm)           | required     | Mon, July 25 |  Mon, Aug 8    |
+| 10             | McNulty  | [D3](/challenges/10-d3)                    | recommended    | Mon, Aug 1 | Mon, Aug 15  |
+| 11             | Fletcher | [Flask](/challenges/11-flask)                 | recommended    | Mon, Aug 1  | Mon, Aug 15  |
+| 12             | Fletcher | [Mongo Twitter](/challenges/12-mongo_twitter)         | recommended    | Mon, Aug 8 | Mon, Aug 22 |
+| 13             | Fletcher | [NLP Unsupervised](/challenges/13-nlp_unsupervised)      | recommended    | Mon, Aug 8 | Mon, Aug 22  |
+| 14             | Kojak    | [Hadoop](/challenges/14-hadoop)                | recommended    | Mon, Aug 22 | Tues, Sep 5 |
+| 15             | Kojak    | [Hive](/challenges/15-hive)                  | recommended    | Mon, Aug 22 | Tues, Sep 5 |
 
 *Full submission of challenge sets is encouraged, but partial submissions are ok. 
 
@@ -82,9 +82,9 @@
 
 | Blog | Due |  
 |------|-------|
-| 1    |  Tues, July 5, 2016     |   
-| 2    |  Mon, July 25, 2016     |  
-| 3    |  Mon, Aug 1, 2016     |
+| 1    |  Tues, July 5     |   
+| 2    |  Mon, July 25     |  
+| 3    |  Mon, Aug 1     |
 
 ---
 
