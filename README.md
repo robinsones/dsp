@@ -12,6 +12,7 @@
 
 ### Table of Contents
 [i. Administrative](#section-i)  
+
 [1. Class Work](#section-a)  
 [2. Projects](#section-b)  
 [3. Challenges](#section-c)  
