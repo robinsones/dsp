@@ -6,7 +6,7 @@
 **Slack:**     [ds8 team](https://summer-nyc16-metis.slack.com/) (use the [app](https://slack.com/downloads))  
 
 **Instructors:**  [Julia Lintern](https://www.linkedin.com/in/julia-lintern-a5141384), [Mike Galvin](https://www.linkedin.com/in/mikejgalvin)  
-**Teaching Assistants:**  [Reshama Shaikh](https://www.linkedin.com/in/reshamas), [Gina Soileau](https://www.linkedin.com/in/gfsoileau), [Justin Stewart](https://www.linkedin.com/in/jstnstwrt)
+**Teaching Assistants:**  [Reshama Shaikh](https://www.linkedin.com/in/reshamas), [Justin Stewart](https://www.linkedin.com/in/jstnstwrt), [Michelle Gill](https://www.linkedin.com/in/michellelynngill)
 
 -
 
