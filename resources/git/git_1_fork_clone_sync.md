@@ -65,6 +65,7 @@ upstream	https://github.com/thisismetis/nyc16_ds8.git (push)
 ```
 --
 ## Sync repos
+#### Workflow:  get files from metis (master) down to local (my computer) and up to origin (me/nyc16_ds8)
 
 **Always "git pull" before sending up any changes**
 
@@ -85,11 +86,16 @@ Updating 73c9b7f..e2fa70b
 Fast-forward
 ...
 ```
-`$ git status`
 
-git push or git push origin master
-change from metis (master) down to local (my computer) and up to origin (me/nyc16_ds8)
+####Check status of your git repo
+```
+$ git status
+```
 
+`$git push origin` or `$ git push origin master` (we want to push to our forked repo, changes will show up when we go to browser)  
+
+
+```
 `$ git push`
 ```
 warning: push.default is unset; its implicit value is changing in
