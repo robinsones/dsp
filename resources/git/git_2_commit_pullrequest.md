@@ -63,7 +63,7 @@ $ git commit -m "add a simple file"    # staged copy to revision history
 $ git push                             # send it to (my forked) repo
 ```
 
-### Adding, committing multiple (all) files in a directory
+### Adding, committing multiple (all) files in a directory (AVOID DOING THIS!!!!!)
 ```
 $ git add .
 $ git status
@@ -117,5 +117,8 @@ $ git remote origin master
 
 
 **Note:**  
-GitHub:  commit every day, green dots show up on user home page; looks good for potential employers.
+GitHub:  commit every day, green dots show up on user home page; looks good for potential employers.  
+This is what my GitHub activity graph looks like:  
+https://github.com/reshama
+
 
