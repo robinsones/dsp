@@ -9,6 +9,8 @@ Why use branches?
     * this makes sure that unstable code is never committed to the main code base
     * it gives you the chance to clean up your feature’s history before merging it into the main branch
 
+**Note:  'wip' = 'work in progress'**    
+
 ---
 
 ###Branch Commands
@@ -45,7 +47,7 @@ Why use branches?
 ```
 reshama$ #print working directory
 reshama$ pwd
-/Users/reshamashaikh/ds/metisgh/nyc16_ds7
+/Users/reshamashaikh/ds/metisgh/nyc16_ds8
 
 reshama$ #list the branches in this repo
 reshama$ git branch
