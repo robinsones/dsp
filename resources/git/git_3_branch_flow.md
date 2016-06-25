@@ -106,8 +106,8 @@ reshama$
 
 ####Push (by Qualifying Remote Name and Branch Name)
 ```
-$ #Work on your branch as usual, and then push to your `origin`
-$ #git push <remotename> <branchname>
+$ # Work on your branch as usual, and then push to your `origin`
+$ # git push <remotename> <branchname>
 $ git push origin reshama_wip
 ```
 
