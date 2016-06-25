@@ -10,5 +10,5 @@ https://github.com/reshama/nyc16_ds8
 
 ---
 
-![Git Pull Request Workflow](img/pull_request_workflow_diagram.png)
+![Git Pull Request Workflow](pull_request_workflow_diagram.png)
  
