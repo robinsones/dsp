@@ -33,38 +33,13 @@ git reset --soft HEAD^     # use --soft if you want to keep your changes
 git reset --hard HEAD^     # use --hard if you don't care about keeping the changes you made
 ```
 ```
-reshama$ git reset --soft HEAD~1    #use --soft to preserve changes that were made and undo last commit (~1 = back 1 commit)
+reshama$ git reset --soft HEAD~1    # use --soft to preserve changes that were made and undo last commit (~1 = back 1 commit)
 ```
 
 ####Unstage a file
 ```
 $ git reset HEAD <file>       
 ````
-
-####Check status of files
-```
-reshama$ git status
-On branch master
-Your branch is behind 'origin/master' by 3 commits, and can be fast-forwarded.
-  (use "git pull" to update your local branch)
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	new file:   test1.md
-	new file:   test2.md
-
-reshama$ 
-```
-
-
-####
-```bash
-reshama$ git status
-On branch master
-Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
-  (use "git pull" to update your local branch)
-nothing to commit, working directory clean
-reshama$ git pull
-```
-
+ 
+ 
 
