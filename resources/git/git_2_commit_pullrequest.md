@@ -9,7 +9,7 @@
 $ pwd
 /Users/reshamashaikh/_ds/metis/metisgh/nyc16_ds8
 
-$ git pull  (by default, it pulls from origin)
+$ git pull  (by default, it pulls from origin, SO DON'T DO THIS)
 
 $ git pull upstream master (we want to pull from master)
 
