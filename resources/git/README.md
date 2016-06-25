@@ -3,8 +3,6 @@
 ####Bookmark these:  Reference Files for Git
  * In your favorite browser:  create a bookmark folder called "metis" and bookmark the following:  
 https://github.com/thisismetis/nyc16_ds8  
- * Also, under the "metis" folder, bookmark the git notes:  
-https://github.com/reshama/resource-links/tree/master/git  
  * Once you fork the repo, you will also want to book mark that.  Here's an example of my bookmark:  
 https://github.com/reshama/nyc16_ds8
 
