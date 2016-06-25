@@ -8,6 +8,7 @@ https://github.com/reshama/nyc16_ds8
 
 ####[Setting up a credential manager (no more login when pushing/pulling)](https://help.github.com/articles/caching-your-github-password-in-git/)
 
-####Git:  Adding a new ssh key  
-(to bypass entering user id and password with each git pull)  
- * [Generating a new ssh key and adding it to the ssh agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+---
+
+![Git Pull Request Workflow](img/pull_request_workflow_diagram.png)
+ 
