@@ -27,12 +27,12 @@ Fast-forward
 
 ## Practice - let's add a file
 ```
-$ cd nyc16_ds8/challenges/submissions/00-practice
+$ cd nyc16_ds8/challenges/submissions/00-practice1
 $ mkdir reshama
 $ cd reshama
 ```
 
-**Note: in the `00-practice` folder, directories have been made for each student, as an example.  Going forward, you will need to make a folder with your name.**
+**Note: in the `00-practice1` folder, directories have been made for each student, as an example.  Going forward, you will need to make a folder with your name.**
 **Naming Convention:  first name, lower case, under scores (add last name if needed)**
 
 Make a small file
@@ -115,6 +115,11 @@ $ git remote origin master
 
 >**branch**  master
 
+###Important:  To Remove a File from the Repo
+`$ git rm filename`  
+
+###Important:  To Rename or Move a File in the Repo
+`$ git mv filename` 
 
 **Note:**  
 GitHub:  commit every day, green dots show up on user home page; looks good for potential employers.  
