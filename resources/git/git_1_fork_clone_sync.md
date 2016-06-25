@@ -69,9 +69,9 @@ upstream	https://github.com/thisismetis/nyc16_ds8.git (push)
 
 **Always "git pull" before sending up any changes**
 
-$ git pull  (by default, it pulls from origin)
+`$ git pull`  (by default, it pulls from origin)
 
-$ git pull upstream master (we want to pull from master)
+`$ git pull upstream master`  (we want to pull from master)
 
 ```
 $ git pull upstream master
@@ -92,10 +92,8 @@ Fast-forward
 $ git status
 ```
 
-`$git push origin` or `$ git push origin master` (we want to push to our forked repo, changes will show up when we go to browser)  
+`$ git push origin` or `$ git push origin master` (we want to push to our forked repo, changes will show up when we go to browser)  
 
-
-```
 `$ git push`
 ```
 warning: push.default is unset; its implicit value is changing in
