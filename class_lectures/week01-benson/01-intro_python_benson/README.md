@@ -35,24 +35,25 @@
 
  * [survive-python](https://survive-python.herokuapp.com/) #1-12 together
  * Make your own [dotfiles](https://dotfiles.github.io/), with your own [PS1](http://itsmetommy.com/2011/02/09/changing-your-shell-prompt/).
- * [Start using git and github](local_git_to_github.pdf).
-
+ 
 **12:00 pm**: Lunch
 
 **1:00 pm**: Optional lunch video: Sasha Laundy's 2015 PyCon talk, [Your Brain's API: Giving and Getting Technical Help](https://www.youtube.com/watch?v=hY14Er6JX2s)
 
 **1:30 pm**: Introduce and sign up for Investigations.
 
-**1:45 pm**: [Pair programming demo](pair_demo.md).
+**1:45 pm**[Start using git and github](https://github.com/thisismetis/nyc16_ds8/tree/master/resources/git).
 
-**2:00 pm**: [Pair Problem](pair.md)
+**2:15 pm**: [Pair programming demo](pair_demo.md).
 
-**2:30 pm**: Introducing Benson!
+**2:30 pm**: [Pair Problem](pair.md)
+
+**3:00 pm**: Introducing Benson!
 
  * Initial problem statement from client email
  * Challenges to get started with the data
 
-**2:45 pm**: Break to working on Python and/or challenge work.
+**3:30 pm**: Break to working on Python and/or challenge work.
 
 
 ### More Resources
