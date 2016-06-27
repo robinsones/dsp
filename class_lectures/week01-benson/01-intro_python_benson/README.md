@@ -26,8 +26,7 @@
 **10:15 am**: Introductions from Metis staff
 
  * Jason Moss
- * Leah Nicolai
-     * [Administrivia](Administrivia.md) (as described in the Student Catalog)
+ * Amy Ramnath
 
 **10:45 am**: Short break
 
