@@ -25,22 +25,22 @@ How do you know you're done?
  * You have delivered your presentation to the class.
  
  
-Topics for Investigation
+Topics for Investigation  
 
-The best topic for you is the one you choose yourself. You can add to this list!
+The best topic for you is the one you choose yourself. You can add to this list!  
 
-Software / Systems:
+Software / Systems:  
 
-Dat 1
-Blaze 1
-Luigi 1
-Docker 1
-Ferry 1 (Hadoop with Docker)
-Amazon Machine Learning 1
-Azure Machine Learning 1
-Huginn 1
-Datomic 1
-Dynamo 1 2
+Dat 1  
+Blaze 1  
+Luigi 1  
+Docker 1  
+Ferry 1 (Hadoop with Docker)  
+Amazon Machine Learning 1  
+Azure Machine Learning 1  
+Huginn 1  
+Datomic 1  
+Dynamo 1 2  
 Methods:
 
 Topological Data Analysis [1] [2] [3] [4] [5] [6]
@@ -48,13 +48,13 @@ Google PageRank [1] [2]
 Sorting intelligently based on ratings [1]
 Applications:
 
-The Netflix Prize [1]
-Facebook Immune System [1]
-Amazon anticipatory ordering [1]
-Foursquare point assignment [1]
-Predicting crime and criminality [1] [2]
-Identifying suicide risk of military service members [1]
-Winning the Kaggle Web Search Challenge [1]
+The Netflix Prize [1]  
+Facebook Immune System [1]  
+Amazon anticipatory ordering [1]  
+Foursquare point assignment [1]  
+Predicting crime and criminality [1] [2]   
+Identifying suicide risk of military service members [1]  
+Winning the Kaggle Web Search Challenge [1]  
 Data mining for dating on OkCupid [1]
 Predicting music rankings [1]
 Winning the Kaggle Amazon Access Challenge [1]
