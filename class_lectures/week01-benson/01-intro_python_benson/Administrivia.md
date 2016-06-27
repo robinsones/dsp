@@ -34,9 +34,9 @@ will have a portfolio of projects to showcase your skills.
 
 **Instructors**
 
-Aaron Schumacher: aaron@thisismetis.com
+Mike Galvin: michael@thisismetis.com
 
-Jonathan Hanke: jon@thisismetis.com
+Julia Lintern: julia@thisismetis.com
 
 
 **Teaching Assistants:**
@@ -48,7 +48,7 @@ Reshama Shaikh: reshama@thisismetis.com
 
 Leah Nicolai, Program Manager: leah@thisismetis.com
 
-Lillian Landrum, Careers Manager: lillian@thisismetis.com
+Jenn Raimone, Careers Manager: jennifer@thisismetis.com
 
 Megan Ayraud, Head of Careers: megan@thisismetis.com
 
