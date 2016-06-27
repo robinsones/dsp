@@ -34,7 +34,7 @@
 **11:00 am**: Customizing with your shell and git:
 
  * [survive-python](https://survive-python.herokuapp.com/) #1-12 together
- * Make your own [dotfiles](https://dotfiles.github.io/), with your own [PS1](http://itsmetommy.com/2011/02/09/changing-your-shell-prompt/).
+ * [PS1](http://itsmetommy.com/2011/02/09/changing-your-shell-prompt/).
  
 **12:00 pm**: Lunch
 
