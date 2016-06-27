@@ -42,7 +42,7 @@
 
 **1:30 pm**: Introduce and sign up for Investigations.
 
-**1:45 pm**[Start using git and github](https://github.com/thisismetis/nyc16_ds8/tree/master/resources/git).
+**1:45 pm** [Start using git and github](https://github.com/thisismetis/nyc16_ds8/tree/master/resources/git).
 
 **2:15 pm**: [Pair programming demo](pair_demo.md).
 
