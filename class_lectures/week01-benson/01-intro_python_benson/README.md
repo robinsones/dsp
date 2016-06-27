@@ -34,7 +34,7 @@
 **11:00 am**: Customizing with your shell and git:
 
  * [survive-python](https://survive-python.herokuapp.com/) #1-12 together
- * [PS1](http://itsmetommy.com/2011/02/09/changing-your-shell-prompt/).
+ * [tailor your bash prompt](http://itsmetommy.com/2011/02/09/changing-your-shell-prompt/).
  
 **12:00 pm**: Lunch
 
