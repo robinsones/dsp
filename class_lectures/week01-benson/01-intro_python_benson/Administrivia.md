@@ -137,15 +137,7 @@ We'll go over some policies on Day 1.
 - They aren't graded, but we'll give you feedback.
 
 
-### Communication Tools
 
-- We use [Slack][1] for quick and/or informal chat messages. The Team
- Name is *metis-dsbc.slack.com*.
-
-- [Discourse][2] (which you are already on, if you are reading this)
-  for class agendas/lecture notes, and other messages,
-
-- [Github][3] for Challenge and Project submissions
 
 
 ### Careers
