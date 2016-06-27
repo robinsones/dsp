@@ -5,7 +5,7 @@
 
 An email from a potential client:
 
-> Mike, Vinny & Julia -
+> Mike & Julia -
 >
 > It was great to meet with you and chat at the event where we recently met and had a nice chat. We’d love to take some next steps to see if working together is something that would make sense for both parties.
 >
