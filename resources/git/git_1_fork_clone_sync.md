@@ -37,7 +37,7 @@ $ cd nyc16_ds8
 
 If there are changes to the original repo, how do you get them?  You need to tell your local repo that it can also get updates from the original.
 
-Origin:  reshama/nyc16_ds7
+Origin:  reshama/nyc16_ds8
 
 
 **Note:  Need to be in that directory on Unix to update repo**
