@@ -43,8 +43,8 @@ Origin:  reshama/nyc16_ds7
 **Note:  Need to be in that directory on Unix to update repo**
 ```
 $ git remote -v
-origin	https://github.com/reshama/nyc16_ds7.git (fetch)
-origin	https://github.com/reshama/nyc16_ds7.git (push)
+origin	https://github.com/reshama/nyc16_ds8.git (fetch)
+origin	https://github.com/reshama/nyc16_ds8.git (push)
 ```
 
 Want to add reference to metis repo (which is master repo)
