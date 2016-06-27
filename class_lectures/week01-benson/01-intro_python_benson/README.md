@@ -31,7 +31,7 @@
 
 **10:45 am**: Short break
 
-**11:00 am**: Customizing with your shell and git:
+**11:00 am**: Customizing with your shell:
 
  * [survive-python](https://survive-python.herokuapp.com/) #1-12 together
  * [tailor your bash prompt](http://itsmetommy.com/2011/02/09/changing-your-shell-prompt/).
