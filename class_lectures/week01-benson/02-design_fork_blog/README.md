@@ -28,6 +28,7 @@ By the end of the day:
  * Another blogging option is [Pelican](http://blog.getpelican.com/), which is written in Python and can be made to integrate nicely with Python Jupyter notebooks.
  ### Blog examples from previous cohorts:  
  
+ [Ken Myers](https://kennmyers.github.io)
  [Andre Gatorano](http://andremeetsdata.com)  
  [Will Sorenson](http://will-so.github.io)  
  [Garrett Hoffman](http://garretthoffman.github.io)  
