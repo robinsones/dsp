@@ -6,18 +6,15 @@
 
 **9:15 am**: [Pair Problem](pair.md)
 
-**10:00 am**: [The iterative design process](Design_Process.pdf)
-
- * [Watch](https://www.brighttalk.com/webcast/9059/101341) a webinar version of this talk delivered by Datascope data scientist Bo Peng.
-
-**10:30 am**: [Brainstorming time](Brainstorming_Guidelines.md)
+**10:00 am**: [Brainstorming time](Brainstorming_Guidelines.md)
 
  * Brainstorm as a class
  * Brainstorm within your project group
+ 
+**11:00 am**: [Fork, Clone, Blog, Markdown](fork_clone_blog_markdown.md)
 
 **12:00 pm**: Lunch
 
-**1:30 pm**: [Fork, Clone, Blog, Markdown](fork_clone_blog_markdown.md)
 
 By the end of the day:
 
