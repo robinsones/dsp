@@ -14,7 +14,6 @@
 
 **12:00 pm**: Lunch time. Brain food.
 
-**1:30 pm**: GitHub forks and the [upstream](upstream.md) relationship.
 
 
 ### More Resources
