@@ -42,8 +42,8 @@ git checkout benson_challenges
 Work on some files (or add files from elsewhere) and make commits:
 
 ```
-    cp ~/my_great_file.py ./correct/path/username/
-    git add ./correct/path/username/my_great_file.py
+    cp ~/my_great_homework.py ./correct/path/nyc16_ds8/challenges/submissions/00-practice(for_example)/username
+    git add ./correct/path/nyc16_ds8/challenges/submissions/00-practice(for_example)/username/my_great_homework.py
     git commit -m "initial version"
 ```
 

@@ -4,9 +4,9 @@
 
 **9:15 am**: [Pair Problem](pair.md)
 
-**10:00 am**: [Branches and Pull Requests](branch_requests.md)
+**10:00 am**: (Deep) copying :copyright: and pandas! :panda_face: :panda_face:
 
-**11:00 am**: (Deep) copying :copyright: and pandas! :panda_face: :panda_face:
+**11:00 am**: [Branches and Pull Requests](branch_requests.md)
 
 **12:00 pm**: Food is the food of the soul
 
