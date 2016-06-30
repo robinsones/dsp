@@ -1,0 +1,3 @@
+../class_lectures/week01-benson/03-coding_upstream/three_Benson_solutions.ipynb
+../class_lectures/week01-benson/04-pandas/deep_vs_shallow_copying.ipynb
+../class_lectures/week01-benson/04-pandas/pandas_overview.ipynb
