@@ -1,6 +1,6 @@
 ### Schedule
 
-**9:00 am** As per popular demand, work on Benson projects! 
+**9:00 am** By popular demand, work on Benson projects! 
 
 **12:00 pm**: Eat something. Your presentations will be better if you're not starving
 
