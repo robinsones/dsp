@@ -1,10 +1,6 @@
 ### Schedule
 
-**9:00 am**: Breakfast in the conference room!
-
-**9:15 am**: [Git branches and submitting work on GitHub](branch_submission.md)
-
-**10:30 am** Work on Benson projects
+**9:00 am** As per popular demand, work on Benson projects! 
 
 **12:00 pm**: Eat something. Your presentations will be better if you're not starving
 
