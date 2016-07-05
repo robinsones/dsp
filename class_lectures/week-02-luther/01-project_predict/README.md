@@ -18,17 +18,9 @@
 
 **2:45 pm**: Intro to [Project Luther](../../projects/02-luther/)
 
-**3:00 pm**: Brainstorm for your Luther project.
+**3:00 pm**: [Brainstorm]((../../projects/02-luther/Brainstorming_Guide.md) for your Luther project
 
- * Complete your first draft of the Luther project design, from [template](../../projects/02-luther/template.md), and submit via Slack.
-
-Wrap up Benson and start to move into Luther:
-
- * Benson presentation available online?
- * Benson challenges submitted?
- * Benson project write-up live online and linked in the tracking spreadsheet?
- * Luther design draft submitted?
- * [Pandas challenges](../../challenges/02-pandas/) submitted?
+ * Complete your first draft of the Luther project design today!  (submit via Slack)
 
 
 ### Additional Resources
