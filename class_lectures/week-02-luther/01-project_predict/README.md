@@ -16,7 +16,7 @@
 
 **1:45 pm**: Web scraping
 
-**2:45 pm**: Intro to [Project Luther](../../projects/02-luther/)
+**2:45 pm**: Intro to [Project Luther](../../../projects/02-luther/)
 
 **3:00 pm**: [Brainstorm]((../../projects/02-luther/Brainstorming_Guide.md) for your Luther project
 
