@@ -20,19 +20,10 @@
 
 **3:00 pm**: Brainstorm for your Luther project.
 
- * Complete your first draft of the Luther project design, from [template](../../../projects/02-luther/template.md), and submit via Slack.
+ * Complete your first draft of the Luther project design!
 
-Wrap up Benson and start to move into Luther:
-
- * Benson presentation available online?
- * Benson challenges submitted?
- * Benson project write-up live online and linked in the tracking spreadsheet?
- * Luther design draft submitted?
- * [Pandas challenges](../../challenges/02-pandas/) submitted?
 
 
 ### Additional Resources
-
- * Laurie's heavily indented thoughts on [being a data scientist and scoping projects](Project_Scope_Notes_for_Brainstorming.md)
  * [The BeautifulSoup Docs](https://www.crummy.com/software/BeautifulSoup/)
  * [Python Requests Docs](http://docs.python-requests.org/en/master/)
