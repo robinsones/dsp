@@ -4,13 +4,15 @@
 
 **9:15 am**: [Pair Problem](pair.md)
 
-**10:30 am**: Benson presentations
+**10:00 am**: Jupyter, numpy, Pandas
+
+**11:30 am** Intro to ML
 
 **12:00 pm**: Lunch time
 
 **1:30 pm**: Investigation Presentation
 
-**1:45 pm**: The Hipster Game, or, a Very Serious Introduction to Core Concepts in Supervised Learning
+**1:45 pm**: Web scraping
 
 **2:45 pm**: Intro to [Project Luther](../../projects/02-luther/)
 
