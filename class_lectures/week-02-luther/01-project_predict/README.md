@@ -1,5 +1,7 @@
 ### Schedule
 
+[Thought for the day](http://alisoncossette.github.io)
+
 **9:00 am**: Good morning! Get tea/coffee/potion, settle in, etc.
 
 **9:15 am**: [Pair Problem](pair.md)
@@ -32,4 +34,5 @@ Wrap up Benson and start to move into Luther:
 ### Additional Resources
 
  * Laurie's heavily indented thoughts on [being a data scientist and scoping projects](Project_Scope_Notes_for_Brainstorming.md)
- * A cohort 2 student's [write-up of the hipster game](http://frederikdurant.com/blog/hipster-or-not/)
+ * [The BeautifulSoup Docs](https://www.crummy.com/software/BeautifulSoup/)
+ * [Python Requests Docs](http://docs.python-requests.org/en/master/)
