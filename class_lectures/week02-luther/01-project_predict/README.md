@@ -16,11 +16,11 @@
 
 **1:45 pm**: Web scraping
 
-**2:45 pm**: Intro to [Project Luther](../../projects/02-luther/)
+**2:45 pm**: Intro to [Project Luther](../../../projects/02-luther/)
 
 **3:00 pm**: Brainstorm for your Luther project.
 
- * Complete your first draft of the Luther project design, from [template](../../projects/02-luther/template.md), and submit via Slack.
+ * Complete your first draft of the Luther project design, from [template](../../../projects/02-luther/template.md), and submit via Slack.
 
 Wrap up Benson and start to move into Luther:
 
