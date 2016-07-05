@@ -25,6 +25,5 @@
 
 ### Additional Resources
 
- * Laurie's heavily indented thoughts on [being a data scientist and scoping projects](Project_Scope_Notes_for_Brainstorming.md)
  * [The BeautifulSoup Docs](https://www.crummy.com/software/BeautifulSoup/)
  * [Python Requests Docs](http://docs.python-requests.org/en/master/)
