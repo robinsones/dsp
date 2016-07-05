@@ -79,8 +79,8 @@
 | 11             | Fletcher | [Flask](/challenges/11-flask)                 | recommended    | Mon, Aug 1  | Mon, Aug 15  |
 | 12             | Fletcher | [Mongo Twitter](/challenges/12-mongo_twitter)         | recommended    | Mon, Aug 8 | Mon, Aug 22 |
 | 13             | Fletcher | [NLP Unsupervised](/challenges/13-nlp_unsupervised)      | recommended    | Mon, Aug 8 | Mon, Aug 22  |
-| 14             | Kojak    | [Hadoop](/challenges/14-hadoop)                | recommended    | Mon, Aug 22 | Tues, Sep 5 |
-| 15             | Kojak    | [Hive](/challenges/15-hive)                  | recommended    | Mon, Aug 22 | Tues, Sep 5 |
+| 14             | Kojak    | [Hadoop](/challenges/14-hadoop)                | recommended    | Mon, Aug 22 | Tues, Sep 6 |
+| 15             | Kojak    | [Hive](/challenges/15-hive)                  | recommended    | Mon, Aug 22 | Tues, Sep 6 |
 
 *Full submission of challenge sets is encouraged, but partial submissions are ok. 
 
