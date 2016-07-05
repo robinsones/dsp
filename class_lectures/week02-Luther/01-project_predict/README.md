@@ -1,0 +1,33 @@
+### Schedule
+
+**9:00 am**: Good morning! Get tea/coffee/potion, settle in, etc.
+
+**9:15 am**: [Pair Problem](pair.md)
+
+**10:30 am**: Benson presentations
+
+**12:00 pm**: Lunch time
+
+**1:30 pm**: Investigation Presentation
+
+**1:45 pm**: The Hipster Game, or, a Very Serious Introduction to Core Concepts in Supervised Learning
+
+**2:45 pm**: Intro to [Project Luther](../../projects/02-luther/)
+
+**3:00 pm**: Brainstorm for your Luther project.
+
+ * Complete your first draft of the Luther project design, from [template](../../projects/02-luther/template.md), and submit via Slack.
+
+Wrap up Benson and start to move into Luther:
+
+ * Benson presentation available online?
+ * Benson challenges submitted?
+ * Benson project write-up live online and linked in the tracking spreadsheet?
+ * Luther design draft submitted?
+ * [Pandas challenges](../../challenges/02-pandas/) submitted?
+
+
+### Additional Resources
+
+ * Laurie's heavily indented thoughts on [being a data scientist and scoping projects](Project_Scope_Notes_for_Brainstorming.md)
+ * A cohort 2 student's [write-up of the hipster game](http://frederikdurant.com/blog/hipster-or-not/)
