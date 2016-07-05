@@ -14,11 +14,11 @@
 
 **1:30 pm**: Investigation Presentation
 
-**1:45 pm**: Web scraping
+**1:45 pm**: [Web scraping](web_scraping_beatifulsoup.ipynb)
 
 **2:45 pm**: Intro to [Project Luther](../../../projects/02-luther/)
 
-**3:00 pm**: [Brainstorm]((../../../projects/02-luther/Brainstorming_Guide.md) for your Luther project
+**3:00 pm**: [Brainstorm](../../../projects/02-luther/Brainstorming_Guide.md) for your Luther project
 
  * Complete your first draft of the Luther project design today!  (submit via Slack)
 
