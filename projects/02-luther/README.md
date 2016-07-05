@@ -18,7 +18,7 @@ Using information we scrape from the web, can we build linear regression models 
 
 #### Skills:
 
- * basics of the web (requests, HTML, CSS)
+ * basics of the web (requests, HTML)
  * web scraping
  * `numpy` and `pandas`
  * `statsmodels`, `scikit-learn`
