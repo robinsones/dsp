@@ -14,7 +14,6 @@
 
 **1:30 pm**: Investigation Presentation
 
-**1:45 pm**: [Unicode](unicode.md). Is it really a nightmare? Nah. Well, maybe a little bit. [Explore Unicode in Python 2.7](unicode.ipynb)
 
 Work time for the rest of the day. Bored? Here are some things to do:
 
