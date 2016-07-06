@@ -4,12 +4,11 @@
 
 **9:15 am**: [Pair Problem](pair.md)
 
-**10:00 am**: [Continuous probability](continuous_probability/)
+**10:00 am**: [Regression](Linear_Regression.pdf/)
 
 **11:00 am**: More Web Scraping
 
- * How to reverse-engineer a web site with browser devtools: [Rotten Tomatoes](www.rottentomatoes.com/) (HTML/HTTP meets JavaScript)
- * [Drive your browser with Selenium](web_scraping_selenium.ipynb), fill forms, click buttons, go crazy.
+ * [Drive your browser with Selenium](web_scraping_selenium_class.ipynb), fill forms, click buttons, go crazy.
 
 **12:00 pm**: Lunch?
 
