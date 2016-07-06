@@ -66,8 +66,8 @@
 
 | Challenge Set  | Project Group | Topic                 | Note * | Date Assigned   | Date Due      |
 |----------------|---------------|-----------------------|---------------|------------|-------------|
-| 1              | Benson        | [Explore MTA data](/challenges/01-benson)      | required     | Mon, June 27 | Mon, July 11  |
-| 2              | Benson        | [Pandas movies](/challenges/02-luther1)                | required    |Tues, July 5  |  Mon, July 18   |
+| 1              | Benson        | [Explore MTA data](/challenges/challenges_questions/01-benson)      | required     | Mon, June 27 | Mon, July 11  |
+| 2              | Benson        | [Pandas movies](/challenges/challenges_questions/02-luther1)                | required    |Tues, July 5  |  Mon, July 18   |
 | 3              | Luther        | [Linear Splitting](/challenges/03-linear_splitting)      | required    | Mon, July 11 | Mon, July 25   |
 | 4              | Luther        | [Linear Learning](/challenges/04-linear_learning)       | required    | Mon, July 11  |  Mon, July 25    |
 | 5              | McNulty       | [Classification](/challenges/05-classification)        | required    | Mon, July 18 |   Mon, Aug 1  |
