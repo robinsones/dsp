@@ -1,0 +1,635 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "# Introduction to Probability"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "## What is Probability?\n",
+    "- The study of theoretical possibilities and their likelihood of occuring.\n",
+    "- **(Theoretical) Examples:** \n",
+    "    - What is the chance of flipping three (fair) coins and getting heads twice?\n",
+    "    - What is the chance that the sum of 17 (fair) die rolls is greater than 100? "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "<img src=\"https://upload.wikimedia.org/wikipedia/commons/3/3e/BluePlatonicDice2.jpg\" width=\"300\">\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Some vocabulary:\n",
+    "* **Sample Space (E):** The set of all possibile outcomes associated with a random experiment\n",
+    "* **Event ($\\Omega$):** Subset of the sample space. Sets of possible outcomes\n",
+    "* **Random Variable:** A mapping from the sample space to the real numbers.\n",
+    "* **Probability function:** gives a real value to every event and obeys the following three rules:\n",
+    "    - P(E) >= 0\n",
+    "    - $P(\\Omega) = 1$\n",
+    "    - Probability of the union of dijoint events = sum of probabilities of disjoint events\n",
+    "\n",
+    "\n",
+    "### Examples: \n",
+    "**Sample Space**\n",
+    "* Sample space of two coin flips?\n",
+    "    - {HH, HT, TH, TT}\n",
+    "* Sample space of two dice rolls:\n",
+    "    - {(1,2,3,4,5,6) X (1,2,3,4,5,6)}\n",
+    "\n",
+    "**Random Variables**\n",
+    "* The number of heads from three coin flips\n",
+    "* The sum of two dice rolls\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "#### Chance of flipping three (fair) coins and getting (exactly) two heads\n",
+    "- Each coin has probability 1/2 of heads and 1/2 of tails, and all are **independent**.\n",
+    "- Naming the coins as C_1, C_2 and C_3, we see that the probability of two heads is the sum of the probabilities of all possible ways that this can happen:\n",
+    "$$ $$\n",
+    "\\begin{align}\n",
+    "P(``\\text{Exactly Two Heads\"}) &= \n",
+    "P(C_1 = ``H\") \\times P(C_2 = ``H\") \\times P(C_3 = ``T\") \\\\\n",
+    "&\\,\\,\\,\\,+ P(C_1 = ``H\") \\times P(C_2 = ``T\") \\times P(C_3 = ``H\") \\\\\n",
+    "&\\,\\,\\,\\,+ P(C_1 = ``T\") \\times P(C_2 = ``H\") \\times P(C_3 = ``H\") \\\\\n",
+    "&= 1/8 + 1/8 + 1/8 \\\\\n",
+    "&= 3/8\n",
+    "\\end{align}\n",
+    "\n",
+    "<img src=\"https://upload.wikimedia.org/wikipedia/commons/5/58/Roman_gold_coins_excavated_in_Pudukottai_India_one_coin_of_Caligula_31_41_and_two_coins_of_Nero_54_68.jpg\" width=\"400\">\n",
+    " "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Some more definitions:\n",
+    "\n",
+    "* **Conditional Probabilty (Probability of A given B):** $P(A|B) = \\frac{P(A,B)}{P(B)}$\n",
+    "* **Joint Probability (intersection, and):** P(A,B) = P(A|B)P(B) = P(B|A)P(A)\n",
+    "* **Independant Events:** P(A,B) = P(A)P(B)\n",
+    "* **Multiplication Rule of Probability:** P(A1, ... , AN) = P(A1)P(A2|A1)P(A3|A1,A2)*...*P(AN|A1,..,AN-1)\n",
+    "* **Complement** $P(A^{c}) = 1-P(A)$"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "What is the probability of flipping a coin twice and get the outcome HH?\n",
+    "\n",
+    "P(H,H) = P(H)P(H) = (.5)(.5) = .25 = 1/4"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Set Theory"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "Set theory:\n",
+    "* Union: or\n",
+    "* Intersection: and\n",
+    "* Complement: not\n",
+    "* Disjoint events"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "<img src=\"http://ndstudies.gov/sites/default/file/2_circle_venn.gif\" width=\"400\">\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "**Inclusion and exclusion:**\n",
+    "\n",
+    "P(A U B) = P(A) + P(B) - P(A,B)\n",
+    "\n",
+    "* if A and B are disjoint events then P(A or B) = P(A) + P(B)\n",
+    "* If A and B are independant events then P(A and P) = P(A)P(B)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Another Example\n",
+    "\n",
+    "\n",
+    "I am allergic to dogs. (Sad but true.)  They make me sneeze.\n",
+    "Sometimes dogs say hello to me.  What is the probability that I sneeze?\n",
+    "\n",
+    "Here I know some probabilities about the friendliness of dogs:\n",
+    "- $P(``\\text{Dog greets me}\") = 1/4$ \n",
+    "- $P(``\\text{Dog doesn't greet me}\") = 3/4$ \n",
+    "\n",
+    "Sometimes we know the **conditional probabilities** that depend on whether dogs say hello:\n",
+    "- $P(``\\text{I sneeze}\" |\\, ``\\text{Dog greets me}\") = 9/10$\n",
+    "- $P(``\\text{I don't sneeze}\" |\\, ``\\text{Dog greets me}\") = 1/10$\n",
+    "- $P(``\\text{I sneeze}\" |\\, ``\\text{Dog doesn't greet me}\") = 2/10$\n",
+    "- $P(``\\text{I don't sneeze}\" |\\, ``\\text{Dog doesn't greet me}\") = 8/10$\n",
+    "\n",
+    "How can I find the probability of sneezing in general?\n",
+    "$$ $$\n",
+    "\\begin{align}\n",
+    "P(``\\text{I sneeze}\") \n",
+    "&= P(``\\text{I sneeze}\" |\\, ``\\text{Dog greets me}\") \\times P(``\\text{Dog greets me}\") \n",
+    "\\\\\n",
+    "&= P(``\\text{I sneeze}\" |\\, ``\\text{Dog doesn't greet me}\") \\times P(``\\text{Dog doesn't greet me}\") \n",
+    "\\\\\n",
+    "&= \\frac{9}{10} \\times \\frac{1}{4} + \\frac{2}{10} \\times \\frac{3}{4}\n",
+    "\\\\\n",
+    "&= \\frac{9 + 6}{40} = \\frac{3}{8} = 37.5\\%\n",
+    "\\end{align}\n",
+    "\n",
+    "\n",
+    "Note that $P(``\\text{I sneeze}\")$ depends on the value of $``\\text{Dog greets me}\"$!\n",
+    "  \n",
+    "   **The random variables \"I sneeze\" and \"Dog greets me\" are not independent!**\n",
+    "  \n",
+    "If we thought they were independent, we would conclude that the probabilty \n",
+    "  that I sneeze when a dog greets me is $\\frac{1}{4} \\cdot \\frac{3}{8} = \\frac{3}{32} \\approx 9.3\\%$, \n",
+    "  but its actually $\\frac{1}{4} \\cdot \\frac{9}{10} = 22.5\\%$!\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Some important quantities"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "When there are only finitely many values attained by your variable, \n",
+    "it is called a **discrete random variable**.  (These are always thought \n",
+    "of as functions on a fixed probability space!)\n",
+    "\n",
+    "\n",
+    "For these we can compute the following important quantities:\n",
+    "- **Expected value/mean value** \n",
+    "$$E(X) := \\mu_X := \\sum_{\\text{values $x$ of $X$}} P(X = x) \\times x$$\n",
+    "- **Variance** \n",
+    "\\begin{align}\n",
+    "Var(X) &:= (\\sigma_X)^2\n",
+    "\\\\\n",
+    "&:= \\sum_{\\text{values $x$ of $X$}} P(X = x) \\times (x - E(X))^2\n",
+    "\\\\\n",
+    "&=  E\\left((X - E(X))^2\\right)\n",
+    "\\end{align}\n",
+    "- **Standard Deviation**\n",
+    "$$\n",
+    "\\sigma_X := \\sqrt{Var(X)}\n",
+    "$$\n",
+    "    \n",
+    "    \n",
+    "For equallly weighted (i.e. fair) discrete random variables with $n$ values this becomes:\n",
+    "- Expected value/mean value \n",
+    "$$\n",
+    "E(X) := \\mu_X := \\frac{\\sum_{\\text{values $x$ of $X$}} x}{n}\n",
+    "$$\n",
+    "- Variance \n",
+    "$$\n",
+    "Var(X) :=  \\frac{\\sum_{\\text{values $x$ of $X$}} (x - E(X))^2}{n}\n",
+    "$$\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "For two discrete random variables on the same probability space, \n",
+    "we can talk about their **covariance**:\n",
+    "$$ $$\n",
+    "\\begin{align}\n",
+    "\\text{Cov}&(X,Y) \\\\\n",
+    "&= \\sum_{\\substack{\\text{values $x$ of $X$}\\\\ \\text{values $y$ of $Y$}}} P(X=x, Y=y) (x - E(X))(y - E(Y))\n",
+    "\\end{align}\n",
+    "For equal-weighted independent random variables (say with $n$ values each), this reduces to \n",
+    "$$ $$\n",
+    "    $$\\text{Cov}(X,Y) = \\frac{\\sum_{x,y} (x - E(X))(y - E(Y))}{n^2}$$\n",
+    "If we take X = Y then \n",
+    "$$ $$\n",
+    "\\begin{align}\n",
+    "\\text{Cov}(X,X) &= \\frac{\\sum_{x} \\sum_{x}(x - E(X))(x - E(X))}{n^2} \\\\\n",
+    "             &= \\frac{n \\times \\sum_{x} (x - E(X))(x - E(X))}{n^2} \\\\\n",
+    "             &= \\frac{\\sum_{x} (x - E(X))^2}{n} \\\\\n",
+    "             &= \\text{Var}(X)\n",
+    "\\end{align}"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Example: Mean and variance for a fair die \n",
+    "\\begin{align}\n",
+    "    E(X) &= \\frac{1 + 2 + 3 + 4 + 5 + 6}{6} = \\frac{21}{6} = 3.5 \\\\\n",
+    "    \\\\\n",
+    "    Var(X) &= \\frac{(1 - 3.5)^2 + \\cdots + (6 - 3.5)^2}{6} \\approx 2.91666...\n",
+    "    \\\\\n",
+    "    \\sigma_X &= \\sqrt{Var(X)} \\approx 1.7078...\n",
+    "\\end{align}\n",
+    "    \n",
+    "**Note:** We cannot compute the expected value or variance of a fair coin \n",
+    "        without assigning its values 'H' an 'T' to numbers!"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### An important Probability theorem:\n",
+    "\n",
+    "**Law of Large Numbers (LLN informal)** -- The average value of a large number of independent \n",
+    "samples of a random variable $X$ gets arbitrarily close to its expected value $E(X)$.\n",
+    "\n",
+    "**Law of Large Numbers (LLN formal)** -- Suppose that $X_1, ..., X_n$ are independent random \n",
+    "variables with the same probability densities as the random variable $X$, then \n",
+    "\n",
+    "$$\n",
+    "\\lim_{n \\rightarrow \\infty} \\frac{X_1 + X_2 + \\cdots + X_n}{n} = E(X).\n",
+    "$$\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Probability\n",
+    "* **Probability mass function:** A function that gives the probability of a discrete random variable being a specific value\n",
+    "* **Probability density function:** See below\n",
+    "\n",
+    "A **continuous** random variable $X$ is one that attains a continuum of values.  These can be described as having a probability density function $\\rho_X(x)$ tells us the **probability density** at each value.  \n",
+    "\n",
+    "This means if we look at a small interval $[x, x+dx]$ around $x$ and ask about the probability that the continuous random variable $X$ takes values in there, we have that \n",
+    "\n",
+    "$$\n",
+    "P(x \\leq X \\leq x + dx) \\approx \\rho_X(x) dx\n",
+    "$$\n",
+    "\n",
+    "**Warning:** This means that $\\rho_X(x)$ doesn't tell us the probability $P(X = x)$ of the random variable $X$ attaining a specific value $x$ -- this is (almost) always zero!  Instead we must ask about an **interval** of values!"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Some Important PDFs"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Uniform random variables\n",
+    "\n",
+    "A **uniform random variable** on the interval $[a,b]$ is any random variable $X$ with a probability density function satisfying\n",
+    "$$ $$\n",
+    "$$\n",
+    "\\rho_X(x) = \\begin{cases}\n",
+    "\\frac{1}{b-a} &\\qquad \\text{if $a \\leq x \\leq b$,} \\\\\n",
+    "0 & \\qquad \\text{otherwise.}\n",
+    "\\end{cases}\n",
+    "$$\n",
+    "\n",
+    "<img width=400 \n",
+    "src=\"https://upload.wikimedia.org/wikipedia/commons/9/96/Uniform_Distribution_PDF_SVG.svg\">\n",
+    "\n",
+    "This is the most common distribution that vanishes outside of a closed interval."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Gaussian / Normal Distribution\n",
+    "\n",
+    "A **normal random variable** $\\mathcal{N}(\\mu, \\sigma^2)$ with mean $\\mu$ and variance $\\sigma^2>0$ is any random variable $X$ with a probability density function satisfying\n",
+    "$$ $$\n",
+    "$$\n",
+    "\\rho_X(x) = \\frac{1}{\\sqrt{2\\pi}\\sigma} e^\\frac{-(x-\\mu)^2}{2\\sigma^2} = \\frac{1}{\\sqrt{2\\pi}\\sigma}\\exp\\left({\\frac{-(x-\\mu)^2}{2\\sigma^2}}\\right).\n",
+    "$$\n",
+    "\n",
+    "<img width=400  src=\"https://upload.wikimedia.org/wikipedia/commons/7/74/Normal_Distribution_PDF.svg\">\n",
+    "\n",
+    "This is really important -- and describes a certain kind of \"random\" noise."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Log-Gaussian\n",
+    "A **log-normal random variable** with \"mean\" $\\mu$ and \"variance\" $\\sigma^2 > 0$ is any random variable $X$ with a probability density function satisfying\n",
+    "$$ $$\n",
+    "$$\n",
+    "\\rho_X(x) \n",
+    "= \\begin{cases}\n",
+    "\\frac{1}{\\sqrt{2\\pi}x \\sigma} \n",
+    "e^\\frac{-(\\ln(x)-\\mu)^2}{2\\sigma^2} & \\qquad \\text{if $x > 0$,}\n",
+    "\\\\\n",
+    "0 & \\qquad \\text{otherwise.}\n",
+    "\\end{cases}\n",
+    "$$\n",
+    "\n",
+    "<img width=\"400\" height=\"400\"\n",
+    "src=\"https://upload.wikimedia.org/wikipedia/commons/a/ae/PDF-log_normal_distributions.svg\">\n",
+    "\n",
+    "This is a common non-negative random variable, that comes up when we have \"mutliplicative noise\"."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Exponential distribution\n",
+    "An **exponential random variable** with parameter $\\lambda > 0$ is any random variable $X$ with a probability density function satisfying\n",
+    "$$ $$\n",
+    "$$\n",
+    "\\rho_X(x) = \n",
+    "\\begin{cases}\n",
+    "λ e^{−λx} = \\lambda \\exp(-\\lambda x) &\\qquad \\text{if $x \\geq 0$,} \\\\\n",
+    "0 & \\qquad \\text{otherwise.}\n",
+    "\\end{cases}\n",
+    "$$\n",
+    "\n",
+    "<img width=\"400\" height=\"400\"\n",
+    "src=\"https://upload.wikimedia.org/wikipedia/commons/e/ec/Exponential_pdf.svg\">\n",
+    "\n",
+    "Here $\\lambda$ is called the **rate parameter**, and this is often used to describe the time between occurences of events."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Poisson distribution -- a useful discrete random variable\n",
+    "An **Poisson random variable** with parameter $\\lambda > 0$ is any random variable $X$ with a probability density function satisfying\n",
+    "$$ $$\n",
+    "$$\n",
+    "\\rho_X(k) = \\begin{cases}\n",
+    "\\frac{\\lambda^k}{e^\\lambda \\cdot k!} &\\qquad \\text{if $k$ is a non-negative integer,} \\\\\n",
+    "0 & \\qquad \\text{otherwise.}\n",
+    "\\end{cases}\n",
+    "$$\n",
+    "\n",
+    "<img width=\"400\" height=\"400\"\n",
+    "src=\"https://upload.wikimedia.org/wikipedia/commons/1/16/Poisson_pmf.svg\">\n",
+    "\n",
+    "\n",
+    "This is often used to describe the number of events that occur in a given amount of time."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### Another important theorem in Probability\n",
+    "\n",
+    "Last time we talked about the **Law of Large numbers**, which gave tangible meaning \n",
+    "to the expected value $E(X)$ of a random variable $X$ as the **\"expected average value\"** \n",
+    "of many independent trials for choosing $X$.\n",
+    "\n",
+    "Another important theorem is the **Central Limit Theorem**, which gives a similar tangible meaning to the variance $(\\sigma_X)^2$ of a random variable $X$.\n",
+    "\n",
+    "\n",
+    "**Central Limit Theorem (Informal):** Suppose that $X$ is a random variable with mean zero and finite variance.  Then the sum of $n$ trials of $X$ divided by $\\sqrt{n}$ approaches the normal distribution with mean zero and the same variance as $X$.\n",
+    "\n",
+    "**Central Limit Theorem (Formal):** Suppose that $X$ is a random variable with $E(X) = 0$ and variance $\\sigma^2 < \\infty$, and $X_1, X_2, \\cdots, X_n$ are independent random variables with the same probability distribution as $X$.  Then the limit\n",
+    "$$ $$\n",
+    "$$\n",
+    "\\lim_{n \\rightarrow \\infty} \\frac{X_1 + X_2 + \\cdots + X_n}{\\sqrt{n}} \n",
+    "= \\mathcal{N}\\left(0, \\sigma^2\\right)\n",
+    "$$\n",
+    "in probability.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "### How can this help us?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "Parameter estimation: \n",
+    "* $P(D|\\Theta)$ Choose parameters that maximize the probability of seeing the data\n",
+    "* $P(\\Theta|D)$ Given the data choose the most probable parameters \n",
+    "* $P(y|X)$ What's the probability of a class given the features"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "celltoolbar": "Slideshow",
+  "kernelspec": {
+   "display_name": "Python 2",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}
