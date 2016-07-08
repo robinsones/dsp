@@ -4,15 +4,14 @@
 
 **9:15 am**: [Pair Problem](pair.md)
 
-**10:00 am**: [Linear Regression](Linear_Regression.pdf)
+**10:00 am**: [Test, Train, Split](train_and_test.pdf)
 
 **11:00 am**: Linear Regression [in Python](statsmodels_sklearn.ipynb)
 
-**12:00 pm**: Nuclear Lunch Detected
+**12:00 pm**: Lunch of all lunches
 
 **1:30 pm**: Investigation Presentation
 
-**1:45 pm**: So much joy! Linear regression challenges are out!
 
 
 ### Additional resources
