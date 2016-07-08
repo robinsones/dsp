@@ -12,7 +12,7 @@
 
 **1:30 pm**: Investigation Presentation
 
-
+**1:45 pm**: Stand ups!   give us the 30 sec summary about where you are with your project
 
 ### Additional resources
 
