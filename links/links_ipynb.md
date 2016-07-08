@@ -13,4 +13,5 @@
 | week02-luther1 | 03-luther_regression | [continuous_probability](../class_lectures/week02-luther1/03-luther_regression/continuous_probability/More from yesterday!.ipynb) | 11 |
 | week02-luther1 | 03-luther_regression | [intro_to_probability.ipynb](../class_lectures/week02-luther1/03-luther_regression/intro_to_probability.ipynb) | 12 |
 | week02-luther1 | 03-luther_regression | [Pickling_Python_Objects.ipynb](../class_lectures/week02-luther1/03-luther_regression/Pickling_Python_Objects.ipynb) | 13 |
-| week02-luther1 | 03-luther_regression | [unicode.ipynb](../class_lectures/week02-luther1/03-luther_regression/unicode.ipynb) | 14 |
+| week02-luther1 | 03-luther_regression | [Probability.ipynb](../class_lectures/week02-luther1/03-luther_regression/Probability.ipynb) | 14 |
+| week02-luther1 | 03-luther_regression | [unicode.ipynb](../class_lectures/week02-luther1/03-luther_regression/unicode.ipynb) | 15 |
