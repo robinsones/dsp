@@ -6,8 +6,6 @@
 
 **10:00 am**: [Regularization](regularization.pdf)
 
-**11:45 am**: Quick look at [seaborn](seaborn.ipynb)
-
 **12:00 pm**: Lunch!
 
 **1:30 pm**: Investigation Presentation
