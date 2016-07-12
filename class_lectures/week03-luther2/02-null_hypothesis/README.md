@@ -36,4 +36,4 @@ plt.show()
 
  * [More on hypothesis testing](https://dataiap.github.io/dataiap/day3/hypothesis_testing.html)
  * [Scipy has functions for many hypothesis tests](http://docs.scipy.org/doc/scipy/reference/stats.html#statistical-functions)
- * [Which statistical to use](http://www.ats.ucla.edu/stat/stata/whatstat/whatstat.htm)
+ * [Which statistical test to use?](http://www.ats.ucla.edu/stat/stata/whatstat/whatstat.htm)
