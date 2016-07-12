@@ -4,7 +4,7 @@
 
 **9:15 am**: [Pair Problem](pair.md)
 
-**10:00 am**: [Linear regression's assumptions](Linear_Regression_Assumptions.pdf)
+**10:00 am**: Null Hypothesis!
 
 **11:00 am**: Minimum Viable Products! [Just do it!](https://www.youtube.com/watch?v=UhRXn2NRiWI)
 
