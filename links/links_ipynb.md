@@ -15,3 +15,4 @@
 | week02-luther1 | 03-luther_regression | [Pickling_Python_Objects.ipynb](../class_lectures/week02-luther1/03-luther_regression/Pickling_Python_Objects.ipynb) | 13 |
 | week02-luther1 | 03-luther_regression | [Probability.ipynb](../class_lectures/week02-luther1/03-luther_regression/Probability.ipynb) | 14 |
 | week02-luther1 | 03-luther_regression | [unicode.ipynb](../class_lectures/week02-luther1/03-luther_regression/unicode.ipynb) | 15 |
+| week02-luther1 | 04-regression_eval | [statsmodels_sklearn.ipynb](../class_lectures/week02-luther1/04-regression_eval/statsmodels_sklearn.ipynb) | 16 |
