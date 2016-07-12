@@ -4,7 +4,7 @@
 
 **9:15 am**: [Pair Problem](pair.md)
 
-**10:00 am**: [Linear regression's assumptions](Linear_Regression_Assumptions.pdf)
+**10:00 am**: Null Hypothesis!
 
 **11:00 am**: Minimum Viable Products! [Just do it!](https://www.youtube.com/watch?v=UhRXn2NRiWI)
 
@@ -31,3 +31,9 @@ measurements = np.random.normal(loc = 20, scale = 5, size=100)
 stats.probplot(measurements, dist="norm", plot=plt)
 plt.show()
 ```
+
+### Additional Resources
+
+ * [More on hypothesis testing](https://dataiap.github.io/dataiap/day3/hypothesis_testing.html)
+ * [Scipy has functions for many hypothesis tests](http://docs.scipy.org/doc/scipy/reference/stats.html#statistical-functions)
+ * [Which statistical to use](http://www.ats.ucla.edu/stat/stata/whatstat/whatstat.htm)
