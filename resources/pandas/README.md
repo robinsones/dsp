@@ -10,6 +10,11 @@ Greg Reda has a an introduction to Pandas on his website:
 2. [Working with DataFrames](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/)
 3. [Using pandas with the MovieLens dataset](http://www.gregreda.com/2013/10/26/using-pandas-on-the-movielens-dataset/)
 
+Chris Albon has good sub-sections on pandas:  
+http://chrisalbon.com/#Python
+
+---
+
 #### Intermediate
 
 Tom Augspurger's seven-part blog series goes into more detail:
