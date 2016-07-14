@@ -4,7 +4,7 @@
 
 **9:15 am**: [Pair Problem](pair.md)
 
-**10:00 am**: The joy of Bayes
+**10:00 am**: The joy of [Bayes](Bayes.pdf)
 
 **11:00 am**: What do you mean your project isn't finished yet?
 
