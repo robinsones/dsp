@@ -17,3 +17,4 @@
 | week02-luther1 | 03-luther_regression | [unicode.ipynb](../class_lectures/week02-luther1/03-luther_regression/unicode.ipynb) | 15 |
 | week02-luther1 | 04-regression_eval | [statsmodels_sklearn.ipynb](../class_lectures/week02-luther1/04-regression_eval/statsmodels_sklearn.ipynb) | 16 |
 | week03-luther2 | 01-regularization | [Missing_Values.ipynb](../class_lectures/week03-luther2/01-regularization/Missing_Values.ipynb) | 17 |
+| week03-luther2 | 02-null_hypothesis | [Null_Hypothesis.ipynb](../class_lectures/week03-luther2/02-null_hypothesis/Null_Hypothesis.ipynb) | 18 |
