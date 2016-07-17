@@ -1,0 +1,29 @@
+### Schedule
+
+**9:00 am**: Welcome back! 
+
+**9:15 am**: [Pair Problem](pair.md)
+
+**10:00 am**: SQL Schemas
+
+**10:30 am**: SQL LAB
+
+**11:00 am**: [Introducing Project McNulty](McNulty.pdf)
+
+**11:30 am**: Form Project McNulty teams and brainstorm problems!
+
+ * Define your company
+ * Define your questions
+
+**12:00 pm**: Lunch!
+
+**1:30 pm**: Investigation Presentation
+
+**1:45 pm**: [KNN](Knn.pdf)
+
+
+
+#### More reading
+
+ * [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html): An accessible explanation, with KNN as an example algorithm.
+ * [Introduction to k Nearest Neighbour Classification and Condensed Nearest Neighbour Data Reduction](http://www.math.le.ac.uk/people/ag153/homepage/KNN/OliverKNN_Talk.pdf)
