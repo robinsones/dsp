@@ -4,9 +4,9 @@
 
 **9:15 am**: [Pair Problem](pair.md)
 
-**10:00 am**: [Branches and Pull Requests](branch_requests.md)
+**10:00 am**: (Deep) copying :copyright: and pandas! :panda_face: :panda_face:
 
-**11:00 am**: (Deep) copying :copyright: and pandas! :panda_face: :panda_face:
+**11:00 am**: [Branches and Pull Requests](branch_requests.md)
 
 **12:00 pm**: Food is the food of the soul
 
@@ -15,9 +15,9 @@
 
 ### How will you know when you're done with Benson?
 
- * Your team has a five-minute presentation, given in class Monday morning.
- * You have submitted your Benson challenges on GitHub.
- * You have a write-up about your analysis of MTA turnstile (and/or other) data on your blog, and there's a link to this write-up on the class [Google sheet](https://docs.google.com/spreadsheets/d/1AZT_PR0lFkqt7kxFTzVZubhwFkcpTRYM3TQyauhPDSg/edit#gid=0).
+ * Your team has a five-minute presentation, given in class tomorrow morning.
+ * You have submitted your Benson challenges on GitHub.   (Due July 11th)
+ * You have a write-up about your analysis of MTA turnstile (and/or other) data on your blog!   (Due next Tuesday) 
 
 
 
