@@ -10,7 +10,7 @@
 
 **11:00 am**: [Introducing Project McNulty](McNulty.pdf)
 
-**11:30 am* *: Form Project McNulty teams and brainstorm problems!
+**11:30 am**: Form Project McNulty teams and brainstorm problems!
 
  * Define your company
  * Define your questions
