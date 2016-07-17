@@ -209,93 +209,73 @@ Weds, June 29
   
   Mon  July 18
   
-  [('Adam', 'Katherine'),
-  ('Kevin', 'Jessica'),
-  ('', 'Fernando'),
-  ('Yulia', 'Emily'),
-  ('Whitney', 'Chuck'),
-  ('Sunne', 'Bryant'),
-  ('Sravanthi', 'Brian'),
-  ('Seth', 'Allison'),
-  ('Graham', 'Alan S'),
-  ('Michelle', 'Avi'),
-  ('Michael', 'Ahmed'),
-  ('Max', 'Lauren'),
-  ('Matthew', 'Marc')]
-  
-  Tues July 19
-  
    [('Adam', 'Jessica'),
   ('Katherine', 'Fernando'),
   ('Kevin', 'Emily'),
-  ('', 'Chuck'),
   ('Yulia', 'Bryant'),
   ('Whitney', 'Brian'),
   ('Sunne', 'Allison'),
   ('Sravanthi', 'Alan S'),
   ('Seth', 'Avi'),
   ('Graham', 'Ahmed'),
-  ('Michelle', 'Lauren'),
+  ('Michelle'),
   ('Michael', 'Marc'),
   ('Max', 'Matthew')]
   
-  Weds July 20 
+   Tues July 19 
   
   [('Adam', 'Fernando'),
   ('Jessica', 'Emily'),
-  ('Katherine', 'Chuck'),
+  ('Katherine', 'Seth',),
   ('Kevin', 'Bryant'),
   ('', 'Brian'),
   ('Yulia', 'Allison'),
   ('Whitney', 'Alan S'),
   ('Sunne', 'Avi'),
   ('Sravanthi', 'Ahmed'),
-  ('Seth', 'Lauren'),
   ('Graham', 'Marc'),
   ('Michelle', 'Matthew'),
   ('Michael', 'Max')]
   
-  Thurs July 21
+  Weds July 20
   
   [('Adam', 'Emily'),
-  ('Fernando', 'Chuck'),
+  ('Fernando', 'Lauren'),
   ('Jessica', 'Bryant'),
   ('Katherine', 'Brian'),
   ('Kevin', 'Allison'),
   ('', 'Alan S'),
   ('Yulia', 'Avi'),
   ('Whitney', 'Ahmed'),
-  ('Sunne', 'Lauren'),
+  ('Sunne'),
   ('Sravanthi', 'Marc'),
   ('Seth', 'Matthew'),
   ('Graham', 'Max'),
   ('Michelle', 'Michael')]
   
-  Fri July 22
+  Thurs July 21
   
-   [('Adam', 'Chuck'),
+   [('Adam', 'Yulia'),
   ('Emily', 'Bryant'),
   ('Fernando', 'Brian'),
   ('Jessica', 'Allison'),
   ('Katherine', 'Alan S'),
   ('Kevin', 'Avi'),
   ('', 'Ahmed'),
-  ('Yulia', 'Lauren'),
   ('Whitney', 'Marc'),
   ('Sunne', 'Matthew'),
   ('Sravanthi', 'Max'),
   ('Seth', 'Michael'),
   ('Graham', 'Michelle')]
   
-  Mon July 25
+  Fri July 22
   
   [('Adam', 'Bryant'),
-  ('Chuck', 'Brian'),
+  ( 'Kevin','Brian'),
   ('Emily', 'Allison'),
   ('Fernando', 'Alan S'),
   ('Jessica', 'Avi'),
   ('Katherine', 'Ahmed'),
-  ('Kevin', 'Lauren'),
   ('', 'Marc'),
   ('Yulia', 'Matthew'),
   ('Whitney', 'Max'),
@@ -303,14 +283,13 @@ Weds, June 29
   ('Sravanthi', 'Michelle'),
   ('Seth', 'Graham')]
   
-  Tues July 26
+  Mon July 25
   
   [('Adam', 'Brian'),
   ('Bryant', 'Allison'),
-  ('Chuck', 'Alan S'),
+  ('Jessica', 'Alan S'),
   ('Emily', 'Avi'),
   ('Fernando', 'Ahmed'),
-  ('Jessica', 'Lauren'),
   ('Katherine', 'Marc'),
   ('Kevin', 'Matthew'),
   ('', 'Max'),
@@ -319,13 +298,12 @@ Weds, June 29
   ('Sunne', 'Graham'),
   ('Sravanthi', 'Seth')]
   
-  Weds July 27
+  Tues July 26
   
   [('Adam', 'Allison'),
   ('Brian', 'Alan S'),
   ('Bryant', 'Avi'),
-  ('Chuck', 'Ahmed'),
-  ('Emily', 'Lauren'),
+  ('Emily', 'Ahmed'),
   ('Fernando', 'Marc'),
   ('Jessica', 'Matthew'),
   ('Katherine', 'Max'),
@@ -335,13 +313,12 @@ Weds, June 29
   ('Whitney', 'Seth'),
   ('Sunne', 'Sravanthi')]
   
-  Thurs July 28
+  Weds July 27
   
   [('Adam', 'Alan S'),
   ('Allison', 'Avi'),
   ('Brian', 'Ahmed'),
-  ('Bryant', 'Lauren'),
-  ('Chuck', 'Marc'),
+  ('Bryant', 'Marc'),
   ('Emily', 'Matthew'),
   ('Fernando', 'Max'),
   ('Jessica', 'Michael'),
@@ -351,14 +328,13 @@ Weds, June 29
   ('Yulia', 'Sravanthi'),
   ('Whitney', 'Sunne')]
   
-  Fri July 29 
+  Thurs July 28
   
   [('Adam', 'Avi'),
   ('Alan S', 'Ahmed'),
-  ('Allison', 'Lauren'),
   ('Brian', 'Marc'),
   ('Bryant', 'Matthew'),
-  ('Chuck', 'Max'),
+  ( 'Allison','Max'),
   ('Emily', 'Michael'),
   ('Fernando', 'Michelle'),
   ('Jessica', 'Graham'),
@@ -368,14 +344,13 @@ Weds, June 29
   ('Yulia', 'Whitney')]
   
   
-  Mon Aug 1
+  Fri July 29
   [('Adam', 'Ahmed'),
-  ('Avi', 'Lauren'),
   ('Alan S', 'Marc'),
   ('Allison', 'Matthew'),
   ('Brian', 'Max'),
   ('Bryant', 'Michael'),
-  ('Chuck', 'Michelle'),
+  ('Avi', 'Michelle'),
   ('Emily', 'Graham'),
   ('Fernando', 'Seth'),
   ('Jessica', 'Sravanthi'),
@@ -383,19 +358,17 @@ Weds, June 29
   ('Kevin', 'Whitney'),
   ('', 'Yulia')]
   
-  Tues Aug 2
+  Mon Aug 1
   
-  [('Adam', 'Lauren'),
-  ('Ahmed', 'Marc'),
+  [('Ahmed', 'Marc'),
   ('Avi', 'Matthew'),
   ('Alan S', 'Max'),
   ('Allison', 'Michael'),
   ('Brian', 'Michelle'),
   ('Bryant', 'Graham'),
-  ('Chuck', 'Seth'),
+  ('Adam', 'Seth'),
   ('Emily', 'Sravanthi'),
   ('Fernando', 'Sunne'),
   ('Jessica', 'Whitney'),
   ('Katherine', 'Yulia'),
   ('Kevin', '')]
-  
