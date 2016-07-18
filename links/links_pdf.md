@@ -6,3 +6,6 @@
 | week02-luther1 | 02-prob_scrape_pickle | [Linear_Regression.pdf](../class_lectures/week02-luther1/02-prob_scrape_pickle/Linear_Regression.pdf) | 4 |
 | week02-luther1 | 04-regression_eval | [train_and_test.pdf](../class_lectures/week02-luther1/04-regression_eval/train_and_test.pdf) | 5 |
 | week03-luther2 | 01-regularization | [regularization.pdf](../class_lectures/week03-luther2/01-regularization/regularization.pdf) | 6 |
+| week03-luther2 | 03-assumptions | [Linear_Model_Evaluation.pdf](../class_lectures/week03-luther2/03-assumptions/Linear_Model_Evaluation.pdf) | 7 |
+| week03-luther2 | 03-assumptions | [Linear_Regression_Assumptions.pdf](../class_lectures/week03-luther2/03-assumptions/Linear_Regression_Assumptions.pdf) | 8 |
+| week03-luther2 | 04-bayes | [Bayes.pdf](../class_lectures/week03-luther2/04-bayes/Bayes.pdf) | 9 |
