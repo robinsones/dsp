@@ -31,4 +31,4 @@
 #### More on structuring data, databases, and SQL
 
 * You could go through Zed Shaw's [Learn SQL the Hard Way](http://sql.learncodethehardway.org/book/), which will still take you through lots of SQL with SQLite.
- * For more introductory SQL, check out the [Mode Analytics "SQL School"](http://sqlschool.modeanalytics.com/).
+* For more introductory SQL, check out the [Mode Analytics "SQL School"](http://sqlschool.modeanalytics.com/).
