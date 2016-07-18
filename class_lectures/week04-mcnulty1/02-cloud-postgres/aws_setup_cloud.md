@@ -28,7 +28,7 @@ Step 1) Choose an Amazon Machine Image (AMI):  **Ubuntu Server** [press blue Sel
 Step 2) Choose an Instance Type:  Select a **Free tier eligible** "t2.micro" instance  
 Step 3) **Next: Configure Instance Details**  [accept default]  
 Step 4) **Next:  Add Storage**  [set to free max of 30GB]  
-Step 5) Tag Instance: `awsds7`  
+Step 5) Tag Instance: `awsds8`  
 Step 6) **Next:  Configure Security Group**  
 Name a new security group and allow some more ports if you like.  
 >     Add Rule:  select 'Custom TCP Rule'  
@@ -47,7 +47,7 @@ Step 7) Review Instance Launch: your set-up will look like below screenshot
 
 ##Set up Secure Access  
 
-1.  Choose to "Create a new key pair" and give it a name:  **aws_ds7key**  
+1.  Choose to "Create a new key pair" and give it a name:  **aws_ds8key**  
 2.  Download keypair
 
 ---
@@ -55,41 +55,37 @@ Step 7) Review Instance Launch: your set-up will look like below screenshot
 ###Keypair
 Save file.  For me, it is in this folder:  
 ```
-reshama$ pwd
-/Users/reshamashaikh/Downloads
-reshama$ 
-reshama$ ls *aws_ds7key*
--rw-r--r--@ 1   1692 Apr 23 14:46 aws_ds7key.pem
-reshama$ 
+julia$ pwd
+/Users/julialintern/Downloads
+julia$ 
+julia$ ls -la *aws_ds8key*
+-rw-r--r--@ 1   1692 Apr 23 14:46 aws_ds8key.pem
+julia$ 
 ```  
 Move your file to `~/.ssh/`.  (Note:  if you do not have an ssh folder, create one:  `mkdir ~/.ssh`)  
 ```  
-reshama$ mv aws_ds7key.pem ~/.ssh
+julia$ mv aws_ds8key.pem ~/.ssh/aws_ds8key.pem 
 ```
 Make your file read only with `chmod 400 filename`
 ```
-reshama$ cd ~/.ssh
-reshama$ pwd
-/Users/reshamashaikh/.ssh
-reshama$ 
-reshama$ ls *aws_ds7key*
+julia$ cd ~/.ssh
+julia$ pwd
+/Users/julialintern/.ssh
+julia$ ls -la *aws_ds8key*
 -rw-r--r--@ 1   1692 Apr 23 14:46 aws_ds7key.pem
-reshama$ 
-reshama$ chmod 400 aws_ds7key.pem
-reshama$ 
-reshama$ ls *aws_ds7key*
+
+julia$ chmod 400 aws_ds8key.pem
+
+julia$ ls -la *aws_ds8key*
 -r--------@ 1   1692 Apr 23 14:46 aws_ds7key.pem
-reshama$ 
 ```  
 Check that you have `id_rsa` and `id_rsa.pub` files within your .ssh file  
 ```
-reshama$ pwd
-/Users/reshamashaikh/.ssh
-reshama$ 
-reshama$ ls *id_rsa*
+julia$ pwd
+/Users/julialintern/.ssh
+julia$ ls -la *id_rsa*
 -rw-------  1   1675 Jun  2  2015 id_rsa
 -rw-r--r--  1    422 Jun  2  2015 id_rsa.pub
-reshama$ 
 ```  
 If you do not have them, generate them with `$ ssh-keygen -t rsa`    
 (When asked where to save, the default location is correct (ex: /Users/username/.ssh/id_rsa) : so hit Enter)
