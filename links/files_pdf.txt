@@ -7,3 +7,6 @@
 ../class_lectures/week03-luther2/03-assumptions/Linear_Model_Evaluation.pdf
 ../class_lectures/week03-luther2/03-assumptions/Linear_Regression_Assumptions.pdf
 ../class_lectures/week03-luther2/04-bayes/Bayes.pdf
+../class_lectures/week04-mcnulty1/01-mcnulty-sql/knn.pdf
+../class_lectures/week04-mcnulty1/01-mcnulty-sql/McNulty.pdf
+../class_lectures/week04-mcnulty1/01-mcnulty-sql/SQL_schemas.pdf
