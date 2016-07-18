@@ -4,9 +4,9 @@
 
 **9:15 am**: [Pair Problem](pair.md)
 
-**10:00 am**: SQL Schemas
+**10:00 am**: [SQL LAB](SQL_lab.md)
 
-**10:30 am**: SQL LAB
+**10:30 am**: [SQL shemas](SQL_schemas.pdf)
 
 **11:00 am**: [Introducing Project McNulty](McNulty.pdf)
 
