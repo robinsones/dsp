@@ -9,3 +9,6 @@
 | week03-luther2 | 03-assumptions | [Linear_Model_Evaluation.pdf](../class_lectures/week03-luther2/03-assumptions/Linear_Model_Evaluation.pdf) | 7 |
 | week03-luther2 | 03-assumptions | [Linear_Regression_Assumptions.pdf](../class_lectures/week03-luther2/03-assumptions/Linear_Regression_Assumptions.pdf) | 8 |
 | week03-luther2 | 04-bayes | [Bayes.pdf](../class_lectures/week03-luther2/04-bayes/Bayes.pdf) | 9 |
+| week04-mcnulty1 | 01-mcnulty-sql | [knn.pdf](../class_lectures/week04-mcnulty1/01-mcnulty-sql/knn.pdf) | 10 |
+| week04-mcnulty1 | 01-mcnulty-sql | [McNulty.pdf](../class_lectures/week04-mcnulty1/01-mcnulty-sql/McNulty.pdf) | 11 |
+| week04-mcnulty1 | 01-mcnulty-sql | [SQL_schemas.pdf](../class_lectures/week04-mcnulty1/01-mcnulty-sql/SQL_schemas.pdf) | 12 |
