@@ -17,7 +17,7 @@
 
 **1:30 pm**: Investigation Presentation
 
-**1:45 pm**: (and onward)  Set up reciprocal McNulty cloud accounts - McNulty projects: m
+**1:45 pm**: (and onward)  Set up reciprocal McNulty cloud accounts - McNulty projects: 
 Begin to upload your data to AWS Postgres
 
 
