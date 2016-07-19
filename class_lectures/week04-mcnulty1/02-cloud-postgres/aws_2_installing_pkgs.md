@@ -41,7 +41,7 @@ Now that we're on Ubuntu, we can install our stack of usual tools with this line
 sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook 
 ```
 ```console
-sudo apt-get install python-pandas python-sympy python-nose
+sudo apt-get install python-pandas python-sympy
 ```
 
 ####Install `emacs` editor
@@ -54,7 +54,7 @@ sudo apt-get install git emacs
 
 ###Add user
 ```console
-ubuntu@ip-172-31-60-68:/home$ sudo adduser reshama
+ubuntu@ip-172-31-60-68:/home$ sudo adduser julialintern
 ```
 **Note:  pick a password (save it in an easy-to-find place !! )**; enter through all the other questions (name fields, etc.)  
 
@@ -68,7 +68,7 @@ Make yourself special by granting yourself root privileges: type `sudo visudo`. 
 ```
 # User privilege specification
 root     ALL=(ALL:ALL) ALL
-reshama  ALL=(ALL:ALL) ALL
+julialintern  ALL=(ALL:ALL) ALL
 ```
 **Save file in _nano_ editor:  Ctrl-o** then Enter when asked for the file name.    
 **Exit file from _nano_ editor: Ctrl-x**  
@@ -85,22 +85,22 @@ Copy your public key (from your local machine) `~/.ssh/id_rsa.pub` to your remot
 1.  create the directory  
 2.  then copy key from local machine to remote machine  
 ```console
-sudo mkdir /home/my_cool_username/.ssh/
+sudo mkdir -p /home/my_cool_username/.ssh/
 sudo nano /home/my_cool_username/.ssh/authorized_keys
 ```
 
 **My example:**  
 ```
 1)  get output from your (local machine) public key file like this:
-reshama$ pwd
-/Users/reshamashaikh/.ssh
-reshama$ cat id_rsa.pub
+julialintern$ pwd
+/Users/julialintern/.ssh
+julialintern$ cat id_rsa.pub
 
 2) Copy everything (Command c)
 
 3) On your AWS machine:  
 after you run:
-$ sudo nano /home/reshama/.ssh/authorized_keys
+$ sudo nano /home/julialintern/.ssh/authorized_keys
 
 To paste in the current window:  Command v
 then hit  
@@ -115,7 +115,7 @@ $ ssh my_cool_username@123.234.123.234
 ```
 **My example:**  
 ```console
-reshama$ ssh reshama@54.172.80.95
+julialintern$ ssh julialintern@54.172.80.95
 ```
 
 ---
@@ -131,13 +131,13 @@ User my_cool_username
 ```
 Host myaws
      HostName 54.172.80.95
-     User reshama
+     User julialintern
 ```
 Now you can log in to your remote machine with `ssh my_cool_machine`.
 
 **My example:**  
 ```
-reshama$ ssh myaws
+julialintern$ ssh myaws
 ```
 
 ####Send a file from your local machine to your remote machine
@@ -146,18 +146,12 @@ scp cool_file.png my_cool_machine:~
 ```
 **My Example:**  
 ```
-reshama$ scp trysql.py myaws:~
+julialintern$ scp trysql.py myaws:~
 ```
 Note:  check your user account on AWS.  The file was copied there!!! :clap:
 
 ---
 
-####Other Applications:  Very Web (run a local server -- to use for D3, etc.)  
-
-```
-reshama@ip-172-31-26-198:~$ python -m SimpleHTTPServer
-```
-To exit: ctrl-z  
 
 ---
 
@@ -167,18 +161,5 @@ Seriously. Think about what you can do.
 
 ---
 
-####Show all users
-```
-ubuntu@ip-172-31-60-68:/home$ cd ..
-ubuntu@ip-172-31-60-68:/home$ pwd
-/home
-ubuntu@ip-172-31-60-68:/home$ ls
-reshama  ubuntu
-ubuntu@ip-172-31-60-68:/home$ 
-ubuntu@ip-172-31-60-68:/home$ cd ubuntu/
-ubuntu@ip-172-31-60-68:~$ ls
-ubuntu@ip-172-31-60-68:~$ pwd
-/home/ubuntu
-ubuntu@ip-172-31-60-68:~$ 
-```
+
 
