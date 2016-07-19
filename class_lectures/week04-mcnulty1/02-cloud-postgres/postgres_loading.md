@@ -31,6 +31,8 @@ sudo -u postgres psql
 # now in psql...
 \password my_user_name
 # exit psql...
+\q
+
 sudo -u postgres createdb my_user_name
 ```
 
