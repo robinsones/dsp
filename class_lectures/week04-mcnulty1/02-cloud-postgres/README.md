@@ -21,7 +21,7 @@
 Begin to upload your data to AWS Postgres
 
 
-#### More: 
+#### More References: 
 [Comparision of MYSQL / POSTGRES.. ](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)  
 [AWS Instance Types](https://aws.amazon.com/ec2/instance-types/)  
 [AWS Types & Cost](http://www.ec2instances.info)   
