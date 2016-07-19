@@ -13,7 +13,6 @@
 3.  AWS Console  
   Lot of options!  We will choose "Compute/EC2"  [upper left of screen]  
   EC2 = Elastic Compute Cloud (Virtual Servers in the Cloud!)  
-  ![AWS Console](img/aws_console.png)
 
 4.  Region [on upper right of screen]  
   Select:  US East (N. Virginia)
@@ -40,7 +39,6 @@ Name a new security group and allow some more ports if you like.
 Step 7) Review Instance Launch: your set-up will look like below screenshot  
 **Launch**  
 
-  ![review instance](img/aws_review_instance.png)
     
     
 ---
@@ -57,10 +55,10 @@ Save file.  For me, it is in this folder:
 ```
 julia$ pwd
 /Users/julialintern/Downloads
-julia$ 
+
 julia$ ls -la *aws_ds8key*
 -rw-r--r--@ 1   1692 Apr 23 14:46 aws_ds8key.pem
-julia$ 
+
 ```  
 Move your file to `~/.ssh/`.  (Note:  if you do not have an ssh folder, create one:  `mkdir ~/.ssh`)  
 ```  
@@ -110,48 +108,13 @@ On your EC2 Dashboard, you'll soon be able to find the IP address of your new cl
 
 **Open a new terminal window.**
 
-**My example:**  
-####Generate ssh key  
-```
-reshama$ ssh-keygen -t rsa
-reshama$
-Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/reshamashaikh/.ssh/id_rsa): 
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
-Your identification has been saved in /Users/reshamashaikh/.ssh/id_rsa.
-Your public key has been saved in /Users/reshamashaikh/.ssh/id_rsa.pub.
-The key fingerprint is:
-SHA256:X3a3M90WKnog8ONPmD5zd2dXQXYkPJDBvL+Xk4W8K2o reshamashaikh@RESHAMAs-MacBook-Pro.local
-The key's randomart image is:
-+---[RSA 2048]----+
-|           oo=...|
-|            + o+.|
-|             .o..|
-|     .      .  . |
-|      o S   oo.oo|
-|       +oo o .=.B|
-|      .oo.o. . *O|
-|      .+..Eoo.oB=|
-|       .=++...+oo|
-+----[SHA256]-----+
-```
 
-####(you can access it like this, if you are not in `.ssh` directory):  
+####Connect to your Cloud Machine from your local computer!  
+
 **Note:  the numbers after "ubuntu@" come from AWS; it is the Public IP.**    
 ```
 ssh -i ~/.ssh/my_key_file.pem ubuntu@123.234.123.234
-```
 
-####or if you are in the ssh directory  
-```
-reshama$ pwd
-/Users/reshamashaikh/.ssh
-```
-
-####Connect to your Cloud Machine from your local computer!  
-```
-reshama$ ssh -i "aws_ds7key.pem" ubuntu@54.165.157.51  
 
 The authenticity of host '54.165.157.51 (54.165.157.51)' can't be established.
 ECDSA key fingerprint is SHA256:0/xYknp2uz/6NLgHjM8RRqpsX0ykIGj8xQV9PqL3mkU.
