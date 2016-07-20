@@ -1,6 +1,6 @@
 from __future__ import division
 import unittest
-from jaccard import jacc
+from scipy.spatial.distance import jaccard
 
 
 class TestJ(unittest.TestCase):
