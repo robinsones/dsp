@@ -1,6 +1,6 @@
 from __future__ import division
 import unittest
-from jaccard.py import jacc
+from jaccard.py import j
 
 
 class TestJ(unittest.TestCase):
