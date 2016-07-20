@@ -1,6 +1,6 @@
 ### Schedule
 
-**9:00 am**: Welcome back! You need an AWS account today; make sure you're signed up. You'll know you are because you can go to the [AWS console](https://console.aws.amazon.com/) and see a big list of services, with your name and AWS region in the upper right.
+**9:00 am**: We all right AWS accounts, right? Confirm that you do by logging into the console (you should see EC2 option on th upper left of screen)  [AWS console](https://console.aws.amazon.com/) 
 
 **9:15 am**: [Pair Problem](pair.md)
 
