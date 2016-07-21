@@ -103,6 +103,7 @@
 
 * Required:  2 presentations
 * [Investigation Signups](https://docs.google.com/spreadsheets/d/11V7mTL_B249ZjofnzJQNyII_BbqCTknPMclIaWJH2Dg/edit?usp=sharing)
+* After investigation presentation, a pdf copy should be submitted (via pull request) to this course repo, under "investigations" folder
 
 ---
 
