@@ -6,8 +6,6 @@
 
 **10:00 am**: [Support Vector Machines](SVMs.pdf)
 
- * Optionally more on [Kernels (and approximation)](Kernels.pdf)
-
 **12:00 pm**: Lunch
 
 **1:30 pm**: Investigation Presentation
