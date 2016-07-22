@@ -6,15 +6,11 @@
 
 **10:00 am**: [Decision Trees and Random Forests](Decision_Trees_Random_Forests.pdf)
 
-**10:45 am**: Work Time
-
 **12:00pm**: Lunch
 
 **1:30 pm**: Investigation Presentation
 
 **1:45 pm**: Work Time
-
-**2:00 pm**: Optional review session on SQL.
 
 
 ### Reading
