@@ -66,21 +66,21 @@
 
 | Challenge Set  | Project Group | Topic                 | Note * | Date Assigned   | Date Due      |
 |----------------|---------------|-----------------------|---------------|------------|-------------|
-| 1              | Benson        | [Explore MTA data](/challenges/01-benson)      | required     | Mon, June 27 | Mon, July 11  |
-| 2              | Benson        | [Pandas movies](/challenges/02-luther1)                | required    |Tues, July 5  |  Mon, July 18   |
-| 3              | Luther        | [Linear Splitting](/challenges/03-linear_splitting)      | required    | Mon, July 11 | Mon, July 25   |
-| 4              | Luther        | [Linear Learning](/challenges/04-linear_learning)       | required    | Mon, July 11  |  Mon, July 25    |
-| 5              | McNulty       | [Classification](/challenges/05-classification)        | required    | Mon, July 18 |   Mon, Aug 1  |
-| 6              | McNulty       | [Classification Errors](/challenges/06-classification_errors) | required    | Mon, July 18 |     Mon, Aug 1 |
-| 7              | McNulty       | [SQL](/challenges/07-sql)                   | required    | Mon, July 18 | Mon, Aug 1|
-| 8              | McNulty       | [Decision Tree](/challenges/08-decision_tree)         |  recommended    | Mon, July 25  | Mon, Aug 8  |
-| 9              | McNulty  | [Poisson GLM](/challenges/09-poisson_glm)           | required     | Mon, July 25 |  Mon, Aug 8    |
-| 10             | McNulty  | [D3](/challenges/10-d3)                    | recommended    | Mon, Aug 1 | Mon, Aug 15  |
-| 11             | Fletcher | [Flask](/challenges/11-flask)                 | recommended    | Mon, Aug 1  | Mon, Aug 15  |
-| 12             | Fletcher | [Mongo Twitter](/challenges/12-mongo_twitter)         | recommended    | Mon, Aug 8 | Mon, Aug 22 |
-| 13             | Fletcher | [NLP Unsupervised](/challenges/13-nlp_unsupervised)      | recommended    | Mon, Aug 8 | Mon, Aug 22  |
-| 14             | Kojak    | [Hadoop](/challenges/14-hadoop)                | recommended    | Mon, Aug 22 | Tues, Sep 5 |
-| 15             | Kojak    | [Hive](/challenges/15-hive)                  | recommended    | Mon, Aug 22 | Tues, Sep 5 |
+| 1              | Benson        | [Explore MTA data](/challenges/challenges_questions/01-benson)      | required     | Mon, June 27 | Mon, July 11  |
+| 2              | Benson        | [Pandas movies](/challenges/challenges_questions/02-luther1)                | required    |Tues, July 5  |  Mon, July 18   |
+| 3              | Luther        | [Linear Splitting](/challenges/challenges_questions/03-linear_splitting)      | required    | Mon, July 11 | Mon, July 25   |
+| 4              | Luther        | [Linear Learning](/challenges/challenges_questions/04-linear_learning)       | required    | Mon, July 11  |  Mon, July 25    |
+| 5              | McNulty       | [Classification](/challenges/challenges_questions/05-classification)        | required    | Mon, July 18 |   Mon, Aug 1  |
+| 6              | McNulty       | [Classification Errors](/challenges/challenges_questions/06-classification_errors) | required    | Mon, July 18 |     Mon, Aug 1 |
+| 7              | McNulty       | [SQL](/challenges/challenges_questions/07-sql)                   | required    | Mon, July 18 | Mon, Aug 1|
+| 8              | McNulty       | [Decision Tree](/challenges/challenges_questions/08-decision_tree)         |  recommended    | Mon, July 25  | Mon, Aug 8  |
+| 9              | McNulty  | [Poisson GLM](/challenges/challenges_questions/09-poisson_glm)           | required     | Mon, July 25 |  Mon, Aug 8    |
+| 10             | McNulty  | [D3](/challenges/challenges_questions/10-d3)                    | recommended    | Mon, Aug 1 | Mon, Aug 15  |
+| 11             | Fletcher | [Flask](/challenges/challenges_questions/11-flask)                 | recommended    | Mon, Aug 1  | Mon, Aug 15  |
+| 12             | Fletcher | [Mongo Twitter](/challenges/challenges_questions/12-mongo_twitter)         | recommended    | Mon, Aug 8 | Mon, Aug 22 |
+| 13             | Fletcher | [NLP Unsupervised](/challenges/challenges_questions/13-nlp_unsupervised)      | recommended    | Mon, Aug 8 | Mon, Aug 22  |
+| 14             | Kojak    | [Hadoop](/challenges/challenges_questions/14-hadoop)                | recommended    | Mon, Aug 22 | Tues, Sep 6 |
+| 15             | Kojak    | [Hive](/challenges/challenges_questions/15-hive)                  | recommended    | Mon, Aug 22 | Tues, Sep 6 |
 
 *Full submission of challenge sets is encouraged, but partial submissions are ok. 
 
@@ -103,6 +103,7 @@
 
 * Required:  2 presentations
 * [Investigation Signups](https://docs.google.com/spreadsheets/d/11V7mTL_B249ZjofnzJQNyII_BbqCTknPMclIaWJH2Dg/edit?usp=sharing)
+* After investigation presentation, a pdf copy should be submitted (via pull request) to this course repo, under "investigations" folder
 
 ---
 
