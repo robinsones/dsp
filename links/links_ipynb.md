@@ -19,3 +19,6 @@
 | week03-luther2 | 01-regularization | [Missing_Values.ipynb](../class_lectures/week03-luther2/01-regularization/Missing_Values.ipynb) | 17 |
 | week03-luther2 | 02-null_hypothesis | [Null_Hypothesis.ipynb](../class_lectures/week03-luther2/02-null_hypothesis/Null_Hypothesis.ipynb) | 18 |
 | week04-mcnulty1 | 02-cloud-postgres | [psycopg_sqlAlchemy.ipynb](../class_lectures/week04-mcnulty1/02-cloud-postgres/psycopg_sqlAlchemy.ipynb) | 19 |
+| week04-mcnulty1 | 03-logistic | [.ipynb_checkpoints](../class_lectures/week04-mcnulty1/03-logistic/.ipynb_checkpoints) | 20 |
+| week04-mcnulty1 | 03-logistic | [psycopg_sqlAlchemy.ipynb](../class_lectures/week04-mcnulty1/03-logistic/psycopg_sqlAlchemy.ipynb) | 21 |
+| week04-mcnulty1 | 04-svm-error | [SVMs_.ipynb](../class_lectures/week04-mcnulty1/04-svm-error/SVMs_.ipynb) | 22 |

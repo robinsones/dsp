@@ -12,3 +12,5 @@
 | week04-mcnulty1 | 01-mcnulty-sql | [knn.pdf](../class_lectures/week04-mcnulty1/01-mcnulty-sql/knn.pdf) | 10 |
 | week04-mcnulty1 | 01-mcnulty-sql | [McNulty.pdf](../class_lectures/week04-mcnulty1/01-mcnulty-sql/McNulty.pdf) | 11 |
 | week04-mcnulty1 | 01-mcnulty-sql | [SQL_schemas.pdf](../class_lectures/week04-mcnulty1/01-mcnulty-sql/SQL_schemas.pdf) | 12 |
+| week04-mcnulty1 | 02-cloud-postgres | [logistic.pdf](../class_lectures/week04-mcnulty1/02-cloud-postgres/logistic.pdf) | 13 |
+| week04-mcnulty1 | 05-trees | [Decision_Trees_Random_Forests.pdf](../class_lectures/week04-mcnulty1/05-trees/Decision_Trees_Random_Forests.pdf) | 14 |
