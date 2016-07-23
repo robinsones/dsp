@@ -19,10 +19,10 @@ Application Presentations will be delivered **daily at 1:30**, so be sure to be 
 
 How do you know you're done?
 
- * You have a published blog post about your topic.
- * You have a set of slides (and/or other materials) for your presentation.
- * You have submitted a pull request to this repo/directory with a subdirectory containing your materials and/or links to your materials.
  * You have delivered your presentation to the class.
+ * You have a set of slides (and/or other materials) for your presentation.
+ * You have submitted a pull request to this repo/directory with a subdirectory containing your materials and/or links to your materials.  Your file should be **PDF** format so it can be viewable on GitHub.
+
  
  
 Software / Systems:
