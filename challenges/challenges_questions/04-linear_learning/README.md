@@ -9,10 +9,10 @@ You are making this model up. It is of the form `B0 + B1*log(x) + epsilon`. (You
 
 Simulate some data from this model.
 
-Then fit two models to it:
+Then fit two models to it:  
 
- * quadratic (second degree polynomial)
- * logarithmic (`log(x)`)
+ * quadratic (second degree polynomial)  
+ * logarithmic (`log(x)`)  
 
 (The second one should fit really well, since it has the same form as the underlying model!)
 
