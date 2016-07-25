@@ -89,13 +89,16 @@
 ### <a name="section-d"></a>[4. Blogs](https://docs.google.com/a/thisismetis.com/spreadsheets/d/1ySIw5LPbZqRVbBOOGH2F-n_YsFMwmmMR9jFXCAhU2gQ/edit?usp=sharing)
  
 * Required:  3 blogs
-* Recommended:  4-6 blogs
+* Recommended:  5+ blogs
 
-| Blog | Due |  
-|------|-------|
-| 1    |  Tues, July 5     |   
-| 2    |  Mon, July 25     |  
-| 3    |  Mon, Aug 1     |
+| Blog | Topic | Note* | Due |  
+|------|-------|-------|-----|
+| 1    | ds / project 1 | required | Tues, July 5     |   
+| 2    | project 2 | required |  Mon, July 25     |  
+| 3    | ?        | required |  Mon, Aug 1     |
+| 4    | project 4 | recommended | Mon, Aug 22 |
+| 5    | project 5 final | recommended* | Mon, Sep 26 |  
+*Blog 5 is due after the bootcamp graduation 
 
 ---
 
