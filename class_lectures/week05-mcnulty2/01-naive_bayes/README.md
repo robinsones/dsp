@@ -6,13 +6,14 @@
 
 **10:00pm**: [Naive Bayes Classification](Naive_Bayes.pdf)
 
- * [Naive Bayes example](Naive_Bayes_Digits_Example.ipynb) using the famous [MNIST](http://yann.lecun.com/exdb/mnist/) data set of handwritten digits.
+* [Naive Bayes example](Naive_Bayes_examples.pdf)  
+
+ * [More Naive Bayes examples](Naive_Bayes_Digits_Example.ipynb) using the famous [MNIST](http://yann.lecun.com/exdb/mnist/) data set of handwritten digits.
 
 **12:00pm**: Food
 
 **1:30 pm**: Investigation Presentation
 
-**1:45 pm**: PostgreSQL data in Python with [psycopg2](psycopg2.md)
 
 
 ### More Resources
