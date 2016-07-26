@@ -13,4 +13,7 @@
 | week04-mcnulty1 | 01-mcnulty-sql | [McNulty.pdf](../class_lectures/week04-mcnulty1/01-mcnulty-sql/McNulty.pdf) | 11 |
 | week04-mcnulty1 | 01-mcnulty-sql | [SQL_schemas.pdf](../class_lectures/week04-mcnulty1/01-mcnulty-sql/SQL_schemas.pdf) | 12 |
 | week04-mcnulty1 | 02-cloud-postgres | [logistic.pdf](../class_lectures/week04-mcnulty1/02-cloud-postgres/logistic.pdf) | 13 |
-| week04-mcnulty1 | 05-trees | [Decision_Trees_Random_Forests.pdf](../class_lectures/week04-mcnulty1/05-trees/Decision_Trees_Random_Forests.pdf) | 14 |
+| week04-mcnulty1 | 05-trees | [Classification_Errors.pdf](../class_lectures/week04-mcnulty1/05-trees/Classification_Errors.pdf) | 14 |
+| week04-mcnulty1 | 05-trees | [Decision_Trees_Random_Forests.pdf](../class_lectures/week04-mcnulty1/05-trees/Decision_Trees_Random_Forests.pdf) | 15 |
+| week05-mcnulty2 | 01-naive_bayes | [Naive_Bayes.pdf](../class_lectures/week05-mcnulty2/01-naive_bayes/Naive_Bayes.pdf) | 16 |
+| week05-mcnulty2 | 01-naive_bayes | [Naive_Bayes_examples.pdf](../class_lectures/week05-mcnulty2/01-naive_bayes/Naive_Bayes_examples.pdf) | 17 |
