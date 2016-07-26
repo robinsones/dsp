@@ -68,6 +68,21 @@ What category appears in the most orders?
 
 **SQL Query**
 
+WITH _table2 AS  
+(  
+WITH _table AS  
+(  
+SELECT OrderDetails.OrderID, Products.ProductID, Products.CategoryID, Categories.CategoryID, Categories.CategoryName  
+FROM OrderDetails   
+JOIN Products ON OrderDetails.ProductID = Products.ProductID  
+JOIN Categories ON Categories.CategoryID = Products.CategoryID  
+)  
+SELECT OrderID, CategoryName FROM _table  
+GROUP BY OrderID, CategoryName  
+)  
+SELECT CategoryName, COUNT(*) as TotalOrders FROM _table2  
+GROUP BY CategoryName  
+ORDER BY TotalOrders DESC;  
 
 **Answer**
 
