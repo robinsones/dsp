@@ -8,7 +8,7 @@ This bash script will download and setup a Conda environment on Mac OS X or Linu
 
 If the Conda directory exists and can be determined to be a Conda installation, a new environment will be created. If the directory does not appear to be a Conda installation, the script will quit.
 
-To run the script, set the variables below, make it executable with `chmod +x setup_conda.sh` and run the script from the command line with `./setup_conda.sh`.
+The script can be downloaded and run from any directory to which you have write access. To run the script, set the variables below. The Conda installation path (`env_path`) can be relative or absolute. Then make the script executable with `chmod +x setup_conda.sh` and run the script from the command line with `./setup_conda.sh`.
 
 
 ```bash
@@ -25,5 +25,6 @@ env_name="datasci"
 python_ver=2.7
 
 # set packages to be installed (do not list python itself)
+# be sure to name/spell them exactly as Conda does or installation will fail
 packages="numpy scipy matplotlib seaborn pandas statsmodels jupyter notebook nbconvert dill sqlalchemy BeautifulSoup4 html5lib lxml"
 ```
