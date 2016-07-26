@@ -4,18 +4,18 @@
 
 **SQL Query**
  
-SELECT CustomerName FROM Customers
+SELECT CustomerName FROM Customers  
 WHERE Country = "UK";
 
 **Answer**
 
-Around the Horn
-B's Beverages
-Consolidated Holdings
-Eastern Connection
-Island Trading
-North/South
-Seven Seas Imports
+Around the Horn  
+B's Beverages  
+Consolidated Holdings  
+Eastern Connection  
+Island Trading  
+North/South  
+Seven Seas Imports  
 
 **Challenge 2**
 
@@ -23,12 +23,12 @@ Seven Seas Imports
 
 **SQL Query**
 
-SELECT Orders.CustomerID, Customers.CustomerName, COUNT(*) as OrderTotal
-FROM Orders
-JOIN Customers ON Customers.CustomerID = Orders.CustomerID
-GROUP BY Orders.CustomerID
-ORDER BY OrderTotal DESC
-LIMIT 1; 
+SELECT Orders.CustomerID, Customers.CustomerName, COUNT(*) as OrderTotal  
+FROM Orders  
+JOIN Customers ON Customers.CustomerID = Orders.CustomerID  
+GROUP BY Orders.CustomerID  
+ORDER BY OrderTotal DESC  
+LIMIT 1;   
 
 **Answer**
 Ernst Handel	
