@@ -18,6 +18,7 @@ env_name="datasci"
 python_ver=2.7
 
 # set packages to be installed (do not list python itself)
+# be sure to name/spell them exactly as Conda does or installation will fail
 packages="numpy scipy matplotlib seaborn pandas statsmodels jupyter notebook nbconvert dill sqlalchemy BeautifulSoup4 html5lib lxml"
 
 ################# USER SET VARIABLES ABOVE THIS LINE #####################
