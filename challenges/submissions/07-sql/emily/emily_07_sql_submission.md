@@ -82,10 +82,12 @@ GROUP BY OrderID, CategoryName
 )  
 SELECT CategoryName, COUNT(*) as TotalOrders FROM _table2  
 GROUP BY CategoryName  
-ORDER BY TotalOrders DESC;  
+ORDER BY TotalOrders DESC  
+LIMIT 1;    
 
 **Answer**
 
+Beverages
 ### Challenge 6
 
 What was the total cost for each order?
