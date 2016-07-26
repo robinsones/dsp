@@ -1,4 +1,4 @@
-**Challenge 1**
+### Challenge 1
 
 **Question**: What customers are from the UK?
 
@@ -17,7 +17,7 @@ Island Trading
 North/South  
 Seven Seas Imports  
 
-**Challenge 2**
+### Challenge 2
 
 **Question**: What is the name of the customer who has the most orders?
 
@@ -33,7 +33,7 @@ LIMIT 1;
 **Answer**
 Ernst Handel	
 
-**Challenge 3**
+### Challenge 3
 
 What supplier has the highest average product price?
 
@@ -49,7 +49,7 @@ LIMIT 1
 
 Aux joyeux ecclésiastiques	
 
-**Challenge 4**
+### Challenge 4
 
 How many different countries are their customers from? (Hint: Consider DISTINCT.)
 
@@ -59,7 +59,7 @@ SELECT COUNT(DISTINCT Country) FROM  [Customers]
 **Answer**
 21
 
-**Challenge 5**
+## Challenge 5
 
 What category appears in the most orders?
 
@@ -68,8 +68,7 @@ What category appears in the most orders?
 
 **Answer**
 
-
-**Challenge 6**
+### Challenge 6
 
 What was the total cost for each order?
 
@@ -80,7 +79,7 @@ GROUP BY OrderID;
 **Answer**
 A long table
 
-**Challenge 7**
+### Challenge 7
 
 What employee made the most sales (by total cost)?
 
@@ -97,7 +96,7 @@ LIMIT 1;
 **Answer**
 Margaret Peacock
 
-**Challenge 8**
+### Challenge 8
 
 What employees have BS degrees? (Hint: Look at the LIKE operator.)
 
@@ -109,7 +108,7 @@ WHERE Notes LIKE "%BS%";
 **Answer**
 Janet Leverling and Steven Buchanan
 
-**Challenge 9**
+### Challenge 9
 
 What supplier of three or more products has the highest average product price? (Hint: Look at the HAVING operator.)
 
