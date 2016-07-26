@@ -31,6 +31,7 @@ ORDER BY OrderTotal DESC
 LIMIT 1;   
 
 **Answer**
+
 Ernst Handel	
 
 ### Challenge 3
@@ -54,9 +55,11 @@ Aux joyeux ecclésiastiques
 How many different countries are their customers from? (Hint: Consider DISTINCT.)
 
 **SQL Query**
+
 SELECT COUNT(DISTINCT Country) FROM  [Customers]  
 
 **Answer**
+
 21
 
 ## Challenge 5
@@ -73,6 +76,7 @@ What category appears in the most orders?
 What was the total cost for each order?
 
 **SQL Query**
+
 SELECT SUM(ProductID * Quantity) as OrderCost, OrderID FROM [OrderDetails]
 GROUP BY OrderID;
 
@@ -94,6 +98,7 @@ ORDER BY TotalSales DESC
 LIMIT 1; 
 
 **Answer**
+
 Margaret Peacock
 
 ### Challenge 8
@@ -106,6 +111,7 @@ SELECT * FROM Employees
 WHERE Notes LIKE "%BS%";
 
 **Answer**
+
 Janet Leverling and Steven Buchanan
 
 ### Challenge 9
@@ -122,5 +128,6 @@ ORDER By AveragePrice DESC
 LIMIT 1;
 
 **Answer**
+
 Tokyo Traders
 
