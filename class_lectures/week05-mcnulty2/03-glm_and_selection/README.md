@@ -6,9 +6,6 @@
 
 **10:00 am**: [Generalized Linear Models](GLMs.pdf)
 
- * [Notes on GLMs](GLM_notes.md)
- * [Various ways to do logistic regression (notebook)](GLM_examples.ipynb)
-
 **11:00 am**: Mid-McNulty design status sharing!
 
 **12:00pm**: Food!
