@@ -26,3 +26,4 @@ Extra Credit:
 
 If you have time derive the MLE for the gaussian
 $\frac{1}{\sqrt{2\sigma^{2}\pi}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}$
+[normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)
