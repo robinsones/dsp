@@ -25,5 +25,6 @@ Output
 Extra Credit:
 
 If you have time derive the MLE for the gaussian
+Sorry, the latex for math equations isn't rendering on the readme. You can find the probability density on the wikipedia page. 
 $\frac{1}{\sqrt{2\sigma^{2}\pi}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}$
 [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)
