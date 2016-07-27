@@ -22,6 +22,7 @@ Output
     [1,2]
 
 
-Extra Credit
-Make this run faster. you should beable to do this in m+n-1 operations. 
-Make this work on k sorted lists
+Extra Credit:
+
+If you have time derive the MLE for the gaussian
+$\frac{1}{\sqrt{2\sigma^{2}\pi}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}$
