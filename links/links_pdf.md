@@ -17,3 +17,6 @@
 | week04-mcnulty1 | 05-trees | [Decision_Trees_Random_Forests.pdf](../class_lectures/week04-mcnulty1/05-trees/Decision_Trees_Random_Forests.pdf) | 15 |
 | week05-mcnulty2 | 01-naive_bayes | [Naive_Bayes.pdf](../class_lectures/week05-mcnulty2/01-naive_bayes/Naive_Bayes.pdf) | 16 |
 | week05-mcnulty2 | 01-naive_bayes | [Naive_Bayes_examples.pdf](../class_lectures/week05-mcnulty2/01-naive_bayes/Naive_Bayes_examples.pdf) | 17 |
+| week05-mcnulty2 | 02-categorical_mle | [Intro_Categorical_Data.pdf](../class_lectures/week05-mcnulty2/02-categorical_mle/Intro_Categorical_Data.pdf) | 18 |
+| week05-mcnulty2 | 03-glm_and_selection | [GLMs.pdf](../class_lectures/week05-mcnulty2/03-glm_and_selection/GLMs.pdf) | 19 |
+| week05-mcnulty2 | 04-poisson_and_sgd | [Stochastic_Gradient_Descent.pdf](../class_lectures/week05-mcnulty2/04-poisson_and_sgd/Stochastic_Gradient_Descent.pdf) | 20 |

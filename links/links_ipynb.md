@@ -24,3 +24,4 @@
 | week04-mcnulty1 | 04-svm-error | [SVMs_.ipynb](../class_lectures/week04-mcnulty1/04-svm-error/SVMs_.ipynb) | 22 |
 | week04-mcnulty1 | 05-trees | [Classification_Errors.ipynb](../class_lectures/week04-mcnulty1/05-trees/Classification_Errors.ipynb) | 23 |
 | week05-mcnulty2 | 01-naive_bayes | [Naive_Bayes_Digits_Example.ipynb](../class_lectures/week05-mcnulty2/01-naive_bayes/Naive_Bayes_Digits_Example.ipynb) | 24 |
+| week05-mcnulty2 | 04-poisson_and_sgd | [Poisson.ipynb](../class_lectures/week05-mcnulty2/04-poisson_and_sgd/Poisson.ipynb) | 25 |
