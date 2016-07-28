@@ -4,9 +4,9 @@
 
 **9:15 am**: [Pair Problem](pair.md)
 
-**10:00 am**: [Stochastic Gradient Descent](Stochastic_Gradient_Descent.pdf)
+**10:00 am**:[Poisson](Poisson.ipynb)
 
-**11:00 am**: [Poisson Distribution, Poisson GLM, and Model Evaluation in GLMs](Poisson_GLM_Deviance.pdf)
+**11:00 am**: [Stochastic Gradient Descent](Stochastic_Gradient_Descent.pdf)
 
  * Poisson challenges! :fish: :fish: :fish:
 
