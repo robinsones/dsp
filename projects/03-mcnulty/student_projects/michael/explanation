@@ -1,0 +1,5 @@
+>> To give a bit of explanation for my McNulty project, I'm trying to predict which MLB players will get into the Hall of Fame on their first ballot.
+I've first split the data into Pitchers vs. Hitters, 
+and have tried working on hitters first using simply the most basic stats, career hits, games played, homeruns and RBI.
+When fitting with different models, I always hit the same limit of accuracy, which is about 96%, which is pretty weak, since only
+about 5% make it on their first ballot. 
