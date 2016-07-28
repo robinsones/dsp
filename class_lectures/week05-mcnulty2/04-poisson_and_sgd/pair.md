@@ -1,6 +1,6 @@
 #### Pair Problem
 
-You are given a list of numbers.
+You are given a list of numbers (both positve and negative)
 
 You want to find the block of numbers next to one another that add up to the biggest value for this list.
 
