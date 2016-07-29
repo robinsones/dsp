@@ -1,9 +1,6 @@
 ### SQL Challenges
 
-The core SQL challenges consist of the activities at the end of the SQL lab.  
-http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all  
 
-You can run the queries in W3 schools and include your work in a markdown file (exercise number, question, SQL query, result of query)
 
 ---
 
@@ -23,6 +20,66 @@ Folk och fä HB  	Maria Larsson
 **Challenge 1**
 
 What customers are from the UK?
+
+>> SELECT * FROM [Customers] where Country = 'UK'
+Number of Records: 7
+CustomerID
+CustomerName
+ContactName
+Address
+City
+PostalCode
+Country
+4
+Around the Horn
+Thomas Hardy
+120 Hanover Sq.
+London
+WA1 1DP
+UK
+11
+B's Beverages
+Victoria Ashworth
+Fauntleroy Circus
+London
+EC2 5NT
+UK
+16
+Consolidated Holdings
+Elizabeth Brown
+Berkeley Gardens 12 Brewery
+London
+WX1 6LT
+UK
+19
+Eastern Connection
+Ann Devon
+35 King George
+London
+WX3 6FW
+UK
+38
+Island Trading
+Helen Bennett
+Garden House Crowther Way
+Cowes
+PO31 7PJ
+UK
+53
+North/South
+Simon Crowther
+South House 300 Queensbridge
+London
+SW7 1RZ
+UK
+72
+Seven Seas Imports
+Hari Kumar
+90 Wadhurst Rd.
+London
+OX15 4NB
+UK
+
 
 
 **Challenge 2**
