@@ -42,7 +42,7 @@ How many different countries are their customers from? (Hint: Consider DISTINCT.
 
 **Challenge 5**
 
-What category appears in the most orders?
+What category appears the most in order details?
 
 
 **Challenge 6**
