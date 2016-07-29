@@ -1,12 +1,11 @@
 ### Schedule
 
+Thank you for pushing your MVP's!!! 
 **9:00 am**: Coffee and waking up
 
 **9:15 am**: [Pair Problem](pair.md)
 
-**10:00 am**: [Deep Learning and Neural Networks](Deep_Learning.pdf)
-
- * Check out the [perceptron](https://github.com/simple-statistics/simple-statistics/blob/master/src/perceptron.js) in [simple-statistics](http://simplestatistics.org/). (And start thinking about JavaScript!)
+**10:00 am**: [NN_deepLearn](NeuralNets_DeepLearning.pdf) 
 
 **12:00 pm**: Friday Food
 
@@ -19,6 +18,7 @@
  * [Short intro to perceptrons and neural networks](http://www.cprogramming.com/tutorial/AI/perceptron.html)
  * [Perceptrons](http://page.mi.fu-berlin.de/rojas/neural/chapter/K4.pdf)
  * Great explanations of deep learning on [Olah's blog](http://colah.github.io/)
+ * [Deep Learning and Neural Networks](Deep_Learning.pdf)
 
 ---
 
