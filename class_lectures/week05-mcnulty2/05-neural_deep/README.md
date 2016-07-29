@@ -5,7 +5,7 @@ Thank you for pushing your MVP's!!!
 
 **9:15 am**: [Pair Problem](pair.md)
 
-**10:00 am**: [NN_deepLearn](NeuralNets_DeepLearning.pdf) 
+**10:00 am**: [NN_deepLearn](NeuralNets_DeepLearing.pdf) 
 
 **12:00 pm**: Friday Food
 
