@@ -57,7 +57,7 @@ What was the total cost for each order?
 
 What employee made the most sales (by total cost)?
 
->> SELECT e.EmployeeID,e.LastName,e.FirstName,sum(int_res.Total_cost) as Total_Sales FROM Employees e , (SELECT *,(od.Quantity*p.Price) as Total_cost FROM OrderDetails od, Orders o,Products p where od.OrderID=o.OrderID and p.ProductID = od.ProductID group by od.orderID,od.ProductID order by o.orderID) as int_res order by e.EmployeeID
+>> SELECT e.EmployeeID,e.LastName,e.FirstName,sum(int_res.Total_cost) as Total_Sales FROM Employees e , (SELECT * ,(od.Quantity * p.Price) as Total_cost FROM OrderDetails od, Orders o,Products p where od.OrderID=o.OrderID and p.ProductID = od.ProductID group by od.orderID,od.ProductID order by o.orderID) as int_res order by e.EmployeeID
 
 
 **Challenge 8**
