@@ -23,7 +23,7 @@ What customers are from the UK?
 
 >> SELECT * FROM [Customers] where Country = 'UK'
 
-![1](1.png)
+![1](\images\1.png)
 
 **Challenge 2**
 
