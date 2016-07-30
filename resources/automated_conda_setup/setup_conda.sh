@@ -6,8 +6,7 @@
 
 # set environment path--use $HOME, not ~, if you want to use absolute path
 # otherwise the path will be relative to the current path.
-#env_path="$HOME/miniconda"
-env_path="/Volumes/Files/metis_course/resources/automated_conda_setup/tmp"
+env_path="$HOME/miniconda"
 
 # set environment name
 # NOTE: there's not an easy way to determine if an existing environment
@@ -16,7 +15,7 @@ env_path="/Volumes/Files/metis_course/resources/automated_conda_setup/tmp"
 env_name="datasci"
 
 # set python version: 2.7, 3.4, 3.5, etc
-python_ver=3.4
+python_ver=2.7
 
 # set packages to be installed (do not list python itself)
 # be sure to name/spell them exactly as Conda does or installation will fail
@@ -99,7 +98,8 @@ echo "Python environment will be based on version $python_ver"
 
 packages="python=$python_ver $packages"
 
-$env_path/bin/conda create --quiet -y -n $env_name $packages >> /dev/null
+#$env_path/bin/conda create --quiet -y -n $env_name $packages >> /dev/null
+$env_path/bin/conda create -y -n $env_name $packages
 
 if [[ $?==0 ]]; then
     echo "Finished creating Conda environment."
