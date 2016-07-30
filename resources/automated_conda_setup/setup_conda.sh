@@ -19,7 +19,7 @@ python_ver=2.7
 
 # set packages to be installed (do not list python itself)
 # be sure to name/spell them exactly as Conda does or installation will fail
-packages="numpy scipy matplotlib seaborn pandas statsmodels jupyter notebook nbconvert dill sqlalchemy BeautifulSoup4 html5lib lxml"
+packages="psutil numpy scipy matplotlib seaborn pandas statsmodels jupyter notebook nbconvert sqlalchemy BeautifulSoup4 html5lib lxml"
 
 ################# USER SET VARIABLES ABOVE THIS LINE #####################
 
@@ -28,7 +28,21 @@ python_base_ver=`echo $python_ver | cut -d'.' -f1`
 
 echo "Using Python $python_ver."
 
-if [[ ! -d $env_path ]]; then
+if [[ -e $env_path ]]; then
+
+    if [[ ! -e $env_path/bin/conda ]]; then
+
+        # the destination directory does not seem to contain a Conda installation
+        # don't want to risk overwriting files, so time to bail...
+
+        echo "There doesn't appear to be a Conda installation at $env_path."
+        echo "Quitting without installing anything."
+
+        exit 0
+
+    fi
+
+elif [[ ! -e $env_path ]]; then
 
     echo "Conda does not seem to be installed at $env_path. Installing now."
 
@@ -40,7 +54,8 @@ if [[ ! -d $env_path ]]; then
         echo "Detected Linux."
         os_ver="Linux"
     fi
-    url="http://repo.continuum.io/miniconda/Miniconda$python_base_ver-latest-$os_ver-x86_64.sh"
+
+    url="http://repo.continuum.io/miniconda/Miniconda${python_base_ver}-latest-${os_ver}-x86_64.sh"
 
     # set install script name
     script_name="miniconda.sh"
@@ -65,34 +80,32 @@ if [[ ! -d $env_path ]]; then
 
     rm $script_name
 
-elif [[ -e $env_path/bin/conda ]]; then
-
-    unset PYTHONHOME
-    unset PYTHONPATH
+else
 
     # setup path and create environment
     echo "Conda seems to be installed already. Skipping installation."
 
-    export PATH=$env_path:$PATH
-
-    packages="python=$python_ver $packages"
-    $env_path/bin/conda create --quiet -y -n $env_name $packages >> /dev/null
-    
-    if [[ $? == 0 ]]; then
-        echo "Finished creating Conda environment."
-    else
-        echo "There was an error creating the Conda environment."
-    fi
-
-else
-
-    # the destination directory exists but does not seem to a Conda installation
-    # don't want to risk overwriting files, so time to bail...
-
-    echo "The directory $env_path exists but it does not seem to be a Conda installation."
-    echo "Quitting without installing anything."
-    echo "Please delete or move this directory before installing."
-
 fi
+
+# Setup the environment
+
+unset PYTHONHOME
+unset PYTHONPATH
+
+export PATH=$env_path:$PATH
+
+echo "Python environment will be based on version $python_ver"
+
+packages="python=$python_ver $packages"
+
+#$env_path/bin/conda create --quiet -y -n $env_name $packages >> /dev/null
+$env_path/bin/conda create -y -n $env_name $packages
+
+if [[ $?==0 ]]; then
+    echo "Finished creating Conda environment."
+else
+    echo "There was an error creating the Conda environment."
+fi
+
 
 
