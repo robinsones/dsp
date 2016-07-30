@@ -23,6 +23,8 @@ What customers are from the UK?
 
 >> SELECT * FROM [Customers] where Country = 'UK'
 
+![1](1.png)
+
 **Challenge 2**
 
 What is the name of the customer who has the most orders?
