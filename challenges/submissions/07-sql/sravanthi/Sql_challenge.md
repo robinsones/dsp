@@ -50,14 +50,14 @@ What category appears in the most orders?
 
 What was the total cost for each order?
 
->> select OrderID,sum(total_price) as Total_Order_Price from (select  o.OrderID,(o.Quantity*p.Price) as total_price from OrderDetails o, Products p where o.ProductID = p.ProductID group by o.OrderID,o.ProductID) group by OrderID
+>> SELECT o.OrderID,sum(od.Quantity*p.Price) as Total_cost FROM Orders o,OrderDetails od,Products p where o.OrderID = od.OrderID and od.ProductID = p.ProductID group by o.OrderID
 
 
 **Challenge 7**
 
 What employee made the most sales (by total cost)?
 
->> SELECT e.EmployeeID,e.LastName,e.FirstName,sum(int_res.Total_cost) as Total_Sales FROM Employees e , (SELECT * ,(od.Quantity * p.Price) as Total_cost FROM OrderDetails od, Orders o,Products p where od.OrderID=o.OrderID and p.ProductID = od.ProductID group by od.orderID,od.ProductID order by o.orderID) as int_res order by e.EmployeeID
+>> SELECT e.EmployeeID,e.LastName,e.FirstName,sum(od.Quantity*p.Price) as Order_Total FROM Orders o,OrderDetails od,Products p,Employees e where o.OrderID = od.OrderID and od.ProductID = p.ProductID and e.EmployeeID = o.EmployeeID group by e.EmployeeID order by Order_Total desc LIMIT 1
 
 
 **Challenge 8**
