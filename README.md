@@ -1,4 +1,4 @@
-###[Metis Data Science Bootcamp](http://www.thisismetis.com/data-science)  
+###[Metis](http://www.thisismetis.com) Data Science Bootcamp  
 **Section:**   Summer 2016 - Cohort 8  
 **Course ID:** nyc16_ds8  
 **City:**      New York, NY  
