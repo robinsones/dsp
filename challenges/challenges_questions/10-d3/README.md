@@ -1,5 +1,10 @@
 # D3 Challenges
 
+---
+###Submission Instructions
+submit a markdown file with a link to the D3 graphic.
+
+---
 Use D3 to:
 
 1. Make an SVG with five circles, each with a different color, using data.
