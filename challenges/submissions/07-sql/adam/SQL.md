@@ -196,7 +196,7 @@ Margaret    Peacock 105696.49999999999
 **Challenge 8**  
 What employees have BS degrees? (Hint: Look at the LIKE operator.)
 
-``sql
+```sql
 SELECT
     FirstName,
     LastName
