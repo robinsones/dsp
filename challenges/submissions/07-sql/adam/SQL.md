@@ -137,6 +137,7 @@ ORDER BY
     totalprice DESC
 LIMIT
     5;
+```
 
     OrderID totalprice
     10372   15353.6
