@@ -47,14 +47,14 @@ Finished creating Conda environment.
 $
 ```
 
-###Navigating the Directory & Virtual Environment
+###Navigating the Conda Environment
 
 As an example, if the installation directory is:
 ```
 env_path="$HOME/miniconda"
 ```
 
-And you have run the script twice, creating two virtual environments, one for each version of Python:
+You can run the script twice, creating two virtual environments, one for each version of Python:
 ```bash
 $ pwd
 /Users/myname/miniconda/envs
@@ -88,10 +88,11 @@ drwxr-xr-x   12    408 Jul 31 11:32 plugins
 drwxr-xr-x    3    102 Jul 31 11:32 python.app
 drwxr-xr-x    8    272 Jul 31 11:32 share
 drwxr-xr-x    6    204 Jul 31 11:32 ssl
-reshama 🐘  $
+$
 ```
 
-Activating virtual environment
+###Activating virtual environment
+
 cd into the appropriate folder to activate this virtual environment:
 ```
 $ cd /Users/reshamashaikh/miniconda/envs
@@ -101,5 +102,18 @@ $ source activate datasci35
 You will see the following prompt (notice the virutal environment name now appears in front of the `$`:
 ```
 (datasci35) $ 
+```
+
+Voila!  You can now run the Jupyter notebook.
+```
+(datasci35) $ jupyter notebook
+```
+
+Try the following in the Jupyter notebook:
+Notice that the first print will not work because it is Py2, but the second one will.  
+```
+!python --version
+print "hello world"
+print("hello world")
 ```
 
