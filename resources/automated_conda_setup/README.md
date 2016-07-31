@@ -21,7 +21,7 @@ env_path="$HOME/miniconda"
 # NOTE: there's not an easy way to determine if an existing environment
 # has the same name. Conda itself will throw an error during installation
 # of second environment.
-#env_name="datasci"
+#env_name="datasci27"
 env_name="datasci35"
 
 # set python version: 2.7 3.4 3.5 etc
@@ -93,13 +93,13 @@ $
 
 ###Activating virtual environment
 
-cd into the appropriate folder to activate this virtual environment:
+`cd` into the appropriate folder to activate this virtual environment:
 ```
 $ cd /Users/reshamashaikh/miniconda/envs
 $ source activate datasci35
 ```
 
-You will see the following prompt (notice the virutal environment name now appears in front of the `$`:
+You will see the following prompt (notice the virtual environment name now appears in front of the `$`:
 ```
 (datasci35) $ 
 ```
