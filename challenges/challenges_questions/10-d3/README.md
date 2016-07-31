@@ -1,6 +1,6 @@
 # Challenge Set 10:  D3 visualization
 
-###Submission Instructions:  submit a markdown file with a link to the D3 graphic.
+###Submission Instructions:  submit a markdown file with a link to the D3 visualizations.
 
 ---
 Use D3 to:
