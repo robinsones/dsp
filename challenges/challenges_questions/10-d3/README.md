@@ -1,7 +1,6 @@
 # D3 Challenges
 
-###Submission Instructions
-submit a markdown file with a link to the D3 graphic.
+###Submission Instructions:  submit a markdown file with a link to the D3 graphic.
 
 ---
 Use D3 to:
