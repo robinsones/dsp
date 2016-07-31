@@ -99,7 +99,7 @@ $ cd /Users/reshamashaikh/miniconda/envs
 $ source activate datasci35
 ```
 
-You will see the following prompt (notice the virtual environment name now appears in front of the `$`:
+You will see the following prompt (notice the virtual environment name now appears in front of the `$`):
 ```
 (datasci35) $ 
 ```
