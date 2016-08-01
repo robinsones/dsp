@@ -36,7 +36,7 @@ What is the name of the customer who has the most orders?
 
 What supplier has the highest average product price?
 
->> SELECT s.SupplierName,Avg(p.Price) as Avg_Price FROM Suppliers s, Products p where s.SupplierID = p.SupplierID order by Avg_Price Desc LIMIT 1
+>> SELECT s.SupplierName,Avg(p.Price) as Avg_Price FROM Suppliers s, Products p where s.SupplierID = p.SupplierID group by s.SupplierName order by Avg_Price Desc LIMIT 1
 
 ![3](/challenges/submissions/07-sql/sravanthi/images/3.png)
 
