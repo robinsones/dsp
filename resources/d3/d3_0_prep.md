@@ -7,8 +7,9 @@ Have [Google Chrome](https://www.google.com/chrome/) installed - it's the best b
 
 ###References
 
-[Interactive Data Visualization for the Web](http://chimera.labs.oreilly.com/books/1230000000345) - book is available online for free  
-[IDV book's associated github code](https://github.com/alignedleft/d3-book) **Clone it!**
+[Interactive Data Visualization for the Web](http://chimera.labs.oreilly.com/books/1230000000345)
+* book is available online for free  
+* [associated github code](https://github.com/alignedleft/d3-book) **Clone it!**
 
 [D3 Cheat Sheet](http://www.jeromecukier.net/wp-content/uploads/2012/10/d3-cheat-sheet.pdf)
 
