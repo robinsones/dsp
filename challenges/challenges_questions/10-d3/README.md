@@ -1,5 +1,8 @@
-# D3 Challenges
+# Challenge Set 10:  D3 visualization
 
+###Submission Instructions:  submit html files and also a markdown file with a link to the D3 visualizations.
+
+---
 Use D3 to:
 
 1. Make an SVG with five circles, each with a different color, using data.
