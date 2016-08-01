@@ -1,4 +1,4 @@
-###[Metis Data Science Bootcamp](http://www.thisismetis.com/data-science)  
+###[Metis](http://www.thisismetis.com) Data Science Bootcamp  
 **Section:**   Summer 2016 - Cohort 8  
 **Course ID:** nyc16_ds8  
 **City:**      New York, NY  
@@ -86,10 +86,11 @@
 
 ---
 
-### <a name="section-d"></a>[4. Blogs](https://docs.google.com/a/thisismetis.com/spreadsheets/d/1ySIw5LPbZqRVbBOOGH2F-n_YsFMwmmMR9jFXCAhU2gQ/edit?usp=sharing)
+### <a name="section-d"></a>4. Blogs
  
 * Required:  3 blogs
 * Recommended:  5+ blogs
+* [Blog Tracking - link](https://docs.google.com/a/thisismetis.com/spreadsheets/d/1ySIw5LPbZqRVbBOOGH2F-n_YsFMwmmMR9jFXCAhU2gQ/edit?usp=sharing)
 
 | Blog | Topic | Note* | Due |  
 |------|-------|-------|-----|
@@ -105,7 +106,7 @@
 ### <a name="section-e"></a>[5. Investigations (~ 5 minutes long)](/investigations)
 
 * Required:  2 presentations
-* [Investigation Signups](https://docs.google.com/spreadsheets/d/11V7mTL_B249ZjofnzJQNyII_BbqCTknPMclIaWJH2Dg/edit?usp=sharing)
+* [Investigation Signup Link](https://docs.google.com/spreadsheets/d/11V7mTL_B249ZjofnzJQNyII_BbqCTknPMclIaWJH2Dg/edit?usp=sharing)
 * After investigation presentation, a pdf copy should be submitted (via pull request) to this course repo, under "investigations" folder
 
 ---
