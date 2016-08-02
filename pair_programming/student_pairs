@@ -372,3 +372,378 @@ Weds, June 29
   ('Jessica', 'Whitney'),
   ('Katherine', 'Yulia'),
   ('Kevin', '')]
+  
+  Tues, Aug 2
+
+[('Adam', 'Matthew'),
+  ('Marc', 'Max'),
+  ('Lauren', 'Michael'),
+  ('Ahmed', 'Michelle'),
+  ('Avi', 'Graham'),
+  ('Alan S', 'Seth'),
+  ('Allison', 'Sravanthi'),
+  ('Brian', 'Sunne'),
+  ('Bryant', 'Whitney'),
+  ('Chuck', 'Yulia'),
+  ('Emily', ''),
+  ('Fernando', 'Kevin'),
+  ('Jessica', 'Katherine')]
+  
+  Weds, Aug 3
+
+  [('Adam', 'Max'),
+  ('Matthew', 'Michael'),
+  ('Marc', 'Michelle'),
+  ('Lauren', 'Graham'),
+  ('Ahmed', 'Seth'),
+  ('Avi', 'Sravanthi'),
+  ('Alan S', 'Sunne'),
+  ('Allison', 'Whitney'),
+  ('Brian', 'Yulia'),
+  ('Bryant', ''),
+  ('Chuck', 'Kevin'),
+  ('Emily', 'Katherine'),
+  ('Fernando', 'Jessica')]
+
+  Thurs Aug 4
+  
+  [('Adam', 'Michael'),
+  ('Max', 'Michelle'),
+  ('Matthew', 'Graham'),
+  ('Marc', 'Seth'),
+  ('Lauren', 'Sravanthi'),
+  ('Ahmed', 'Sunne'),
+  ('Avi', 'Whitney'),
+  ('Alan S', 'Yulia'),
+  ('Allison', ''),
+  ('Brian', 'Kevin'),
+  ('Bryant', 'Katherine'),
+  ('Chuck', 'Jessica'),
+  ('Emily', 'Fernando')]
+  
+  Fri Aug 5
+  
+  [('Adam', 'Michelle'),
+  ('Michael', 'Graham'),
+  ('Max', 'Seth'),
+  ('Matthew', 'Sravanthi'),
+  ('Marc', 'Sunne'),
+  ('Lauren', 'Whitney'),
+  ('Ahmed', 'Yulia'),
+  ('Avi', ''),
+  ('Alan S', 'Kevin'),
+  ('Allison', 'Katherine'),
+  ('Brian', 'Jessica'),
+  ('Bryant', 'Fernando'),
+  ('Chuck', 'Emily')]
+  
+  Mon Aug 8
+  
+   [('Adam', 'Graham'),
+  ('Michelle', 'Seth'),
+  ('Michael', 'Sravanthi'),
+  ('Max', 'Sunne'),
+  ('Matthew', 'Whitney'),
+  ('Marc', 'Yulia'),
+  ('Lauren', ''),
+  ('Ahmed', 'Kevin'),
+  ('Avi', 'Katherine'),
+  ('Alan S', 'Jessica'),
+  ('Allison', 'Fernando'),
+  ('Brian', 'Emily'),
+  ('Bryant', 'Chuck')]
+  
+  Tues Aug 9
+  
+   [('Adam', 'Seth'),
+  ('Graham', 'Sravanthi'),
+  ('Michelle', 'Sunne'),
+  ('Michael', 'Whitney'),
+  ('Max', 'Yulia'),
+  ('Matthew', ''),
+  ('Marc', 'Kevin'),
+  ('Lauren', 'Katherine'),
+  ('Ahmed', 'Jessica'),
+  ('Avi', 'Fernando'),
+  ('Alan S', 'Emily'),
+  ('Allison', 'Chuck'),
+  ('Brian', 'Bryant')]
+  
+  Weds Aug 10
+  
+   [('Adam', 'Sravanthi'),
+  ('Seth', 'Sunne'),
+  ('Graham', 'Whitney'),
+  ('Michelle', 'Yulia'),
+  ('Michael', ''),
+  ('Max', 'Kevin'),
+  ('Matthew', 'Katherine'),
+  ('Marc', 'Jessica'),
+  ('Lauren', 'Fernando'),
+  ('Ahmed', 'Emily'),
+  ('Avi', 'Chuck'),
+  ('Alan S', 'Bryant'),
+  ('Allison', 'Brian')]
+  
+  Thurs Aug 11
+  
+  [('Adam', 'Sunne'),
+  ('Sravanthi', 'Whitney'),
+  ('Seth', 'Yulia'),
+  ('Graham', ''),
+  ('Michelle', 'Kevin'),
+  ('Michael', 'Katherine'),
+  ('Max', 'Jessica'),
+  ('Matthew', 'Fernando'),
+  ('Marc', 'Emily'),
+  ('Lauren', 'Chuck'),
+  ('Ahmed', 'Bryant'),
+  ('Avi', 'Brian'),
+  ('Alan S', 'Allison')]
+  
+  Fri Aug 12
+  
+  [('Adam', 'Whitney'),
+  ('Sunne', 'Yulia'),
+  ('Sravanthi', ''),
+  ('Seth', 'Kevin'),
+  ('Graham', 'Katherine'),
+  ('Michelle', 'Jessica'),
+  ('Michael', 'Fernando'),
+  ('Max', 'Emily'),
+  ('Matthew', 'Chuck'),
+  ('Marc', 'Bryant'),
+  ('Lauren', 'Brian'),
+  ('Ahmed', 'Allison'),
+  ('Avi', 'Alan S')]
+  
+  Mon Aug 15
+  
+  [('Adam', 'Yulia'),
+  ('Whitney', ''),
+  ('Sunne', 'Kevin'),
+  ('Sravanthi', 'Katherine'),
+  ('Seth', 'Jessica'),
+  ('Graham', 'Fernando'),
+  ('Michelle', 'Emily'),
+  ('Michael', 'Chuck'),
+  ('Max', 'Bryant'),
+  ('Matthew', 'Brian'),
+  ('Marc', 'Allison'),
+  ('Lauren', 'Alan S'),
+  ('Ahmed', 'Avi')]
+  
+  Tues Aug 16
+  
+  [('Adam', ''),
+  ('Yulia', 'Kevin'),
+  ('Whitney', 'Katherine'),
+  ('Sunne', 'Jessica'),
+  ('Sravanthi', 'Fernando'),
+  ('Seth', 'Emily'),
+  ('Graham', 'Chuck'),
+  ('Michelle', 'Bryant'),
+  ('Michael', 'Brian'),
+  ('Max', 'Allison'),
+  ('Matthew', 'Alan S'),
+  ('Marc', 'Avi'),
+  ('Lauren', 'Ahmed')]
+  
+  Weds Aug 17
+  
+  [('Adam', 'Kevin'),
+  ('', 'Katherine'),
+  ('Yulia', 'Jessica'),
+  ('Whitney', 'Fernando'),
+  ('Sunne', 'Emily'),
+  ('Sravanthi', 'Chuck'),
+  ('Seth', 'Bryant'),
+  ('Graham', 'Brian'),
+  ('Michelle', 'Allison'),
+  ('Michael', 'Alan S'),
+  ('Max', 'Avi'),
+  ('Matthew', 'Ahmed'),
+  ('Marc', 'Lauren')]
+  
+  Thurs Aug 18
+  
+  [('Adam', 'Katherine'),
+  ('Kevin', 'Jessica'),
+  ('', 'Fernando'),
+  ('Yulia', 'Emily'),
+  ('Whitney', 'Chuck'),
+  ('Sunne', 'Bryant'),
+  ('Sravanthi', 'Brian'),
+  ('Seth', 'Allison'),
+  ('Graham', 'Alan S'),
+  ('Michelle', 'Avi'),
+  ('Michael', 'Ahmed'),
+  ('Max', 'Lauren'),
+  ('Matthew', 'Marc')]
+  
+  Fri Aug 19
+  
+   [('Adam', 'Jessica'),
+  ('Katherine', 'Fernando'),
+  ('Kevin', 'Emily'),
+  ('Yulia', 'Bryant'),
+  ('Whitney', 'Brian'),
+  ('Sunne', 'Allison'),
+  ('Sravanthi', 'Alan S'),
+  ('Seth', 'Avi'),
+  ('Graham', 'Ahmed'),
+  ('Michelle'),
+  ('Michael', 'Marc'),
+  ('Max', 'Matthew')]
+  
+   Mon Aug 22
+  
+  [('Adam', 'Fernando'),
+  ('Jessica', 'Emily'),
+  ('Katherine', 'Seth',),
+  ('Kevin', 'Bryant'),
+  ('', 'Brian'),
+  ('Yulia', 'Allison'),
+  ('Whitney', 'Alan S'),
+  ('Sunne', 'Avi'),
+  ('Sravanthi', 'Ahmed'),
+  ('Graham', 'Marc'),
+  ('Michelle', 'Matthew'),
+  ('Michael', 'Max')]
+  
+  Tues Aug 23
+  
+  [('Adam', 'Emily'),
+  ('Fernando', 'Lauren'),
+  ('Jessica', 'Bryant'),
+  ('Katherine', 'Brian'),
+  ('Kevin', 'Allison'),
+  ('', 'Alan S'),
+  ('Yulia', 'Avi'),
+  ('Whitney', 'Ahmed'),
+  ('Sunne'),
+  ('Sravanthi', 'Marc'),
+  ('Seth', 'Matthew'),
+  ('Graham', 'Max'),
+  ('Michelle', 'Michael')]
+  
+  Weds Aug 24
+  
+   [('Adam', 'Yulia'),
+  ('Emily', 'Bryant'),
+  ('Fernando', 'Brian'),
+  ('Jessica', 'Allison'),
+  ('Katherine', 'Alan S'),
+  ('Kevin', 'Avi'),
+  ('', 'Ahmed'),
+  ('Whitney', 'Marc'),
+  ('Sunne', 'Matthew'),
+  ('Sravanthi', 'Max'),
+  ('Seth', 'Michael'),
+  ('Graham', 'Michelle')]
+  
+  Thurs Aug 25
+  
+  [('Adam', 'Bryant'),
+  ( 'Kevin','Brian'),
+  ('Emily', 'Allison'),
+  ('Fernando', 'Alan S'),
+  ('Jessica', 'Avi'),
+  ('Katherine', 'Ahmed'),
+  ('', 'Marc'),
+  ('Yulia', 'Matthew'),
+  ('Whitney', 'Max'),
+  ('Sunne', 'Michael'),
+  ('Sravanthi', 'Michelle'),
+  ('Seth', 'Graham')]
+  
+  Fri Aug 26
+  
+  [('Adam', 'Brian'),
+  ('Bryant', 'Allison'),
+  ('Jessica', 'Alan S'),
+  ('Emily', 'Avi'),
+  ('Fernando', 'Ahmed'),
+  ('Katherine', 'Marc'),
+  ('Kevin', 'Matthew'),
+  ('', 'Max'),
+  ('Yulia', 'Michael'),
+  ('Whitney', 'Michelle'),
+  ('Sunne', 'Graham'),
+  ('Sravanthi', 'Seth')]
+  
+  Mon  Aug 29
+  
+  [('Adam', 'Allison'),
+  ('Brian', 'Alan S'),
+  ('Bryant', 'Avi'),
+  ('Emily', 'Ahmed'),
+  ('Fernando', 'Marc'),
+  ('Jessica', 'Matthew'),
+  ('Katherine', 'Max'),
+  ('Kevin', 'Michael'),
+  ('', 'Michelle'),
+  ('Yulia', 'Graham'),
+  ('Whitney', 'Seth'),
+  ('Sunne', 'Sravanthi')]
+  
+  Tues Aug 30
+  
+  [('Adam', 'Alan S'),
+  ('Allison', 'Avi'),
+  ('Brian', 'Ahmed'),
+  ('Bryant', 'Marc'),
+  ('Emily', 'Matthew'),
+  ('Fernando', 'Max'),
+  ('Jessica', 'Michael'),
+  ('Katherine', 'Michelle'),
+  ('Kevin', 'Graham'),
+  ('', 'Seth'),
+  ('Yulia', 'Sravanthi'),
+  ('Whitney', 'Sunne')]
+  
+  Weds Aug 31
+  
+  [('Adam', 'Avi'),
+  ('Alan S', 'Ahmed'),
+  ('Brian', 'Marc'),
+  ('Bryant', 'Matthew'),
+  ( 'Allison','Max'),
+  ('Emily', 'Michael'),
+  ('Fernando', 'Michelle'),
+  ('Jessica', 'Graham'),
+  ('Katherine', 'Seth'),
+  ('Kevin', 'Sravanthi'),
+  ('', 'Sunne'),
+  ('Yulia', 'Whitney')]
+  
+  
+  Thurs Sept 1
+  [('Adam', 'Ahmed'),
+  ('Alan S', 'Marc'),
+  ('Allison', 'Matthew'),
+  ('Brian', 'Max'),
+  ('Bryant', 'Michael'),
+  ('Avi', 'Michelle'),
+  ('Emily', 'Graham'),
+  ('Fernando', 'Seth'),
+  ('Jessica', 'Sravanthi'),
+  ('Katherine', 'Sunne'),
+  ('Kevin', 'Whitney'),
+  ('', 'Yulia')]
+  
+  Fri Sept 2
+  
+  [('Ahmed', 'Marc'),
+  ('Avi', 'Matthew'),
+  ('Alan S', 'Max'),
+  ('Allison', 'Michael'),
+  ('Brian', 'Michelle'),
+  ('Bryant', 'Graham'),
+  ('Adam', 'Seth'),
+  ('Emily', 'Sravanthi'),
+  ('Fernando', 'Sunne'),
+  ('Jessica', 'Whitney'),
+  ('Katherine', 'Yulia'),
+  ('Kevin', '')]
+  
