@@ -20,3 +20,6 @@
 | week05-mcnulty2 | 02-categorical_mle | [Intro_Categorical_Data.pdf](../class_lectures/week05-mcnulty2/02-categorical_mle/Intro_Categorical_Data.pdf) | 18 |
 | week05-mcnulty2 | 03-glm_and_selection | [GLMs.pdf](../class_lectures/week05-mcnulty2/03-glm_and_selection/GLMs.pdf) | 19 |
 | week05-mcnulty2 | 04-poisson_and_sgd | [Stochastic_Gradient_Descent.pdf](../class_lectures/week05-mcnulty2/04-poisson_and_sgd/Stochastic_Gradient_Descent.pdf) | 20 |
+| week05-mcnulty2 | 05-neural_deep | [NeuralNets_DeepLearing.pdf](../class_lectures/week05-mcnulty2/05-neural_deep/NeuralNets_DeepLearing.pdf) | 21 |
+| week06-mcnulty3 | 01-js_design | [Sebastian_on_D3.pdf](../class_lectures/week06-mcnulty3/01-js_design/Sebastian_on_D3.pdf) | 22 |
+| week06-mcnulty3 | 02-d3-FUN | [what_is_d3.pdf](../class_lectures/week06-mcnulty3/02-d3-FUN/what_is_d3.pdf) | 23 |
