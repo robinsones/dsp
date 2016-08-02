@@ -2,7 +2,7 @@
 
 Name: Michelle Gill  
 Date: 2016/07/19  
-Worked with: alone
+Worked with: Emily on Quesiton 7
 
 ## Question 1
 
@@ -99,19 +99,30 @@ WITH _table2 AS
 (
 WITH _table AS
 (
-SELECT OrderDetails.OrderID | OrderDetails.ProductID | Products.ProductID | Products.CategoryID
-FROM OrderDetails
-INNER JOIN Products
-ON OrderDetails.ProductID==Products.ProductID
+SELECT OrderDetails.OrderID, Products.ProductID, Products.CategoryID, Categories.CategoryID, Categories.CategoryName
+FROM OrderDetails 
+JOIN Products ON OrderDetails.ProductID = Products.ProductID
+JOIN Categories ON Categories.CategoryID = Products.CategoryID
 )
-SELECT OrderID | CategoryID FROM _table
-GROUP BY OrderID | CategoryID
+SELECT OrderID, CategoryName FROM _table
+GROUP BY OrderID, CategoryName
 )
-SELECT CategoryID | COUNT(*) FROM _table2
-GROUP BY CategoryID
-ORDER BY COUNT(*) DESC;
+SELECT CategoryName, COUNT(*) as TotalOrders FROM _table2
+GROUP BY CategoryName
+ORDER BY TotalOrders DESC;
 ```
-# HOW TO ROLL THIS UP AND COUNT
+
+
+| CategoryName  |   TotalOrders | 
+| :-----------: | :------------: |
+| Beverages  |  80 |
+| Confections | 78 |
+| Dairy Products  | 76 |
+| Seafood | 60  |
+| Meat/Poultry    | 48 |
+| Condiments  | 41 |
+| Grains/Cereals  | 38 |
+| Produce | 32 |
 
 ## Question 6
 
