@@ -2,7 +2,7 @@
 
 Name: Michelle Gill  
 Date: 2016/07/19  
-Worked with: Emily on Quesiton 7
+Worked with: Emily on Question 7
 
 ## Question 1
 
