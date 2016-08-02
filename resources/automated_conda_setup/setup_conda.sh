@@ -4,18 +4,22 @@
 # 2016/07/26
 # https://gist.github.com/mlgill/4302c24ad1c8999577fd2f6cd03d8d2b
 
-# set environment path--use $HOME, not ~, if you want to use absolute path
-# otherwise the path will be relative to the current path.
+# set environment path
+# a) use:  $HOME  (for absolute path)
+# b) use:  ~      (for relative path, to current path)
 env_path="$HOME/miniconda"
+#env_path="~/miniconda"
 
 # set environment name
 # NOTE: there's not an easy way to determine if an existing environment
 # has the same name. Conda itself will throw an error during installation
 # of second environment.
-env_name="datasci"
+#env_name="datasci27"
+env_name="datasci35"
 
 # set python version: 2.7, 3.4, 3.5, etc
-python_ver=2.7
+#python_ver=2.7
+python_ver=3.5
 
 # set packages to be installed (do not list python itself)
 # be sure to name/spell them exactly as Conda does or installation will fail
