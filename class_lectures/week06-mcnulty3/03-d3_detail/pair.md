@@ -1,0 +1,1 @@
+Look at the pair.ipynd notebook. Go through the different sections of the notebook. You will be building a predictive model to predict the likelihood of a women having an affair. Report your best AUC on your test set.
