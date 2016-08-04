@@ -12,7 +12,7 @@ Your project has:
 
  * SQL
  * Classification
- * D3
+ * D3  (possibly.  but not required)
 
 Tomorrow you have four minutes (strict) to present, followed by Q&A!
 
