@@ -74,7 +74,7 @@
 | 6              | McNulty       | [Classification Errors](/challenges/challenges_questions/06-classification_errors) | required    | Mon, July 18 |     Mon, Aug 1 |
 | 7              | McNulty       | [SQL](/challenges/challenges_questions/07-sql)                   | required    | Mon, July 18 | Mon, Aug 1|
 | 8              | McNulty       | [Decision Tree](/challenges/challenges_questions/08-decision_tree)         |  recommended    | Mon, July 25  | Mon, Aug 8  |
-| 9              | McNulty  | [Poisson GLM](/challenges/challenges_questions/09-poisson_glm)           | required     | Mon, July 25 |  Mon, Aug 8    |
+| 9              | McNulty  | [Poisson GLM](/challenges/challenges_questions/09-poisson_glm)           | recommended     | Mon, July 25 |  Mon, Aug 8    |
 | 10             | McNulty  | [D3](/challenges/challenges_questions/10-d3)                    | recommended    | Mon, Aug 1 | Mon, Aug 15  |
 | 11             | Fletcher | [Flask](/challenges/challenges_questions/11-flask)                 | recommended    | Mon, Aug 1  | Mon, Aug 15  |
 | 12             | Fletcher | [Mongo Twitter](/challenges/challenges_questions/12-mongo_twitter)         | recommended    | Mon, Aug 8 | Mon, Aug 22 |
