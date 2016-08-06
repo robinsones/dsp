@@ -33,6 +33,9 @@ DESC LIMIT 1;
 
 # Challenge 3
 * What supplier has the highest average product price?
+```sql
+
+```
 
 # Challenge 4
 * How many different countries are their customers from? (Hint: Consider DISTINCT.)
