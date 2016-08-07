@@ -34,14 +34,46 @@ DESC LIMIT 1;
 # Challenge 3
 * What supplier has the highest average product price?
 ```sql
-
+Select SupplierName
+FROM Suppliers
+WHERE SupplierID =
+  (SELECT SupplierID
+  FROM Products
+  GROUP BY SupplierID
+  ORDER BY AVG(Price) DESC);
 ```
+|Answer|
+|---------------------|
+|Aux joyeux ecclésiastiques|
 
 # Challenge 4
-* How many different countries are their customers from? (Hint: Consider DISTINCT.)
+* How many different countries are there customers from? (Hint: Consider DISTINCT.)
+```sql
+SELECT COUNT(DISTINCT Country)
+FROM Customers;
+```
+|Answer|
+|---------------------|
+|21|
 
 # Challenge 5
 * What category appears the most in order details?
+```sql
+SELECT CategoryName
+FROM Categories
+WHERE CategoryID = 
+  (SELECT CategoryID
+  FROM Products
+  WHERE ProductID = 
+    (SELECT ProductID
+    FROM OrderDetails
+    GROUP BY ProductID 
+    ORDER BY COUNT(ProductID) DESC
+    LIMIT 1))
+```
+|Answer|
+|---------------------|
+|Dairy Products|
 
 # Challenge 6
 * What was the total cost for each order?
