@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="mystyle.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+		<title>Challenge 4</title>
+	</head>
+	<body>
+		<link rel="stylesheet" href="mystyle.css">
+		<p> Three cricles and a rectangle. </p>
+		<script type="text/javascript">
+
+		var margin = {top: 20, right: 10, bottom: 20, left: 10};
+		var width = 960 - margin.left - margin.right,
+		    height = 500 - margin.top - margin.bottom;
+
+		var jsonCircles = [{ "x": 30, "y": 30, "radius": 20, "color" : "green" },
+						   { "x": 70, "y": 70, "radius": 20, "color" : "purple"},
+						   { "x": 110, "y": 100, "radius": 20, "color" : "red"}];
+
+		var svg = d3.select("body").append("svg")
+					.attr("width", width + margin.left + margin.right)
+    				.attr("height", height + margin.top + margin.bottom)
+    				.attr("border",2)
+  					.append("g")
+    				.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+		svg.selectAll("circle")
+					.data(jsonCircles)
+					.enter()
+					.append("circle").style("fill",function(d) {return d["color"];})
+					.attr("cx", function(d){return d['x'];})
+					.attr("cy", function(d){return d['y'];})
+					.attr("r", function(d){return d['radius'];});
+
+		svg.append("rect").style("fill",'blue')
+		   .attr("x", 200)
+		   .attr("y", 200)
+		   .attr("width", 50)
+		   .attr("height", 100);
+
+		</script>
+	</body>
+</html>
