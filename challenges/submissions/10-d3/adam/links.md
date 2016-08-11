@@ -1,4 +1,4 @@
-[Challenge 1](./html_files/d3_1.html)
+[Challenge 1](./htm_files/Challenge_1.htm)
 [Challenge 2](./html_files/d3_2.html)
 [Challenge 3](./html_files/d3_3.html)
 [Challenge 4](./html_files/d3_4.html)
