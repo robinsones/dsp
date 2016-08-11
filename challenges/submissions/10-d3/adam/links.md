@@ -1,0 +1,6 @@
+[Challenge 1](./html_files/d3_1.html)
+[Challenge 2](./html_files/d3_2.html)
+[Challenge 3](./html_files/d3_3.html)
+[Challenge 4](./html_files/d3_4.html)
+[Challenge 5](./html_files/d3_5.html)
+[Extra Credit 1](./html_files/d3_ec.html)

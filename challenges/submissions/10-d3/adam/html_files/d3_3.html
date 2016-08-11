@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="mystyle.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+		<title>Example Page</title>
+	</head>
+	<body>
+		<h1>D3 Challenges 3</h1>
+		<link rel="stylesheet" href="mystyle.css">
+		<p> Five points, randomly placed on an svg. </p>
+		<script type="text/javascript">
+
+
+		var dataset = [[.3,.1],[.4,.2],[.5,.1],[.6,.25],[.24,.5]];
+
+		makeData = function(){
+			for (i=0; i<=4; i++){
+				for (j=0; j<=1; j++){
+					dataset[i][j] = Math.random()
+				}
+			}
+		}
+
+		makeData();
+
+		console.log(dataset)
+
+		var margin = {top: 20, right: 10, bottom: 20, left: 10};
+		var width = 960 - margin.left - margin.right,
+		    height = 500 - margin.top - margin.bottom;
+
+		var svg = d3.select("body").append("svg")
+					.attr("width", width + margin.left + margin.right)
+    				.attr("height", height + margin.top + margin.bottom)
+    				.attr("border",2)
+  					.append("g")
+    				.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+		
+		var x = d3.scale.linear()
+		    .range([0,width]);
+
+		var y = d3.scale.linear()
+		    .range([0,height]);
+
+		svg.selectAll("circle")
+					.data(dataset)
+					.enter()
+					.append("circle")
+					.attr("cx", function(d){return x(d[0]);})
+					.attr("cy", function(d){return y(d[1]);})
+					.attr("r",6)
+
+		</script>
+	</body>
+</html>

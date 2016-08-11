@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="mystyle.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+		<title>Example Page</title>
+	</head>
+	<body>
+		<h1>D3 Challenges Extra Credit Tri Force</h1>
+		<link rel="stylesheet" href="mystyle.css">
+		<script type="text/javascript">
+
+		var margin = {top: 20, right: 10, bottom: 20, left: 10};
+		var width = 960 - margin.left - margin.right,
+		    height = 500 - margin.top - margin.bottom;
+
+		var svg = d3.select("body").append("svg")
+					.attr("width", width + margin.left + margin.right)
+    				.attr("height", height + margin.top + margin.bottom)
+    				.attr("border",2)
+  					.append("g")
+    				.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+		var lineData = [ { "x": 470,   "y": 0},  { "x": 235,  "y": 220},
+		                 { "x": 235,  "y": 220}, { "x": 0,  "y": 440},
+		                 { "x": 0,  "y": 440},  { "x": 470, "y": 440},
+		                 { "x": 470,   "y": 440},  { "x": 235,  "y": 220},
+		                 { "x": 235,  "y": 220}, { "x": 705,  "y": 220},
+		                 { "x": 705,  "y": 220},  { "x": 470, "y": 440},
+		                 { "x": 470,   "y": 440},  { "x": 940,  "y": 440},
+		                 { "x": 940,  "y": 440}, { "x": 470,  "y": 0} ];
+
+		var lineFunction = d3.svg.line()
+		                         .x(function(d) { return d.x; })
+		                         .y(function(d) { return d.y; })
+		                         .interpolate("linear");
+
+		svg.append("path").style("fill",'yellow')
+		   .attr("d", lineFunction(lineData))
+		   .attr("stroke", "blue")
+		   .attr("stroke-width", 2)
+		   .attr("fill", "none");
+
+		</script>
+	</body>
+</html>
