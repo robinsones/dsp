@@ -1,5 +1,6 @@
-@channel: **Project 4 (Fletcher)**  
-**Key Dates:**  
+##Project 4 (Fletcher)
+
+###Key Dates: 
 **Fri, 8/12:**  all data scraped  
 **Tues, 8/16:**  submit MVP on GitHub  
 **Wed, 8/17:**  finalize analysis  
