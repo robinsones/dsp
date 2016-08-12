@@ -2,7 +2,7 @@
 
 **9:00 am**: Rise and shine!
 
-**9:15 am**: Pair 1 [question](pair.md).
+**9:15 am**: Pair 1 [question](pair1.md).
 
 **10:00 am**: Pair 2 [question](pair2.md).
 
