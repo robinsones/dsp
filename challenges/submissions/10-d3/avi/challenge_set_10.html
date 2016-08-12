@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <title>Avi's D3 Page</title>
+        <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+        <style>
+          svg {
+            margin-top: 20px;
+          }
+        </style>
+    </head>
+    <body>
+        <h1>Avi's D3 Project!</h1>
+        <p id='challenge1'>Challenge 1</p>
+        <p id='challenge2'>Challenge 2</p>
+        <p id='challenge3'>Challenge 3</p>
+        <p id='challenge4'>Challenge 4</p>
+        <p id='challenge5'>Challenge 5</p>
+
+        <script type="text/javascript">
+          var data = [
+              { "x_axis": 30, "y_axis": 30, "radius": 20, "color" : "green" },
+              { "x_axis": 80, "y_axis": 40, "radius": 20, "color" : "purple"},
+              { "x_axis": 130, "y_axis": 50, "radius": 20, "color" : "red"},
+              { "x_axis": 190, "y_axis": 60, "radius": 20, "color" : "yellow"},
+              { "x_axis": 240, "y_axis": 70, "radius": 20, "color" : "orange"}];
+
+          var svgContainer = d3.select("body").select('#challenge1').append("svg")
+              .attr("width", 400)
+              .attr("height", 300)
+              .style('display', 'block');
+
+          var circles = svgContainer.selectAll("circle")
+              .data(data)
+              .enter()
+              .append("circle");
+
+          var circleAttributes = circles
+              .attr("cx", function (d) { return d.x_axis; })
+              .attr("cy", function (d) { return d.y_axis; })
+              .attr("r", function (d) { return d.radius; })
+              .style("fill", function(d) { return d.color; });
+              // .style("fill", "steelblue");
+
+// Challenge 2
+
+          var data2 = [
+              { "x_axis": 30, "y_axis": 30, "radius": 20, "color" : "green" },
+              { "x_axis": 70, "y_axis": 70, "radius": 20, "color" : "purple"},
+              { "x_axis": 110, "y_axis": 110, "radius": 20, "color" : "red"},
+              { "x_axis": 150, "y_axis": 150, "radius": 20, "color" : "yellow"},
+              { "x_axis": 190, "y_axis": 190, "radius": 20, "color" : "orange"}];
+
+          var svgContainer2 = d3.select("body").select('#challenge2').append("svg")
+              .attr("width", 400)
+              .attr("height", 300)
+              .style('display', 'block');
+
+          var circles2 = svgContainer2.selectAll("circle")
+              .data(data2)
+              .enter()
+              .append("circle");
+
+          var circleAttributes = circles2
+              .attr("cx", function (d) { return d.x_axis; })
+              .attr("cy", function (d) { return d.y_axis; })
+              .attr("r", function (d) { return d.radius; })
+              .style("fill", function(d) { return d.color; });
+
+// Challenge 3
+
+          var data3 = [
+              { "x_axis": 30, "y_axis": 30, "radius": 20, "color" : "green" },
+              { "x_axis": 70, "y_axis": 70, "radius": 20, "color" : "purple"},
+              { "x_axis": 110, "y_axis": 110, "radius": 20, "color" : "red"},
+              { "x_axis": 150, "y_axis": 150, "radius": 20, "color" : "yellow"},
+              { "x_axis": 190, "y_axis": 190, "radius": 20, "color" : "orange"}];
+
+          var svgContainer3 = d3.select("body").select('#challenge3').append("svg")
+              .attr("width", 400)
+              .attr("height", 400)
+              .style('display', 'block');
+
+          var circles3 = svgContainer3.selectAll("circle")
+              .data(data3)
+              .enter()
+              .append("circle");
+
+          var circleAttributes = circles3
+              .attr("cx", function (d) { return Math.random() * 400; })
+              .attr("cy", function (d) { return Math.random() * 400; })
+              .attr("r", function (d) { return d.radius - 10; })
+              .style("fill", function(d) { return d.color; });
+
+// Challenge 4
+
+          var data4 = [
+              { "x_axis": 30, "y_axis": 30, "radius": 20, "color" : "green", 'shape': 'circle' },
+              { "x_axis": 70, "y_axis": 70, "radius": 20, "color" : "purple", 'shape': 'circle'},
+              { "x_axis": 110, "y_axis": 110, "radius": 20, "color" : "red", 'shape': 'circle'},
+              { "x_axis": 150, "y_axis": 150, "radius": 20, "color" : "brown", 'shape': 'rect'}];
+              // { "x_axis": 150, "y_axis": 150, "radius": 20, "color" : "yellow", 'shape': 'rect'},
+
+          var svgContainer4 = d3.select("body").select('#challenge4').append("svg")
+              .attr("width", 400)
+              .attr("height", 250)
+              .style('display', 'block');
+
+          var shapes = svgContainer4.selectAll(".shapes")
+              .data(data4).enter();
+
+          shapes.append("circle")
+            .filter(function(d){ return d.shape == 'circle'; })
+            .attr("cx", function(d, i){ return d.x_axis; })
+            .attr("cy", function(d) { return d.y_axis;})
+            .attr("r", 10)
+            .style('fill', function(d) { return d.color; });
+
+          shapes.append("rect")
+            .filter(function(d){ return d.shape == 'rect'; })
+            .attr("x", function(d) { return d.x_axis; })
+            .attr("y", function(d) { return d.y_axis;})
+            .attr("width", 100)
+            .attr("height", 40)
+            .style('fill', function(d){ return d.color; });
+
+
+// Challenge 5
+
+          var svgContainer5 = d3.select('#challenge5').append('svg')
+              .attr('width', 400)
+              .attr('height', 250)
+              .style('display', 'block');
+
+          svgContainer5.append("polygon")       // attach a polygon
+                .style("stroke", "blue")  // colour the line
+                .style('stroke-width', 4)
+                .style("fill", "yellow")     // remove any fill colour
+                .attr("points", "100,50, 200,150, 300,50");  // x,y points
+
+
+
+        </script>
+    </body>
+</html>
