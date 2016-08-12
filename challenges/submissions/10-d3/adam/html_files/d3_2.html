@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="mystyle.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+		<title>Challenge 2</title>
+	</head>
+	<body>
+		<link rel="stylesheet" href="mystyle.css">
+		<p> Five points, on a diagonal line. </p>
+		<script type="text/javascript">
+
+		var dataset = [[188, 88], [376, 176], [564, 264], [752, 352], [940, 440]]
+
+		var margin = {top: 20, right: 10, bottom: 20, left: 10};
+		var width = 960 - margin.left - margin.right,
+		    height = 500 - margin.top - margin.bottom;
+
+		var svg = d3.select("body").append("svg")
+					.attr("width", width + margin.left + margin.right)
+    				.attr("height", height + margin.top + margin.bottom)
+    				.attr("border",2)
+  					.append("g")
+    				.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+		var color_scale = d3.scale.linear().domain([0, width]).range(['beige', 'red']);
+
+		svg.selectAll("circle")
+					.data(dataset)
+					.enter()
+					.append("circle").style("fill",function(d) {return color_scale(d[0]+d[1])})
+					.attr("cx", function(d){return d[0];})
+					.attr("cy", function(d){return d[1];})
+					.attr("r",10)
+
+		</script>
+	</body>
+</html>

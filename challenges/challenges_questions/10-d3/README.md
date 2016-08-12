@@ -2,6 +2,15 @@
 
 ###Submission Instructions:  submit html files and also a markdown file with a link to the D3 visualizations.
 
+More info here:  
+https://github.com/htmlpreview/htmlpreview.github.com  
+```
+In order to use it, just prepend this fragment to the URL of any HTML file: http://htmlpreview.github.io/? e.g.:
+
+    http://htmlpreview.github.io/?https://github.com/twbs/bootstrap/gh-pages/2.3.2/index.html
+    http://htmlpreview.github.io/?https://github.com/documentcloud/backbone/blob/master/examples/todos/index.html
+```
+
 ---
 Use D3 to:
 

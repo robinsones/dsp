@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="mystyle.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+		<title>Challenge 5</title>
+	</head>
+	<body>
+		<link rel="stylesheet" href="mystyle.css">
+		<p>A triangle with yellow fill and a blue border </p>
+		<script type="text/javascript">
+
+		var margin = {top: 20, right: 10, bottom: 20, left: 10};
+		var width = 960 - margin.left - margin.right,
+		    height = 500 - margin.top - margin.bottom;
+
+		var svg = d3.select("body").append("svg")
+					.attr("width", width + margin.left + margin.right)
+    				.attr("height", height + margin.top + margin.bottom)
+    				.attr("border",2)
+  					.append("g")
+    				.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+		var lineData = [ { "x": 3,   "y": 100},  { "x": 200,  "y": 2},
+		                 { "x": 200,  "y": 2}, { "x": 300,  "y": 300},
+		                 { "x": 300,  "y": 300},  { "x": 3, "y": 100}];
+
+		var lineFunction = d3.svg.line()
+		                         .x(function(d) { return d.x; })
+		                         .y(function(d) { return d.y; })
+		                         .interpolate("linear");
+
+		svg.append("path").style("fill",'yellow')
+		   .attr("d", lineFunction(lineData))
+		   .attr("stroke", "blue")
+		   .attr("stroke-width", 2)
+		   .attr("fill", "none");
+
+		</script>
+	</body>
+</html>
