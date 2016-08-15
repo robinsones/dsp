@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link href="static/mystyle.css" rel="stylesheet" type="text/css">
+		<title>Clustering</title>
+	</head>
+	<body>
+		<p>Click in the box to create points. I will cluster them.</p>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://d3js.org/d3.v3.min.js"></script>
+		<script type="text/javascript"></script>
+
+		<div id="add">
+		    <input name="addButton" 
+		           type="button" 
+		           value="Add 5 Random Points" 
+		           onclick="add_points()" />
+		</div>
+
+		<div id="cluster">
+		    <input name="clusterButton" 
+		           type="button" 
+		           value="Cluster" 
+		           onclick="cluster()" />
+		</div>
+
+		<div id="clear">
+		    <input name="updateButton" 
+		           type="button" 
+		           value="Clear All Points" 
+		           onclick="clearPoints()" />
+		</div>
+
+		<div id="select">
+		    Number of Clusters: 
+		</div>
+
+		<div id="chart_area" class="wrapper">
+		  <p class="space"></p>
+		  <div id="box">
+		  </div>
+		</div>
+
+		<script>
+		var width = 960;
+		var height = 500;
+		var x_cords = [];
+		var y_cords = [];
+		var groups = [];
+		var n_clusters = 2;
+		var cluster_options = [2,3,4,5,6,7];
+
+		var select = d3.select('#select').append('select')
+		  							  .attr('class','select')
+		    						  .on('change',function(){n_clusters = d3.select('select')
+		    						  										 .property('value');})
+
+	  	var options = select.selectAll('option').data(cluster_options)
+	  											.enter().append('option')
+	  											.text(function (d) { return d; });
+
+
+		var box = d3.select("#box")
+
+		var svg = box.append("svg")
+		             .attr("width", width)
+		             .attr("height", height)
+		             .style("border-style","solid");
+
+		var colors = {};
+		colors[0] = "blue";
+		colors[1] = "red";
+		colors[2] = "green";
+		colors[3] = "brown";
+		colors[4] = "purple";
+		colors[5] = "yellow";
+		colors[6] = "pink";
+
+		function drawCircle(x, y, size) {
+	        x_cords.push(x)
+	        y_cords.push(y)
+	        groups = new Array(x_cords.length).fill(0);
+	        console.log(groups[x_cords.length-1])
+	        
+	        svg.append("circle")
+	        	.data([groups[x_cords.length-1]])
+	            .attr('class', 'click-circle')
+	            .attr("cx", x)
+	            .attr("cy", y)
+	            .attr("r", size)
+	            .style("fill", function(d) {return colors[d];});
+
+	        // console.log(x_cords)
+	        // console.log(y_cords)
+	        // console.log(groups)
+		};
+
+		box.on('click', function() {
+	        groups = new Array(x_cords.length).fill(0);
+	        d3.select("#box").select("svg")
+	        				 .selectAll("circle")
+	        				 .data(groups)
+	        				 .style("fill", function(d) {return colors[d];});
+	        var coords = d3.mouse(this);
+	        drawCircle(coords[0], coords[1], 5);
+
+		});
+
+		var x = d3.scale.linear()
+		    .range([0,width]);
+
+		var y = d3.scale.linear()
+		    .range([0,height]);
+
+		function add_points() {
+			groups = new Array(x_cords.length).fill(0);
+			d3.select("#box").select("svg")
+							 .selectAll("circle")
+							 .data(groups)
+							 .style("fill", function(d) {return colors[d];});
+			for (i=1; i<=5; i++){
+				drawCircle(x(Math.random()),y(Math.random()),5)
+			} 
+		}
+		
+		function cluster() {
+			$.ajax({
+			  type: "POST",
+			  contentType: "application/json; charset=utf-8",
+			  url: "/cluster",
+			  dataType: "json",
+			  async: true,
+			  data: "{\"coords\": ["+x_cords+","+y_cords+","+n_clusters+"]}",
+			  success: function (data) {
+			  	if (groups==data['assignments']) {
+			  		return
+			  	} else {
+
+			  		groups = data['assignments']
+			  		console.log(groups);
+
+			  		d3.select("#box").select("svg")
+			  						 .selectAll("circle")
+			  						 .data(groups)
+			  						 .style("fill", function(d) {return colors[d];});
+
+			  	}
+			  },
+			  error: function (result) {
+			  	console.log(result);
+			  }
+			})
+		}
+
+		function clearPoints() {
+			d3.select("#box").select("svg").selectAll("*").remove();
+			x_cords = [];
+			y_cords = [];
+			groups = [];
+		}
+
+		</script>
+	</body>
+</html>
