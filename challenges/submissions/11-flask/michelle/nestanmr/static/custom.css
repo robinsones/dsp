@@ -1,0 +1,47 @@
+div.separator_b{ border-bottom: 1px dotted #ddd; padding-bottom: 20px;
+               margin-bottom: 20px; font-size: 16px; color: #888;
+               text-align: center;}
+div.separator_t{ border-bottom: 1px dotted #ddd; padding-top: 10px;
+               margin-top: 30px; font-size: 16px; color: #888;
+               text-align: center;}
+div.footer   { border-top: 1px dotted #ddd; padding-top: 9px; margin-top: 84px; font-size: 16px; 
+               color: #888; text-align: center; }
+.btn          { display: inline-block; margin-bottom: 0; font-weight: 400; text-align: center; vertical-align: middle;
+                cursor: pointer; background-image: none; border: 1px solid transparent; 
+                color: #383838; background-color: #eee; border-color: #383838;
+                white-space: nowrap; padding: 5px 16px; font-size: 18px; line-height: 1.33; border-radius: 6px;
+                width: 200px; margin-left: 150px;}
+.banner-gray          { display: inline-block; margin-bottom: 0; margin-top: 0; font-weight: 400; text-align: center; vertical-align: middle; 
+                background-image: none; border: 1px solid transparent; 
+                color: #383838; background-color: #eee; border-color: #dddddd;
+                white-space: nowrap; padding: 5px 16px; font-size: 18px; line-height: 1.33; border-radius: 6px;
+                width: auto; vertical-align: middle}
+.banner          { display: inline-block; margin-bottom: 0; margin-top: 0; font-weight: 400; text-align: center; vertical-align: middle; 
+                background-image: none; border: 1px solid transparent; 
+                color: #383838; 
+                white-space: nowrap; padding: 5px 16px; font-size: 18px; line-height: 1.33; border-radius: 6px;
+                width: auto; vertical-align: middle}
+
+input[type="submit"] { display: inline-block; margin-bottom: 0; font-weight: 400; text-align: center; vertical-align: middle;
+                       cursor: pointer; background-image: none; border: 1px solid transparent; 
+                       color: #383838; background-color: #cfcfcf; border-color: #383838;
+                       white-space: nowrap; padding: 5px 16px; font-size: 18px; line-height: 1.33; border-radius: 6px;
+                       width: 200px; margin-left: 150px;}
+
+nav       { position:relative; border-top:1px dotted #ddd; border-bottom:1px dotted #ddd; 
+                 padding-top:0.5em; padding-bottom:0.5em; margin-top:2.5em; margin-bottom:1.5em }
+
+ul.main-navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.main-navigation {
+    display: inline;
+}
+
+
+/* latest version button */
+.latestver          { margin: 20px 0 0 0; float: right; font-style: italic; }
+.latestver strong   { font-weight: normal; }
