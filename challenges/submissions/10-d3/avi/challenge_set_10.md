@@ -1,0 +1,1 @@
+[Challenge Set 10 - D3 Preview](http://htmlpreview.github.io/?https://raw.githubusercontent.com/asgrunwald/nyc16_ds8/master/challenges/submissions/10-d3/avi/challenge_set_10.html?token=ASumFrqGFB0_TwU9kXQS-mocnhHyBa76ks5Xt2kzwA%3D%3D)

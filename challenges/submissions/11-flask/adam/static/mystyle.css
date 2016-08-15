@@ -1,0 +1,13 @@
+#clear {
+    display: inline-block;
+}
+#cluster {
+    display: inline-block;
+}
+#add {
+    display: inline-block;
+}
+#select {
+    display: inline-block;
+    text-indent: 5em;
+}

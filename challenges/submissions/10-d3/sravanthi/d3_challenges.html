@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Example Page</title>
+		<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+	</head>
+	<body>
+
+	 	<h2> Question 1 </h2>
+		
+		<script type="text/javascript">
+		
+		var dataset = [20,30,40,50]
+		var color = d3.scale.category20();
+			var svg = d3.select("body").append("svg")
+			svg.attr("height", 50).attr("width", 500)
+			circles = svg.selectAll("circle")
+						.data(dataset)
+						.enter()
+						.append("circle")
+			circles.attr("cx", function(d){return (d*5);})
+					.attr("cy", 50/2)
+					.attr("r", 10)
+					.attr("fill", function(d,i){ return color(i);});
+
+   
+
+		</script>
+		<h2> Question 2 </h2>
+		<script>
+	
+		var svg = d3.select("body").append("svg")
+			svg.attr("height", 100).attr("width", 500)
+		svg.selectAll("circle")
+		           .data(dataset)
+		           .enter()
+		           .append("circle")
+		           .attr("r", 10)
+		           .attr("cx", function(d) {return d*5;})
+		           .attr("cy", function(d) {return d;})
+		           .attr("fill", "red");
+		</script>
+
+		<h2>Question 3</h2>
+
+		<script>
+		
+		var svg = d3.select("body").append("svg")
+			svg.attr("height", 100).attr("width", 500)
+		svg.selectAll("circle")
+		           .data(dataset)
+		           .enter()
+		           .append("circle")
+		           .attr("r", 10)
+		           .attr("cx", function(d) {return Math.random()*d})
+		           .attr("cy", function(d) {return d})
+		           .attr("fill", function(d,i){ return color(i);});
+		</script>
+
+		<h2>Question 4</h2>
+
+		<script>
+		var svg = d3.select("body").append("svg")
+			svg.attr("height", 100).attr("width", 500)
+		var colors = d3.scale.category10();
+		var dataset_circle = [10, 20, 30];
+		var dataset_rectangle = [50];
+		svg.selectAll("circle")
+		           .data(dataset_circle)
+		           .enter()
+		           .append("circle")
+		           .attr("r", 10)
+		           .attr("cx", function(d) {return d*5;})
+		           .attr("cy", function(d) {return d})
+		           .attr("fill", function(d,i){ return color(i);});
+		svg.selectAll("rect")
+		           .data(dataset_rectangle)
+		           .enter()
+		           .append("rect")
+		           .attr("x", function(d) {return d;})
+		           .attr("y", function(d) {return d;})
+		           .attr("width", 20)
+		           .attr("height", 20)
+		           .attr("fill", function(d,i){ return color(i);});
+		</script>
+
+
+		<h2>Question 5</h2>
+
+		<script>
+		var svg = d3.select("body").append("svg")
+			svg.attr("height", 250).attr("width", 500)
+		var dataset_triangle = [50];
+		
+		svg.selectAll("path")
+		   .data(dataset_triangle)
+		   .enter()
+		   .append("polygon")
+		   .attr("points", "100,50,200,150,300,50")
+		   .style("stroke", "blue")
+		   .style("fill","yellow")
+		   .style("stroke-width", 5);
+		</script>
+
+
+	</body>
+</html>
+

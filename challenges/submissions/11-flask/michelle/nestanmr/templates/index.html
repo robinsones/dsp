@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Request NESTA-NMR</title>
+    <link rel="shortcut icon" href="../static/favicon.ico">    
+  <link rel="stylesheet" type="text/css" href="../static/style.css">
+  <link rel="stylesheet" type="text/css" href="../static/custom.css">
+  <!-- // <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/  1.4.2/jquery.min.js"></script> -->
+
+   <style type="text/css">
+    h1 { margin-bottom: -20px; padding-top: 70px; margin-left: 0; margin-right: 0; background: url(../static/cube_banner.png) no-repeat center; height: 190px; }
+    h2.tagline { margin-top: -120px; margin-bottom: 1em; color:#3f3f3f; }
+    h1 span, h2.tagline { display: true; }
+  </style>
+
+</head>  
+  
+<body>
+
+	<div class="box">
+        <h1>NESTA-NMR</h1>
+        <h2 class="tagline"><i>fast and accurate</br>reconstruction of NUS data</i></h2>
+  
+  <!-- <div class="separator_t"></div> -->
+<!--   <ul class="main-navigation">
+    <li class="main-navigation"> -->
+      <p class="banner-gray">Current Version: 1.5</br>Date: 2015/11/09</p>
+<!--     </li>
+    <li class="main-navigation">
+      <p class="banner-gray" style="padding-top: 1.0em; padding-bottom: 1.0em">Manual</p>
+    </li>
+  </ul> -->
+  <div class="separator_b"></div>
+
+
+<p>
+NESTA-NMR is a robust, easy to use, and very fast software suite for the reconstruction of two-, three-, and four-dimensional non-uniformly sampled (NUS) NMR data. NESTA-NMR integrates with <a href="http://spin.niddk.nih.gov/NMRPipe/">NMRPipe</a> to provide a simple and convenient processing pipeline.
+</p>
+
+<p>
+Reconstructions with NESTA-NMR are automatically parallelized and can be performed with a single command:
+</p>
+<pre>
+<span>NESTANMR -f ./nesta/test%03d%03d.dat</span>
+</pre>
+
+<p>
+Though it is simple to run, NESTA-NMR also allows most functions to be customized. For further information, please see the documentation at <a href="http://docs.nestanmr.com">http://docs.nestanmr.com</a> (a PDF version is also provided in the download below) and the following manuscript describing NESTA-NMR:
+</p>
+
+<blockquote>
+Sun, S., Gill, M., Li, Y., Huang, M., and Byrd, R.A. "Efficient and generalized processing of multidimensional NUS NMR data: the NESTA algorithm and comparison of regularization terms", <i>Journal of Biomolecular NMR</i>, 2015, 62:105-117. doi: <a href="http://link.springer.com/article/10.1007/s10858-015-9923-x">10.1007/s10858-015-9923-x</a>.
+</blockquote>
+
+
+
+<h2>Hardware Requirements</h2>
+
+<p>
+NESTA-NMR contains binaries for 64-bit Mac OS X and Linux operating systems and is expected to run on a variety of modern hardware, ranging from laptops to clusters.
+</p>
+
+<h2>Mailing List</h2>
+
+<p>
+There is a <a href="http://announce.nestanmr.com">mailing list</a> for NESTA-NMR. This is a low volume list for announcements about updates to NESTA-NMR. Only developers are allowed to post. All users are encouraged to sign up to the list to stay updated about improvements to the program. This is a Google group, but a Google email address (GMail) is not required to join the list--any email can be entered for the user name during signup.
+</p>
+
+<p>
+Currently there is not a discussion list for users, but one may be created in the future if there is sufficient interest in NESTA-NMR. The creation of such a list would be mentioned on the announcement list above, so all users of NESTA-NMR are encouraged to sign up.
+</p>
+
+<h2>Obtaining NESTA-NMR</h2>
+
+<p>NESTA-NMR is provided free of charge. To download the program, submit your name and email using the form below and a download link will be emailed to you. Your contact information is requested for the sole purpose of tracking usage of NESTA-NMR.</p>
+
+{% if invalid_form %}
+    <ul class=flashes>
+        <li style="text-align:center"><font color="red">{{ message }}</font></li>
+    </ul>
+  {% endif %}
+
+	<form action="/signup" method="post">
+
+  
+
+
+<ul>
+  
+  
+  
+  <li>
+    <label>
+      Name:
+    </label>
+    <div>
+      <input id="name" name="name" type="text" spellcheck="false" value="" tabindex="1" required>
+    </div>
+    </li>
+
+
+
+  <li>
+    <label>
+      Email Address:
+    </label>
+    <div>
+      <input id="email" name="email" type="text" spellcheck="false" value="" tabindex="2" required>
+    </div>
+  </li>
+
+
+
+  <li>
+    <label>
+      Affiliation:
+    </label>
+    <div>
+      <input id="institution" name="institution" type="text" spellcheck="false" value="" tabindex="3" required>
+    </div>
+  </li>
+
+
+</ul>
+
+	  <input type="submit" value="Submit"></input>
+	</form>
+
+<div class="footer">
+  {% include 'footer.html' %}
+</div>
+
+
+</div>
+
+</body>
+</html>
