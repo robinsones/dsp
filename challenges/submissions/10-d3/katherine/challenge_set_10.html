@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="//d3js.org/d3.v3.min.js"></script>
+<body>
+<h1>Q1</h1>
+<script>
+
+//Width and height
+var width = 500;
+var height = 100;
+
+var svg = d3.select("body")
+	.append("svg")
+	.attr("width", width)
+	.attr("height", height)
+
+var data = ["red", "orange" , "yellow", "green" ,"blue"]
+
+var circles = svg.selectAll("circle")
+	.data(data)
+	.enter()
+	.append("circle");
+
+circles.attr("cx", function(d, i) {
+	return (i*45) + 25;
+})
+.attr("cy", height/2)
+.attr("r", function(d) {
+	return 10;
+})
+.attr("fill", function(d) {return d});
+</script>
+<h1>Q2</h1>
+<script>
+var svg = d3.select("body")
+	.append("svg")
+	.attr("width", width)
+	.attr("height", height)
+
+var data = [1, 2, 3, 4, 5]
+
+var circles = svg.selectAll("circle")
+	.data(data)
+	.enter()
+	.append("circle");
+
+circles.attr("cx", function(d, i) {
+	return (i*45) + 25;
+})
+.attr("cy", function(d) {
+	return -10*d + 100;
+})
+.attr("r", 10)
+</script>
+
+<h1>Q3</h1>
+<script>
+var svg = d3.select("body")
+	.append("svg")
+	.attr("width", width)
+	.attr("height", height)
+
+var data = [1, 2, 3, 4, 5]
+
+var circles = svg.selectAll("circle")
+	.data(data)
+	.enter()
+	.append("circle");
+
+circles.attr("cx", function(d, i) {
+	return (470*Math.random()) + 5;
+})
+.attr("cy", function(d) {
+	return Math.random()*75 + 10;
+})
+.attr("r", 10)
+</script>
+
+
+<h1>Q4</h1>
+<script>
+var svg = d3.select("body")
+	.append("svg")
+	.attr("width", width)
+	.attr("height", height)
+
+var c_data = [1, 2, 3]
+
+r_data = [1]
+
+var circles = svg.selectAll("circle")
+	.data(c_data)
+	.enter()
+	.append("circle");
+
+circles.attr("cx", function(d, i) {
+	return (i*45) + 25;
+})
+.attr("cy", height/2)
+.attr("r", function(d) {
+	return 10;
+})
+
+var rectangle = svg.selectAll("rect")
+	.data(r_data)
+	.enter()
+	.append("rect")
+
+rectangle.attr("x", 200)
+.attr("y", 10)
+.attr("width", 50)
+.attr("height", 100);
+
+</script>
+
+<h1>Q5</h1>
+<script src="//d3js.org/d3.v3.min.js"></script>
+
+<svg width="200" height="200">
+  <path d="M100,10L150,70L50,70Z" fill="#ffff00" stroke="#0000FF" stroke-width="3">
+</svg>
+</body>
