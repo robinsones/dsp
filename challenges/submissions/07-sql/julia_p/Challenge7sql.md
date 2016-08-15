@@ -15,7 +15,7 @@ SELECT * FROM Customers WHERE Country='UK';
 
 ### Excercise 2.
 
-```
+```sql
 SELECT CustomerName, ContactName, COUNT(c.CustomerID) as counts
 FROM Customers as c
 JOIN Orders as o
