@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Marc's Challenge Set 10: Triangle </title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+    <script>
+    var margin = {
+        top: 40,
+        right: 20,
+        bottom: 40,
+        left: 20
+    };
+    var width = 500 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+    var bodySelection = d3.select("body");
+
+    var svgSelection = bodySelection.append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    svgSelection.append("polygon")
+        .attr("stroke", "blue")
+        .attr("stroke-width", 3)
+        .attr("fill", "yellow")
+        .attr("points", "100,50, 200,150, 300,50"); 
+    </script>
+</body>
+
+</html>
