@@ -14,3 +14,5 @@
 ### Further Resources
 
  * [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
+ * [Word2Vec paper by Xin Rong](http://arxiv.org/pdf/1411.2738v4.pdf)
+ * [fun with emojis](https://github.com/Threynaud/emojis)
