@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet"  href="cool_rice.css">
+        <script type="text/javascript" src="http://d3js.org/d3.v4.js"> </script>
+    </head>
+    <body>
+        <h1>Seth Kaufman<br>
+        Challenge Set 10<br>
+        August 15
+        </h1>
+        <h2>Challenge 1</h2>
+        <script>
+
+            var pad = 20;
+            var width = 400;
+            var height = 200;
+            var dataset = d3.zip(d3.range(0,5), [3,2,0,4,1]);
+
+
+            var xscale = d3.scaleLinear()
+                    .domain([0,d3.max(dataset,function(d){return d[0];})])
+                    .range([pad,width-pad]);
+
+            var yscale = d3.scaleLinear()
+                    .domain([0,d3.max(dataset,function(d){return d[1];})])
+                    .range([pad,height-pad]);
+
+            var svg = d3
+                    .select("body")
+                    .append("svg");
+            var color = d3.scaleLinear()
+                .domain([0,4])
+                .range(["red", "purple"]);
+
+            svg
+                    .attr("height", height)
+                    .attr("width", width);
+            circles = svg
+                    .selectAll("circle")
+                    .data(dataset)
+                    .enter("circle")
+                    .append("circle")
+                    .attr("cx", function (d) {return xscale(d[0]);})
+                    .attr("cy", function (d) {return yscale(d[1]);})
+                    .attr("r", pad)
+                    .attr("fill", function (d) {return color(d[1])});
+
+        </script>
+
+        <h2>Challenge 2</h2>
+        <script>
+
+            var pad = 20;
+            var width = 400;
+            var height = 200;
+            var dataset = d3.range(0,5);
+
+            var xscale = d3.scaleLinear()
+                    .domain([0,d3.max(dataset,function(d){return d;})])
+                    .range([pad,width-pad]);
+
+            var yscale = d3.scaleLinear()
+                    .domain([0,d3.max(dataset,function(d){return d;})])
+                    .range([pad,height-pad]);
+
+            var svg = d3
+                    .select("body")
+                    .append("svg");
+            var color = d3.scaleLinear()
+                .domain([0, 4])
+                .range(["green", "orange"]);
+
+            svg
+                    .attr("height", height)
+                    .attr("width", width);
+
+            circles = svg
+                    .selectAll("circle")
+                    .data(dataset)
+                    .enter("circle")
+                    .append("circle");
+            circles
+                    .attr("cx", function (d) {return xscale(d);})
+                    .attr("cy", function (d) {return yscale(d);})
+                    .attr("r", pad)
+                    .attr("fill", function (d){return color(d)});
+
+        </script>
+
+        <h2>Challenge 3</h2>
+        <script>
+
+
+            var pad = 20;
+            var width = 400;
+            var height = 200;
+
+            var dataset = d3.range(0,5);
+
+
+            var xscale = d3.scaleLinear()
+                    .domain([0,d3.max(dataset,function(d){return d;})])
+                    .range([pad,width-pad]);
+
+            var yscale = d3.scaleLinear()
+                    .domain([0,d3.max(dataset,function(d){return d;})])
+                    .range([pad,height-pad]);
+
+            var svg = d3
+                    .select("body")
+                    .append("svg");
+            var color = d3.scaleLinear()
+                    .domain([0, 4])
+                    .range(["blue", "black"]);
+
+            svg
+                    .attr("height", height)
+                    .attr("width", width);
+
+            circles = svg
+                    .selectAll("circle")
+                    .data(dataset)
+                    .enter("circle")
+                    .append("circle");
+            circles
+                    .attr("cx", function() {return xscale(d3.randomUniform(0,4)());})
+                    .attr("cy", function() {return yscale(d3.randomUniform(0,4)());})
+                    .attr("r", pad)
+                    .attr("fill", function (d){return color(d)});
+
+        </script>
+
+        <h2>Challenge 4</h2>
+        <script>
+
+
+            var pad = 20;
+            var width = 400;
+            var height = 200;
+
+            var dataset = d3.range(0,3);
+
+
+            var xscale = d3.scaleLinear()
+                    .domain([0,d3.max(dataset,function(d){return d;})])
+                    .range([pad,width-pad]);
+
+            var yscale = d3.scaleLinear()
+                    .domain([0,d3.max(dataset,function(d){return d;})])
+                    .range([pad,height-pad]);
+
+            var svg = d3
+                    .select("body")
+                    .append("svg");
+
+            var color = d3.scaleLinear()
+                    .domain([0, 2])
+                    .range(["red", "yellow"]);
+
+            svg
+                    .attr("height", height)
+                    .attr("width", width)
+                    .selectAll("body")
+                    .data(dataset)
+                    .enter()
+                    .append("circle")
+                    .attr("cx", function() {return xscale(d3.randomUniform(0,2)());})
+                    .attr("cy", function() {return yscale(d3.randomUniform(0,2)());})
+                    .attr("r", pad)
+                    .attr("fill", function (d){return color(d)});
+            svg
+                    .append("rect")
+                    .attr("fill", "blue")
+		            .attr("x", 200)
+		            .attr("y", 100)
+		            .attr("width", 100)
+		            .attr("height", 20);
+        </script>
+
+        <h2>Challenge 5</h2>
+        <script>
+
+
+            var w = 300;
+            var h = 200;
+
+            d3
+                    .select("body")
+                    .append("svg")
+                    .attr("width", w)
+                    .attr("height", h)
+                    .append("polygon")
+                    .style("stroke", "blue")
+                    .style("stroke-width","6")
+                    .style("fill", "yellow")
+                    .attr("points", "150,10,10,190,290,190");
+
+		</script>
+
+        <h2>Challenge 6</h2>
+        <script>
+
+
+            var w = 400;
+            var h = 400;
+
+            var svg = d3
+                    .select("body")
+                    .append("svg")
+                    .attr("width", w)
+                    .attr("height", h);
+            svg
+                    .append("polygon")
+                    .style("stroke", "blue")
+                    .style("stroke-width","6")
+                    .style("fill", "yellow")
+                    .attr("points", "200,10,105,200,295,200");
+            svg
+                    .append("polygon")
+                    .style("stroke", "blue")
+                    .style("stroke-width","6")
+                    .style("fill", "yellow")
+                    .attr("points", "10,390,200,390,105,200");
+            svg
+                    .append("polygon")
+                    .style("stroke", "blue")
+                    .style("stroke-width","6")
+                    .style("fill", "yellow")
+                    .attr("points", "200,390,390,390,295,200");
+
+		</script>
+	</body>
+</html>
