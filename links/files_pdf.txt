@@ -21,3 +21,10 @@
 ../class_lectures/week05-mcnulty2/05-neural_deep/NeuralNets_DeepLearing.pdf
 ../class_lectures/week06-mcnulty3/01-js_design/Sebastian_on_D3.pdf
 ../class_lectures/week06-mcnulty3/02-d3-FUN/what_is_d3.pdf
+../class_lectures/week07-fletcher1/01-fletcher_flask/Fletcher_Topics.pdf
+../class_lectures/week07-fletcher1/02-mongo_twitter/NoSQL_and_MongoDB.pdf
+../class_lectures/week07-fletcher1/05-unsup_kmeans/Unsupervised_Learning_Kmeans.pdf
+../class_lectures/week08-fletcher2/01-LDA/LDA_blei03a.pdf
+../class_lectures/week08-fletcher2/01-LDA/SVI_HoffmanBleiWangPaisley2013.pdf
+../class_lectures/week08-fletcher2/01-LDA/Topic_Modeling.pdf
+../class_lectures/week08-fletcher2/03-more_clustering/Other_Clustering_Algorithms.pdf
