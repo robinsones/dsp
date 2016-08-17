@@ -1,0 +1,1 @@
+[click this to see some shapes](http://htmlpreview.github.io/?https://raw.githubusercontent.com/sethkaufee/nyc16_ds8/tree/master/challenges/submissions/10-d3/seth/cool_beans.html)
