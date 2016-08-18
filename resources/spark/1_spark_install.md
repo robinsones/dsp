@@ -32,12 +32,12 @@ reshama$
 
 ##Spark Download and Install
 
-1.  Download Spark from this site:  http://spark.apache.org/downloads.html  
-    * Choose a Spark release:  2.0.0
-    * Download Spark: spark-2.0.0-bin-hadoop2.7.tgz (click on this file link and download)
-    * Move Spark download to folder:  `user/myname/apps/`
-    * `cd` into that folder:  `user/myname/apps/`
-    * Expand the spark-2.0.0-bin-hadoop2.7.tgz file with this command:  `tar zxvf spark-2.0.0-bin-hadoop2.7.tgz`
+Download Spark from this site:  http://spark.apache.org/downloads.html  
+ * Choose a Spark release:  2.0.0
+ * Download Spark: spark-2.0.0-bin-hadoop2.7.tgz (click on this file link and download)
+ * Move Spark download to folder:  `user/myname/apps/`
+ * `cd` into that folder:  `user/myname/apps/`
+ * Expand the spark-2.0.0-bin-hadoop2.7.tgz file with this command:  `tar zxvf spark-2.0.0-bin-hadoop2.7.tgz`
 
 ####Example of my installation
 ```bash
