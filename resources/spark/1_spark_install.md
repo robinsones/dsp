@@ -19,6 +19,7 @@ For me, it is not, so I will install from Java website:
 * Install package by clicking on `*.dmg` file
 
 ####Confirm Java is installed by typing `java -version`
+**Note:** you may need to open a new terminal window to see if the install is present.  
 ```bash
 reshama$ java -version
 java version "1.8.0_101"
