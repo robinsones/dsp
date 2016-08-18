@@ -8,7 +8,7 @@
 
 Presentations are tomorrow!
 
-Tomorrow you have three minutes (strict) to present, followed by Q&A!
+Tomorrow you have four minutes (strict) to present, followed by Q&A!
 
 Get your time from standing up to presenting under ten seconds!
 
