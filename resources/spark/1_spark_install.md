@@ -49,7 +49,7 @@ drwxr-xr-x  3 rshaikh  staff  102 Apr 27 12:16 mongodb/
 drwxr-xr-x  3 rshaikh  staff  102 Aug 15 12:31 spark/
 reshama$ 
 ```
-I have used `cd` to go into this folder:  
+I have used `cd` to go into the `spark` folder:  
 ```bash
 reshama$ pwd
 /Users/rshaikh/apps/spark
