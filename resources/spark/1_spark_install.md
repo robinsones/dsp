@@ -1,9 +1,9 @@
 # :boom: Installing Spark :boom:
 (Last updated:  8/16/16, Reshama)  
 
-####Resources
-* https://districtdatalabs.silvrback.com/getting-started-with-spark-in-python  
-* http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/
+####References
+* [Getting Started with Spark in Python](https://districtdatalabs.silvrback.com/getting-started-with-spark-in-python)
+* [Configuring IPython Notebook for PySpark](http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/)
  
 ---
 
@@ -32,7 +32,7 @@ reshama$
 
 ##Spark Download and Install
 
-Download Spark from this site:  http://spark.apache.org/downloads.html  
+###Download Spark from this site:  http://spark.apache.org/downloads.html  
  * Choose a Spark release:  `2.0.0`
  * Download Spark: `spark-2.0.0-bin-hadoop2.7.tgz` (click on this file link and download)
  * Move Spark download to folder:  `user/myname/apps/`
@@ -96,7 +96,7 @@ SparkSession available as 'spark'.
 >>> sc
 <pyspark.context.SparkContext object at 0x107083e50>
 ```
-###more code to test:  
+###More code to test:  
 ```spark
 >>> input = [1, 2, 3, 4, 5]
 >>> input
