@@ -22,6 +22,9 @@ reshama 🐘  $
 $ docker run -d -p 8888:8888 -v $PWD:/home/jovyan/work --name spark jupyter/pyspark-notebook
 ```
 
+####Open Browser
+Open a browser to [http://localhost:8888](http://localhost:8888) and you will see the Jupyter home page.
+
 ---
 ##Helpful Docker commands
 ####Check to see if any Docker processes running
