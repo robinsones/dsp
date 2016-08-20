@@ -11,6 +11,21 @@ Open a browser to [http://localhost:8888](http://localhost:8888) and you will se
 
 ---
 ##Helpful Docker commands
+
+####Stop a Docker container from running in the background
+```bash
+$ docker stop spark
+```
+####To start the Docker container again
+```bash
+$ docker start spark
+```
+####To remove the Docker container altogether
+```bash
+$ docker rm spark
+```
+
+
 ####Check to see if any Docker processes running
 ```bash
 reshama 🐘  $ docker ps
