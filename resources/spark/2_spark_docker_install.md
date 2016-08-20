@@ -1,4 +1,4 @@
-#IPython Notebook Configuration with PySpark
+#Jupyter Notebook Configuration with PySpark Using Docker
 
 * One way to configure your IPython Notebook with your *local* installation of Spark is detailed in the blog   
 [Configuring IPython Notebook for PySpark](http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/).  
