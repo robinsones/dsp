@@ -3,7 +3,7 @@
 * One way to configure your IPython Notebook with your *local* installation of Spark is detailed in the blog   
 [Configuring IPython Notebook for PySpark](http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/).  
 * However, there are lots of details that make it time-intensive for trouble-shooting.  
-* Fortunately, there is an easier option:  Docker.  
+* Fortunately, there is an easier option:  **Docker**.  
 
 ##About Docker
 
