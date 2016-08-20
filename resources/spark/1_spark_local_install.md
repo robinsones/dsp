@@ -1,4 +1,4 @@
-#Installing Spark :boom:
+#Installing Spark Locally :boom:
 (Last updated:  8/19/16, Reshama)  
 
 ---
