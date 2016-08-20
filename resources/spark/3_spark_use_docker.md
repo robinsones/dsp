@@ -16,6 +16,10 @@ drwxr-xr-x  10      340 Aug 19 22:04 spark_data/
 -rw-r--r--   1   107853 Jun 23 16:59 spark_functions_ml.ipynb
 reshama 🐘  $ 
 ```
+####Check to see if any Docker processes running
+```bash
+eshama 🐘  $ docker ps
+```
 
 ####Run the Docker Container
 ```bash
