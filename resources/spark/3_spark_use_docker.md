@@ -1,3 +1,4 @@
+#Using Docker for Spark and Jupyter Notebook 
 
 ####`cd` to `spark-docker` folder
 ```bash
