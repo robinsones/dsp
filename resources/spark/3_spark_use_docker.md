@@ -42,4 +42,10 @@ reshama 🐘  $ docker ps -a
 $ docker rm [name]
 ```
 
+---
+
+##References
+
+[Docker error response from daemon: Conflict. already in use by container](http://stackoverflow.com/questions/31676155/docker-error-response-from-daemon-conflict-already-in-use-by-container)
+
 
