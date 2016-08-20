@@ -33,11 +33,11 @@ reshama$
 ##Spark Download and Install
 
 ###Download Spark from this site:  http://spark.apache.org/downloads.html  
- * Choose a Spark release:  `2.0.0`
- * Download Spark: `spark-2.0.0-bin-hadoop2.7.tgz` (click on this file link and download)
+ * Choose a Spark release:  `1.6.2`
+ * Download Spark: `spark-1.6.2-bin-hadoop2.6.tgz` (click on this file link and download)
  * Move Spark download to folder:  `user/myname/apps/`
  * `cd` into that folder:  `user/myname/apps/`
- * Expand the `spark-2.0.0-bin-hadoop2.7.tgz` file with this command:  `tar zxvf spark-2.0.0-bin-hadoop2.7.tgz`
+ * Expand the `spark-1.6.2-bin-hadoop2.6.tgz` file with this command:  `tar zxvf spark-1.6.2-bin-hadoop2.6.tgz`
 
 ####Example of my installation
 ```bash
@@ -54,19 +54,19 @@ I have used `cd` to go into the `spark` folder:
 reshama$ pwd
 /Users/rshaikh/apps/spark
 reshama$ ls
-spark-2.0.0-bin-hadoop2.7.tgz
+spark-1.6.2-bin-hadoop2.6.tgz
 reshama$ 
 ```
 Next, expand the `*.tgz` file:  
 ```bash
-reshama$ tar zxvf spark-2.0.0-bin-hadoop2.7.tgz
+reshama$ tar zxvf spark-1.6.2-bin-hadoop2.6.tgz
 ```
 
 ###Launch Spark Interactively by typing `bin/pyspark`:  
 **Note:**  make sure you are in the appropriate directory.  
 ```bash
 reshama$ pwd
-/Users/rshaikh/apps/spark/spark-2.0.0-bin-hadoop2.7
+/Users/rshaikh/apps/spark/spark-1.6.2-bin-hadoop2.6.tgz
 reshama$ bin/pyspark
 ```  
 
@@ -84,7 +84,7 @@ Welcome to
       ____              __
      / __/__  ___ _____/ /__
     _\ \/ _ \/ _ `/ __/  '_/
-   /__ / .__/\_,_/_/ /_/\_\   version 2.0.0
+   /__ / .__/\_,_/_/ /_/\_\   version 1.6.2
       /_/
 
 Using Python version 2.7.6 (default, Sep  9 2014 15:04:36)
