@@ -13,6 +13,10 @@ In a way, **Docker is a bit like a virtual machine.** But unlike a virtual machi
 
 And importantly, Docker is open source. This means that anyone can contribute to Docker and extend it to meet their own needs if they need additional features that aren't available out of the box.
 
+---
+
+We will be using this blog for the next steps:  [Quick-start Apache Spark Environment Using Docker Containers](http://maxmelnick.com/2016/06/04/spark-docker.html)
+
 ##Install Docker
 
 Follow the instructions in the install / get started links for your particular operating system:  
@@ -22,14 +26,13 @@ Follow the instructions in the install / get started links for your particular o
 
 ##Run Docker
 
-Follow the instructions in the section "Run the Docker Container" in this blog:  
-[Quick-start Apache Spark Environment Using Docker Containers](http://maxmelnick.com/2016/06/04/spark-docker.html)
+Follow the instructions in the section:  *Run the Docker Container*
 
 ##Run Jupyter Notebook Using PySpark
 
-Use this section of blog:  Test Spark in a Jupyter notebook using Pyspark
+Follow the instructions in the section:  *Test Spark in a Jupyter notebook using Pyspark*
 
-Also, review this section:  Starting and stopping the Docker container
+Also, review this section:  *Starting and stopping the Docker container*
 
 Congratulations!  You have used one of the hottest tools in cloud computing, Docker.  And, you are able to use PySpark in  Jupyter Notebook!  
 
