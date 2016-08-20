@@ -1,4 +1,4 @@
-# :boom: Installing Spark :boom:
+#Installing Spark :boom:
 (Last updated:  8/16/16, Reshama)  
 
 ---
