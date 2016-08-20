@@ -1,10 +1,6 @@
 # :boom: Installing Spark :boom:
 (Last updated:  8/16/16, Reshama)  
 
-####References
-* [Getting Started with Spark in Python](https://districtdatalabs.silvrback.com/getting-started-with-spark-in-python)
-* [Configuring IPython Notebook for PySpark](http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/)
- 
 ---
 
 ##Requirements:  Java
@@ -114,3 +110,9 @@ reshama$
 
 :boom: :boom: :boom: **Congrats on a successful install!  You are now running interactive Spark -- with Python!** :boom: :boom: :boom:
 
+---
+
+####References
+* [Getting Started with Spark in Python](https://districtdatalabs.silvrback.com/getting-started-with-spark-in-python)
+* [Configuring IPython Notebook for PySpark](http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/)
+ 
