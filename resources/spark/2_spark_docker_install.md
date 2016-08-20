@@ -21,3 +21,4 @@ And importantly, Docker is open source. This means that anyone can contribute to
 
 ####References
 * [What is Docker](https://opensource.com/resources/what-docker)
+* [What is Docker and Why is it so Darn Popular](http://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
