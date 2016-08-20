@@ -39,16 +39,12 @@ reshama$
 ```bash
 reshama$ pwd
 /Users/rshaikh/apps
-reshama$ ls -Glp
-total 0
-drwxr-xr-x  3 rshaikh  staff  102 Apr 27 12:16 mongodb/
-drwxr-xr-x  3 rshaikh  staff  102 Aug 15 12:31 spark/
 reshama$ 
 ```
 I have used `cd` to go into the `spark` folder:  
 ```bash
 reshama$ pwd
-/Users/rshaikh/apps/spark
+/Users/rshaikh/apps
 reshama$ ls
 spark-1.6.2-bin-hadoop2.6.tgz
 reshama$ 
@@ -62,7 +58,7 @@ reshama$ tar zxvf spark-1.6.2-bin-hadoop2.6.tgz
 **Note:**  make sure you are in the appropriate directory.  
 ```bash
 reshama$ pwd
-/Users/rshaikh/apps/spark/spark-1.6.2-bin-hadoop2.6.tgz
+/Users/rshaikh/apps/spark-1.6.2-bin-hadoop2.6
 reshama$ bin/pyspark
 ```  
 
