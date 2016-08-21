@@ -32,8 +32,8 @@ reshama$
  * Choose a Spark release:  **`1.6.2`**
  * Choose a Package type:  [choose the default Hadoop option]
  * Download Spark: `spark-1.6.2-bin-hadoop2.6.tgz` (click on this file link and download)
- * Move Spark download to folder:  `user/myname/apps/` (create the `/apps/` folder if you don't have it)
- * `cd` into that folder:  `user/myname/apps/`
+ * Move Spark download to folder:  `/Users/myname/apps/` on Mac OS X or `/home/myname/apps/` on Linux (create the `/apps/` folder if you don't have it)
+ * `cd` into that folder:  `/Users/myname/apps/` or `/home/myname/apps/`
  * Expand the `spark-1.6.2-bin-hadoop2.6.tgz` file with this command:  `tar zxvf spark-1.6.2-bin-hadoop2.6.tgz`
 
 ####Example of my installation
