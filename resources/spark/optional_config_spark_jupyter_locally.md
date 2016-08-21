@@ -11,6 +11,7 @@ export SPARK_HOME=~/Downloads/spark-1.6.0-bin-hadoop2.6
 export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.9-src.zip:$PYTHONPATH
 export PYSPARK_SUBMIT_ARGS="--master local[2]"   
 ```
+#### source your bash file
 
 ```bash
 source .bashrc  (or .bash_profile)
