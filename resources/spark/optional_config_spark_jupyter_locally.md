@@ -64,4 +64,11 @@ execfile(os.path.join(spark_home, "python/pyspark/shell.py"))
 ipython notebook --profile=pyspark
 ```
 
+---
 
+####References
+
+Notes:  These references are outdated (because of updated versions of Spark, etc.), but these articles were the initial reference sources.
+
+* [Getting Started with Spark in Python](https://districtdatalabs.silvrback.com/getting-started-with-spark-in-python)
+* [Configuring IPython Notebook for PySpark](http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/)
