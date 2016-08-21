@@ -49,6 +49,7 @@ Note: if we had an 1000 node cluster (but only 4 partitions), we would only be u
 
 Also note that the RDDs are an immutable collection of objects. (Why?)  Immutable data is safe to share across processes. 
 
+Reference:  
 http://spark.apache.org/docs/latest/cluster-overview.html
     
 ### Clusters (and their Components)
