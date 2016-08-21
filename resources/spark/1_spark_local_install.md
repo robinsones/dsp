@@ -41,7 +41,7 @@ reshama$ pwd
 /Users/rshaikh/apps
 reshama$ 
 ```
-I have used `cd` to go into the `spark` folder:  
+`cd` into the `spark` directory:    
 ```bash
 reshama$ pwd
 /Users/rshaikh/apps
