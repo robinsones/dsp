@@ -1,9 +1,10 @@
 # Configure Spark and Jupyter Notebook, Locally
 
+## Add paths to `bash` file
+
 ```bash
 nano ~/.bashrc  (or .bash_profile)
 ```
-
 #### Add the following to the end of your `.bashrc` file.  I abbrievated the following with ~/, but please make sure to add the entire path
 
 ```bash
@@ -16,8 +17,7 @@ export PYSPARK_SUBMIT_ARGS="--master local[2]"
 ```bash
 source .bashrc  (or .bash_profile)
 ```
-
-#### run the following..
+## Create `pyspark` Profile
 
 ```bash 
 ipython profile create pyspark
@@ -26,10 +26,10 @@ ipython profile create pyspark
 nano ~/.ipython/profile_pyspark/startup/00-pyspark-setup.py
 ```
 
-#### copy and paste the following into your '00-pyspark-setup.py' file.
+#### copy and paste the following into your `00-pyspark-setup.py` file.
 
 ```bash
-#### Configure the necessary Spark environment
+# Configure the necessary Spark environment
 import os
 import sys
 
@@ -54,11 +54,11 @@ sys.path.insert(0, spark_home + "/python")
 # You may need to change the version number to match your install
 sys.path.insert(0, os.path.join(spark_home, "python/lib/py4j-0.9-src.zip"))
 
-#### Initialize PySpark to predefine the SparkContext variable 'sc'
+# Initialize PySpark to predefine the SparkContext variable 'sc'
 execfile(os.path.join(spark_home, "python/pyspark/shell.py"))
 ```
 
-#### You're ready to launch your notebook with pyspark!
+## Launch your notebook with `pyspark`!
 
 ```bash 
 ipython notebook --profile=pyspark
