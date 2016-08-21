@@ -30,6 +30,8 @@ Follow the instructions in the install / get started links for your particular o
 
 ##Run Docker
 
+**Note:**  All other Jupyter notebook sessions should be terminated before running Docker.  
+
 Follow the instructions in the section:  *Run the Docker Container*
 
 ##Run Jupyter Notebook Using PySpark
