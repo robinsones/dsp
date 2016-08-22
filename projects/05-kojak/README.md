@@ -9,15 +9,13 @@
 | **Data** | Student's Choice |
 | **Modeling** | Student's Choice |
 | **Tools** | Student's Choice |
-| **Communication** | 5 minute presentation on video, online report/dashboard/app |
+| **Communication** | 4 minute presentation, online report/dashboard/app |
 
 
 ### Synopsis:
 
 Project Kojak is the Passion Project, the final project where all
-choices belong to each individual student. Students can either start a
-new project, or pick up from where they left Fletcher and turn it into
-their passion project.
+choices belong to each individual student. 
 
 -----
 
@@ -40,12 +38,12 @@ themselves (with guidance and help from instructors, of course.)
 
 * #####Week 11:
     * Students try to complete the majority of quantitative analysis
-      by the end of the week
+      by the end of the week.  The goal is for you to have a version of your slides
+      ready by Friday of this week, so that you can start rehearsing!
 
 * #####Week 12:
   * Finalizing the visual and interface aspects of the project
   * Students practice their presentations multiple times in front of
     instructors and other students, getting feedback
-  * On Thursday and Friday, 5 minute presentations are recorded on video
   * The final version of the online deliverable (report/blog post/web
-    app/dashboard) is due on Friday.
+    app/dashboard) is due on Wednesday .
