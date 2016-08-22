@@ -19,7 +19,7 @@ Item | Step |   |  |
 2   | Flattens lists of words into one list  | `flatMap`      | `.flatMap(lambda x: x.split())`
 3   | Remove punctuation, convert to upper case  | `.map()`   | `.map(lambda x: x.replace('|', '').replace('.', '').replace('-', '').replace(' ', '').replace('&', '').replace('#','').upper())`
 4   | Word count **mapper** function            | `.map()`       | `.map(lambda x: (x, 1))`
-5   | Word count **reducer** function           | `.reducer()`   | `.reduceByKey(lambda a, b: a + b)`
+5   | Word count **reducer** function           | `.reducer()`   | `.reduceByKey(lambda a, b: a + b)`      `.sortByKey(ascending=False)`
 6a  | return RDD pipeline - all items       | `collect()`    |  `.collect()`
 6b  | return RDD pipeline - 10 items        | `take()`       | `.take(10)`
 6c  | return RDD pipeline - first item      | `first()`      | `.first()`
