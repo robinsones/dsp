@@ -1,6 +1,6 @@
 #Spark Resources
 
-###RDD Operations
+##RDD Operations
 
 Transformations | Actions 
 --- | --- 
@@ -11,7 +11,7 @@ Transformations | Actions
 **sample(withReplacement, fraction [seed]):** sample RDD, with or without replacement |  **foreach(func):** apply provided func to each element of RDD
 [more Transformations](http://spark.apache.org/docs/latest/programming-guide.html#transformations) | [more Actions](http://spark.apache.org/docs/latest/programming-guide.html#actions)
 
-###RDD Execution Plan
+##RDD Execution Plan
 
 Item | Step |   |  | 
 ---- | ---- |----|----| 
