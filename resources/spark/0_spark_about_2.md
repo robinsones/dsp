@@ -11,6 +11,23 @@ Transformations | Actions
 **sample(withReplacement, fraction [seed]):** sample RDD, with or without replacement |  **foreach(func):** apply provided func to each element of RDD
 [more Transformations](http://spark.apache.org/docs/latest/programming-guide.html#transformations) | [more Actions](http://spark.apache.org/docs/latest/programming-guide.html#actions)
 
+###RDD Execution Plan
+
+Item | Step |   |  | 
+---- | ---- |----|----| 
+1   | Create RDD from text file             | RDD     | `sc.textFile(“/dirpath/spark_data/textfile.txt”)`  
+2   | Remove punctuation, convert to UPPER  | `map()` | `.map(lambda name: (name[0], name))`
+3   |                                       | `groupByKey()` | 
+
+
+
+*lazy*  | *executing* 
+
+**map(func):** pass each element of source through func, return new RDD | **reduce(func):** aggregate elements with func
+**filter(func):** select elements of the source for which func returns true, return new distributed RDD | **take(n):** copy top n elements to driver
+**distinct():** return duplicate-free RDD | **collect():** copy all elements to driver
+**sample(withReplacement, fraction [seed]):** sample RDD, with or without replacement |  **foreach(func):** apply provided func to each element of RDD
+
 
 ---
 
