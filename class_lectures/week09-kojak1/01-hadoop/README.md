@@ -14,9 +14,7 @@
 
  * Intro to [Hadoop and MapReduce](hadoop_mapreduce.pdf)
  * Run [map and reduce](map_reduce.md) just like Hadoop, but without the Hadoop.
- * Run the same [map](map.py) and [reduce](reduce.py) functions on [AWS EMR](http://aws.amazon.com/elasticmapreduce/). (Hadoop!)
-     * To put files on S3, you could use the [AWS CLI](aws_cli.md).
-     * Remember that lines of Hadoop mapper output should start with their key followed by a tab.
+ 
  * Install and run Hadoop directly!
 
 **12:00 pm**: A delicious meal
