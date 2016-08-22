@@ -32,7 +32,7 @@ Spark is the future, Spark is right now.  The goal is essentially an end-to-end 
 The main abstraction Spark provides is a Resilient Distributed Dataset (RDD), which is a fault-tolerant collection of elements partitioned across the nodes of the cluster that can be operated on in parallel.
 
 An example of a RDD: 
-```
+```spark
 data = [1, 2, 3, 4, 5]   
 distData = sc.parallelize(data)
 ```
