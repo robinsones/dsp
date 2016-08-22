@@ -26,6 +26,7 @@
 
 ### Reading
 
+ * [How to set up Multi-node Cluster](http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-multi-node-cluster/)
  * [Latency numbers every programmer should know](https://gist.github.com/hellerbarde/2843375) (Disk is slow!)
  * [Install Hadoop on Mac OS](http://amodernstory.com/2014/09/23/installing-hadoop-on-mac-osx-yosemite/)
  * [What is Apache?](http://www.apache.org/foundation/faq.html#what)
