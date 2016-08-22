@@ -11,15 +11,20 @@ Transformations | Actions
 **sample(withReplacement, fraction [seed]):** sample RDD, with or without replacement |  **foreach(func):** apply provided func to each element of RDD
 [more Transformations](http://spark.apache.org/docs/latest/programming-guide.html#transformations) | [more Actions](http://spark.apache.org/docs/latest/programming-guide.html#actions)
 
-##RDD Execution Plan
+##RDD:  Sample Execution Plan
 
 Item | Step |   |  | 
 ---- | ---- |----|----| 
-1   | Create RDD from text file             | RDD     | `sc.textFile(“/dirpath/spark_data/textfile.txt”)`  
-2   | Remove punctuation, convert to upper case  | `map()` | `.map(lambda name: (name[0], name))`
+1   | Create RDD from text file             | RDD            | `sc.textFile(“/dirpath/textfile.txt”)`  
+2   | Flattens lists of words into one list  | `flatMap`      | `.flatMap(lambda x: x.split())`
+3   | Remove punctuation, convert to upper case  | `.map()`   | `.map(lambda x: x.replace('|', '').replace('.', '').replace('-', '').replace(' ', '').replace('&', '').replace('#','').upper())`
+4   | Word count **mapper** function            | `.map()`       | `.map(lambda x: (x, 1))`
+5   | Word count **reducer** function           | `.reducer()`   | `.reduceByKey(lambda a, b: a + b)`
 3   |                                       | `groupByKey()` |  `.groupByKey()`
 4   |                                       | `mapValues()`  |  `.mapValues(lambda name: len(name))`
-5   |                                       | `collect()`    |  `.collect()`
+5a  | return RDD pipeline - all items       | `collect()`    |  `.collect()`
+5b  | return RDD pipeline - 10 items        | `take()`       | `.take(10)`
+5c  | return RDD pipeline - first item      | `first()`      | `.first()`
 
 
 
