@@ -9,7 +9,7 @@
 | **Data** | Student's Choice |
 | **Modeling** | Student's Choice |
 | **Tools** | Student's Choice |
-| **Communication** | 4 minute presentation on video, online report/dashboard/app |
+| **Communication** | 4 minute presentation, online report/dashboard/app |
 
 
 ### Synopsis:
