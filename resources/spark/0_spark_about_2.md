@@ -16,8 +16,11 @@ Transformations | Actions
 Item | Step |   |  | 
 ---- | ---- |----|----| 
 1   | Create RDD from text file             | RDD     | `sc.textFile(“/dirpath/spark_data/textfile.txt”)`  
-2   | Remove punctuation, convert to UPPER  | `map()` | `.map(lambda name: (name[0], name))`
-3   |                                       | `groupByKey()` | 
+2   | Remove punctuation, convert to upper case  | `map()` | `.map(lambda name: (name[0], name))`
+3   |                                       | `groupByKey()` |  `.groupByKey()`
+4   |                                       | `mapValues()`  |  `.mapValues(lambda name: len(name))`
+5   |                                       | `collect()`    |  `.collect()`
+
 
 
 
