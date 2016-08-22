@@ -1,4 +1,4 @@
-#Spark
+
 
 Transformations | Actions 
 --- | --- 
@@ -10,16 +10,17 @@ Transformations | Actions
 [more Transformations](http://spark.apache.org/docs/latest/programming-guide.html#transformations) | [more Actions](http://spark.apache.org/docs/latest/programming-guide.html#actions)
 
 
-
-
-
 ---
+
+###Resources
 
 ####Recommended Books
 * [Learning Spark](http://shop.oreilly.com/product/0636920028512.do)
 * [Advanced Analytics with Spark](http://shop.oreilly.com/product/0636920035091.do)
 
----
+####[Databricks](https://databricks.com/)  
+* Founded out of the UC Berkeley AMPLab by the team that created Apache Spark.  
+* Explore the [Databricks cloud environment](https://databricks.com/product/getting-started-with-apache-spark-on-databricks)
 
 ####What's Next, after Spark:  Scala
 * [Scala](http://www.scala-lang.org/index.html) is an acronym for “Scalable Language”. This means that Scala grows with you. You can play with it by typing one-line expressions and observing the results. But you can also rely on it for large mission critical systems, as many companies, including Twitter, LinkedIn, or Intel do.
