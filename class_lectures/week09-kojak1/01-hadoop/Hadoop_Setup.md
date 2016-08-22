@@ -73,7 +73,7 @@ known keys list)
 
 ```bash
 cd ~ 
-wget http://mirrors.sonic.net/apache/hadoop/common/hadoop-2.7.1/hadoop-2.7.1.tar.gz
+wget http://mirrors.sonic.net/apache/hadoop/common/hadoop-2.7.2/hadoop-2.7.2.tar.gz
 ```
 
 ```bash
@@ -83,9 +83,10 @@ su username
 (switch to your own user, you’ll need some sudo here) 
 
 ```bash
-sudo tar xvzf hadoop-2.7.1.tar.gz
-sudo mv hadoop-2.7.1 /usr/local/hadoop
+sudo tar xvzf hadoop-2.7.2.tar.gz
+sudo mv hadoop-2.7.2 /usr/local/hadoop
 cd /usr/local
+ls -lar
 sudo chown -R hduser:hadoop hadoop
 ```
 
