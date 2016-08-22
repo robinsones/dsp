@@ -24,17 +24,10 @@ Item | Step |   |  |
 
 
 
-*lazy*  | *executing* 
-
-**map(func):** pass each element of source through func, return new RDD | **reduce(func):** aggregate elements with func
-**filter(func):** select elements of the source for which func returns true, return new distributed RDD | **take(n):** copy top n elements to driver
-**distinct():** return duplicate-free RDD | **collect():** copy all elements to driver
-**sample(withReplacement, fraction [seed]):** sample RDD, with or without replacement |  **foreach(func):** apply provided func to each element of RDD
-
 
 ---
 
-###Resources
+##Resources
 
 ####Recommended Books
 * [Learning Spark](http://shop.oreilly.com/product/0636920028512.do)
